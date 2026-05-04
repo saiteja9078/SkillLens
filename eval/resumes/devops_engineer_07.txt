@@ -1,0 +1,53 @@
+Alexis M. Rodriguez
+arodriguez@email.com
+linkedin.com/in/alexismr
+San Francisco, CA
+
+Summary
+Kubernetes and DevOps expert with 7+ years of experience in designing, implementing, and managing large-scale cloud infrastructure for top-tier tech companies.
+
+Technical Skills
+Languages: Python, Go, Java
+Frameworks: PyTorch, FastAPI, Spring Boot
+Tools: Docker, AWS, GCP, Azure, Jenkins, GitHub Actions, Terraform, Ansible
+Databases: MySQL, PostgreSQL, MongoDB
+Monitoring Tools: Prometheus, Grafana
+
+Experience
+DevOps Engineer at Zenith Tech | Kubernetes, Docker, Terraform 2018-2022
+– Reduced deployment time by 75% through automation and CI/CD pipeline optimization.
+– Implemented a self-healing mechanism for microservices using Prometheus and Alertmanager.
+– Improved infrastructure efficiency by 30% through optimized resource utilization.
+
+Senior DevOps Engineer at NovaSpire | Ansible, AWS 2015-2018
+– Designed and implemented an automated deployment process using Ansible Playbooks.
+– Improved security posture by implementing IAM roles and access controls.
+– Achieved 99.9% uptime for critical applications through proactive monitoring and alerting.
+
+DevOps Engineer at Apex Solutions | Jenkins, Docker 2014-2015
+– Configured a continuous integration and delivery pipeline using Jenkins and Docker.
+– Implemented automated testing using PyUnit and Selenium.
+– Improved development velocity by 25% through automation of build and deployment processes.
+
+Projects
+CloudWatch Alerting System | AWS, Python 2020
+– Built a real-time alerting system for Amazon CloudWatch metrics using Lambda functions and SNS topics.
+– Implemented a notification framework using Slack and email integration.
+– Achieved 99.95% uptime for critical services through proactive monitoring and alerting.
+
+Kubernetes Cluster Autoscaler | Kubernetes, Go 2019
+– Designed and implemented a cluster autoscaling system using the Kubernetes API.
+– Improved resource utilization by 25% through automated scaling of worker nodes.
+– Reduced costs by 15% through optimized resource allocation.
+
+Cloud Security Scanner | AWS, Python 2018
+– Built a cloud security scanner using Lambda functions and S3 bucket scanning.
+– Implemented a vulnerability assessment framework using AWS Config and IAM roles.
+– Achieved 100% compliance with security regulations through automated scanning and reporting.
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+Certifications
+AWS Certified Solutions Architect - Professional
+Google Cloud Certified - Professional Cloud Developer

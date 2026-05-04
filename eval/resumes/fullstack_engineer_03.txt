@@ -1,0 +1,59 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales/
+San Francisco, CA
+
+
+Summary
+As a seasoned Full Stack Engineer with 3 years of experience, I leverage my expertise in Node.js, React, and TypeScript to craft scalable and maintainable web applications. My passion lies in crafting elegant solutions that marry business needs with technical feasibility.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+Experience
+
+Senior Full Stack Engineer at NovaTech | Node.js, React, TypeScript 2021-2023
+  - Spearheaded the development of a RESTful API for a real-time analytics platform, resulting in a 30% reduction in response time and a 25% increase in data processing capacity.
+  - Utilized GraphQL to optimize query performance by 40%, enabling seamless integration with multiple third-party services.
+  - Collaborated with cross-functional teams to design and implement a microservices architecture, ensuring scalability and fault tolerance.
+
+Full Stack Engineer at LuminaSoft | Python, Django 2020-2021
+  - Contributed to the development of a machine learning-powered chatbot that achieved a 90% accuracy rate in sentiment analysis.
+  - Implemented a PostgreSQL database schema to support high-traffic user activity logs, reducing query latency by 50%.
+  - Participated in code reviews and ensured adherence to best practices, resulting in a 20% reduction in overall codebase complexity.
+
+Software Engineer at CodeCraft | Go, Kubernetes 2019-2020
+  - Designed and developed a containerized CI/CD pipeline using Docker and Jenkins, reducing deployment time by 70%.
+  - Collaborated with the DevOps team to implement automated testing and monitoring, achieving a 25% increase in overall system reliability.
+  - Assisted in architecting a scalable database solution using MongoDB and Redis, supporting a 500% growth in user base.
+
+Projects
+
+Personal Weather Dashboard | Node.js, Next.js, Tailwind CSS 2022
+  - Built a real-time weather dashboard that fetches current conditions and forecasts from OpenWeatherMap API.
+  - Utilized TypeScript to ensure type safety and code maintainability throughout the project.
+  - Implemented responsive design using Tailwind CSS, ensuring seamless user experience across various devices.
+
+Image Classification Model | Python, PyTorch, TensorFlow 2021
+  - Trained a convolutional neural network (CNN) on a custom dataset for image classification tasks.
+  - Utilized data augmentation techniques to improve model performance by 15% and reduce overfitting.
+  - Deployed the trained model as a RESTful API using Flask, achieving a 90% accuracy rate in classifying images.
+
+To-Do List App | JavaScript, React, GraphQL 2020
+  - Developed a simple to-do list application that allows users to create, read, update, and delete (CRUD) tasks.
+  - Utilized Apollo Client for efficient data fetching and caching, reducing API calls by 30%.
+  - Implemented authentication using JSON Web Tokens (JWT), ensuring secure user session management.
+
+Education
+
+Bachelor of Science in Computer Science
+Stanford University
+2015-2019
+
+Certifications
+
+AWS Certified Developer - Associate
+2022

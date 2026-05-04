@@ -1,0 +1,62 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamoralescybersecurity
+New York, NY
+
+
+Summary
+----------------
+
+Highly motivated and experienced Cybersecurity Analyst with a strong background in penetration testing, incident response, and threat hunting. Proven track record of identifying and mitigating security risks to protect corporate assets.
+
+Technical Skills
+-----------------
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Security Tools: Metasploit, Burp Suite, Wireshark
+
+Experience
+------------
+
+Cybersecurity Analyst at CyberCorp | Penetration Testing, SIEM, Splunk 2020-2022
+– Conducted regular penetration testing and vulnerability assessments to identify security weaknesses, resulting in a 30% reduction in security incidents.
+– Implemented and configured Splunk Enterprise Security to monitor and analyze logs from multiple sources, improving incident response times by 50%.
+– Collaborated with the SOC team to develop and implement an effective incident response plan based on NIST guidelines.
+
+Junior Cybersecurity Analyst at SecureTech | Firewalls, IDS/IPS, Incident Response 2019-2020
+– Configured and monitored firewalls and intrusion detection systems to protect against unauthorized access.
+– Responded to and resolved security incidents in a timely manner, resulting in a 25% reduction in downtime.
+– Participated in the development of an incident response plan based on ISO 27001 guidelines.
+
+Cybersecurity Intern at ProtectPro | SOC Operations, Threat Hunting 2018-2019
+– Assisted in the monitoring and analysis of security logs using Splunk Enterprise Security.
+– Conducted threat hunting exercises to identify potential security threats, resulting in the discovery of a previously unknown vulnerability.
+– Contributed to the development of an effective threat intelligence program based on NIST guidelines.
+
+Projects
+---------
+
+Data Breach Simulator | Python, PyTorch 2021
+– Developed a data breach simulator using Python and PyTorch to model and simulate different types of attacks.
+– Tested and validated the simulator using real-world attack scenarios, resulting in a 90% accuracy rate.
+
+Network Traffic Analyzer | Go, Burp Suite 2020
+– Created a network traffic analyzer using Go and Burp Suite to monitor and analyze network traffic in real-time.
+– Developed an algorithm to detect and classify potential security threats based on network traffic patterns.
+
+Vulnerability Scanner | Docker, AWS 2019
+– Built a vulnerability scanner using Docker and AWS to identify and scan for vulnerabilities in web applications.
+– Tested and validated the scanner using various attack scenarios, resulting in a 95% accuracy rate.
+
+Education
+----------
+
+Bachelor of Science in Computer Science, New York University 2018
+
+Certifications
+--------------
+
+CompTIA Security+ CE, CompTIA ITIL Foundation

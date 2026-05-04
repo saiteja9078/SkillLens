@@ -1,0 +1,64 @@
+Ava Moreno
+amoreno@email.com
+linkedin.com/in/avamoreno
+New York, NY
+
+
+Summary
+
+Highly motivated and experienced Cloud Architect with 4 years of expertise in designing and implementing scalable, secure, and efficient cloud infrastructure on AWS, Azure, and GCP. Proven track record of delivering complex projects on time and within budget.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, Terraform
+Cloud Platforms: AWS, Azure, GCP
+Container Orchestration: Kubernetes (EKS)
+Serverless Computing: AWS Lambda
+Infrastructure as Code: CloudFormation, Terraform
+Security: IAM, VPC, S3
+Databases: DynamoDB
+
+
+Experience
+
+Senior Cloud Architect at NovaTech | AWS, Azure 2019-2022
+– Designed and implemented a hybrid cloud infrastructure for a Fortune 500 company, resulting in a 30% reduction in costs and a 25% increase in application performance.
+– Led the migration of 10 legacy applications to containerized microservices architecture on EKS, achieving a 40% decrease in resource utilization and a 20% improvement in deployment speed.
+– Collaborated with cross-functional teams to develop a cloud security framework, reducing security incidents by 50% and improving compliance by 30%.
+
+Cloud Architect at CloudGenius | AWS, GCP 2018-2019
+– Designed and implemented a serverless architecture for a popular e-commerce platform on AWS Lambda, achieving a 90% reduction in compute costs and a 20% improvement in response time.
+– Developed a cloud infrastructure automation framework using Terraform and CloudFormation, reducing deployment time by 70% and improving consistency by 25%.
+– Worked with the DevOps team to implement continuous integration and delivery pipelines on Jenkins and AWS CodePipeline.
+
+Cloud Engineer at ApexCorp | Azure 2017-2018
+– Designed and implemented a cloud-based data warehouse on Azure Synapse Analytics, achieving a 50% reduction in query time and a 25% improvement in query results.
+– Developed a data ingestion pipeline using Azure Data Factory and Azure Storage Blob, reducing data processing time by 30% and improving data quality by 20%.
+– Collaborated with the security team to implement cloud-based security controls on Azure Security Center, reducing security incidents by 40% and improving compliance by 15%.
+
+
+Projects
+
+Cloud Cost Optimizer | AWS 2020
+– Built a cloud cost optimization framework using AWS CloudFormation and Terraform, which achieved a 25% reduction in costs for a Fortune 100 company.
+– Implemented a machine learning model to predict cloud resource utilization, resulting in a 20% improvement in forecast accuracy.
+
+Serverless E-commerce Platform | AWS 2019
+– Designed and implemented an e-commerce platform using serverless architecture on AWS Lambda, achieving a 90% reduction in compute costs and a 20% improvement in response time.
+– Developed a data analytics pipeline using Amazon S3 and Amazon Athena, resulting in a 30% improvement in data processing speed.
+
+Microservices Architecture | GCP 2018
+– Built a microservices architecture for a popular gaming platform on Google Kubernetes Engine (GKE), achieving a 40% decrease in resource utilization and a 20% improvement in deployment speed.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Solutions Architect - Professional
+Azure Certified Azure Developer Associate

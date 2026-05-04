@@ -1,0 +1,55 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesds
+San Francisco, CA
+
+
+Summary
+As a detail-driven and creative data scientist with 3 years of experience in developing predictive models, I excel at extracting insights from complex datasets to drive business growth.
+
+
+Technical Skills
+Languages: Python, R
+Frameworks: PyTorch, Scikit-learn
+Tools: Docker, AWS, Tableau
+Statistics: Regression, Classification
+Libraries: Pandas, NumPy, Matplotlib
+Visualization: Jupyter Notebooks
+
+Experience
+Senior Data Scientist at NovaTech | SQL, Python, PyTorch 2020-Present
+– Developed a predictive maintenance model for industrial equipment that resulted in a 25% reduction in downtime and a 15% increase in overall production efficiency.
+– Implemented A/B testing framework using Scikit-learn to evaluate the impact of different maintenance schedules on machine performance.
+– Collaborated with cross-functional teams to integrate data-driven insights into NovaTech's product development process.
+
+Data Analyst at GreenCycle | R, SQL 2019-2020
+– Designed and executed a data visualization dashboard using Tableau to track waste management metrics for city governments.
+– Conducted statistical analysis on energy consumption patterns to identify opportunities for renewable energy adoption.
+– Worked with the business development team to create targeted marketing campaigns based on customer segmentation analysis.
+
+Data Science Intern at InsightfulAnalytics | Python, Pandas 2018-2019
+– Developed a recommendation engine using collaborative filtering and matrix factorization techniques that increased customer engagement by 30%.
+– Built a web application using FastAPI to visualize user behavior data in real-time.
+– Participated in A/B testing and hypothesis development to inform product roadmap decisions.
+
+Projects
+Customer Churn Prediction | PyTorch, Pandas 2022
+– Developed a machine learning model using PyTorch that predicted customer churn with an accuracy of 92%.
+– Used A/B testing framework to evaluate the impact of different feature engineering techniques on model performance.
+– Collaborated with marketing team to integrate data-driven insights into customer retention strategies.
+
+Waste Management Analysis | R, SQL 2021
+– Conducted statistical analysis on waste management metrics for city governments using R and SQL.
+– Built a web application using Tableau to visualize waste generation patterns by region.
+– Provided recommendations to city officials based on data-driven insights to optimize waste reduction initiatives.
+
+Predictive Maintenance Model | Python, Scikit-learn 2020
+– Developed a predictive maintenance model using scikit-learn that resulted in a 20% reduction in downtime and a 10% increase in overall production efficiency.
+– Implemented A/B testing framework to evaluate the impact of different maintenance schedules on machine performance.
+– Collaborated with cross-functional teams to integrate data-driven insights into NovaTech's product development process.
+
+Education
+Master of Science in Data Science, Stanford University
+
+Certifications
+Certified Data Scientist (CDS) by Data Science Council of America

@@ -1,0 +1,57 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamorales123
+New York, NY
+
+
+Summary
+As a detail-driven Data Engineer with 2 years of experience, I excel in designing and implementing scalable data pipelines using Apache Spark, Kafka, and Airflow. Proficient in various tools such as AWS Glue, Redshift, BigQuery, dbt, and SQL.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, MySQL, PostgreSQL
+ETL/ELT Tools: Apache Spark, AWS Glue
+Data Modeling: Entity-Relationship Diagrams
+Data Storage: Delta Lake, Databricks
+
+
+Experience
+
+Senior Data Engineer at OmniTech | Apache Spark, Kafka, Airflow 2020-2022
+– Designed and implemented a real-time ETL pipeline using Apache Spark and Kafka to process 10 million events per hour, resulting in a 30% reduction in data latency.
+– Collaborated with the DevOps team to deploy the ETL pipeline on AWS Glue and Kubernetes, achieving a 25% increase in infrastructure utilization.
+– Implemented data governance using dbt and Snowflake, ensuring data accuracy and security for analytics purposes.
+
+Data Engineer at NovaSpire | Apache Spark, Delta Lake 2019-2020
+– Built a scalable data warehouse using Delta Lake on Databricks, processing 5 million records per day with a 95% query optimization rate.
+– Designed and implemented an ELT pipeline using AWS Glue to integrate external datasets into the company's data lake, increasing data availability by 50%.
+– Collaborated with the analytics team to develop business intelligence reports using BigQuery and Tableau.
+
+Data Analyst at ApexCorp | Python, SQL 2018-2019
+– Developed a predictive model using PyTorch to forecast sales trends, resulting in a 20% increase in revenue for the company.
+– Designed and implemented an ETL pipeline using Apache Spark to process customer data, achieving a 40% reduction in data processing time.
+
+
+Projects
+
+Streaming Data Pipeline | Apache Kafka, Python 2021
+– Built a real-time streaming data pipeline using Apache Kafka and Python to ingest data from IoT sensors and perform basic analytics.
+– Implemented data governance using Snowflake and dbt, ensuring data accuracy and security for analytics purposes.
+
+Data Modeling for Analytics | Entity-Relationship Diagrams 2020
+– Designed an entity-relationship diagram for a data warehouse schema, ensuring data consistency and scalability for analytics purposes.
+– Collaborated with the business team to develop business intelligence reports using Tableau and BigQuery.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University 2018
+
+
+Certifications
+
+Certified Data Engineer (CDE), Data Engineering Association 2020
+Certified Analytics Professional (CAP), Institute for Operations Research and the Management Sciences 2019

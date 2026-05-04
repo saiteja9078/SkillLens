@@ -1,0 +1,65 @@
+Emily J. Thompson
+ejthompson@email.com
+linkedin.com/in/emilyjthompson
+San Francisco, CA
+
+
+Summary
+
+Results-driven Cybersecurity Analyst with 7 years of experience in protecting enterprise networks from advanced threats. Proven track record of identifying vulnerabilities and implementing effective mitigation strategies.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Security Tools: Metasploit, Burp Suite, Wireshark
+SIEM Systems: Splunk
+Firewalls: Cisco ASA
+IDS/IPS: Snort, Suricata
+
+
+Experience
+
+Senior Cybersecurity Analyst at OniTech | Penetration Testing, SIEM, Splunk 2019-2022
+– Conducted regular penetration testing exercises to identify vulnerabilities in enterprise networks, resulting in a 30% reduction in security incidents.
+– Implemented and managed Splunk-based SIEM system, improving incident response times by 50%.
+– Collaborated with development teams to implement secure coding practices, ensuring compliance with NIST and ISO 27001 standards.
+
+Cybersecurity Analyst at NovaTech | Firewalls, IDS/IPS, SOC Operations 2017-2019
+– Designed and implemented firewall rules for enterprise networks, resulting in a 25% reduction in security incidents.
+– Conducted incident response and root cause analysis using Wireshark and Metasploit tools.
+– Collaborated with the SOC team to develop and implement incident response plans, ensuring compliance with NIST standards.
+
+Junior Cybersecurity Analyst at ApexTech | Penetration Testing, Incident Response 2015-2017
+– Assisted in conducting penetration testing exercises to identify vulnerabilities in enterprise networks.
+– Participated in incident response efforts, responding to security incidents within 30 minutes of notification.
+
+
+Projects
+
+Threat Detection System using PyTorch and Splunk | PyTorch, Splunk 2020
+– Developed a threat detection system using PyTorch and Splunk that achieved an accuracy rate of 95% in detecting advanced threats.
+– Implemented the system on a large-scale enterprise network, resulting in a 20% reduction in security incidents.
+
+Vulnerability Scanning Tool using Go and Docker | Go, Docker 2018
+– Developed a vulnerability scanning tool using Go and Docker that identified vulnerabilities in enterprise networks within minutes of deployment.
+– Integrated the tool with Splunk for real-time monitoring and reporting.
+
+Security Information Exchange System using Python and AWS | Python, AWS 2016
+– Designed and developed a security information exchange system using Python and AWS that enabled real-time sharing of security threat intelligence across enterprise networks.
+– Implemented the system on a large-scale enterprise network, resulting in improved incident response times by 30%.
+
+
+Education
+
+Bachelor's Degree in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+CompTIA Security+ | CompTIA
+CISSP | (ISC)²
+CEH | EC-Council

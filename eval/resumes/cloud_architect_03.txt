@@ -1,0 +1,54 @@
+Avery J. Wilder
+awilder@email.com
+linkedin.com/in/averyjwilder
+New York, NY
+
+Summary
+
+With 3 years of experience in designing and implementing cloud-based systems, I excel at crafting scalable architectures that balance performance with cost efficiency. Skilled in multiple cloud platforms, including AWS, Azure, and GCP.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, Terraform, CloudFormation
+
+Experience
+
+Cloud Architect at NovaTech | AWS, Azure 2021-2023
+– Successfully designed and deployed a highly available e-commerce platform on AWS, resulting in a 99.99% uptime and a 30% reduction in infrastructure costs.
+– Utilized Terraform to manage infrastructure as code and implemented a serverless architecture using Lambda functions and API Gateway.
+– Collaborated with cross-functional teams to develop and deploy a cloud-agnostic data warehousing solution.
+
+Cloud Engineer at Apex Solutions | GCP, Kubernetes 2019-2021
+– Designed and built a highly scalable microservices-based application on GCP, utilizing Cloud Run, Cloud SQL, and Cloud Storage.
+– Implemented a containerized deployment strategy using Docker and Kubernetes (EKS) for increased agility and efficiency.
+– Collaborated with security teams to develop a comprehensive cloud security framework, including VPC networking and IAM policies.
+
+Cloud Consultant at Catalyst Partners | AWS, Azure 2018-2019
+– Conducted cloud readiness assessments for multiple clients, identifying opportunities for cost savings and performance improvements.
+– Designed and implemented a disaster recovery strategy using AWS S3 and EC2 instances.
+– Developed and delivered training sessions on cloud security best practices and compliance requirements.
+
+Projects
+
+Cloud-Based Music Streaming Platform | Python, PyTorch 2022
+– Built a scalable music streaming platform using AWS services (S3, Lambda, API Gateway), allowing for real-time music recommendations and personalized playlists.
+– Implemented a serverless architecture to reduce infrastructure costs and improve deployment efficiency.
+
+Cloud-Secure Data Lake | Go, Terraform 2021
+– Designed and built a secure data lake on GCP, utilizing Cloud Storage and Bigtable to store and process large datasets.
+– Utilized Terraform to manage infrastructure as code and implemented IAM policies for access control and security.
+
+Automated Cloud Security Scanner | Python, FastAPI 2019
+– Developed an automated cloud security scanner using AWS services (Lambda, API Gateway) to identify potential security vulnerabilities in cloud environments.
+– Implemented a serverless architecture using Lambda functions and API Gateway to improve deployment efficiency and reduce costs.
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+Certifications
+
+AWS Certified Solutions Architect - Professional
+GCP Cloud Engineer - Professional

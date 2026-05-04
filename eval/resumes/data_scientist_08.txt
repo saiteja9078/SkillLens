@@ -1,0 +1,60 @@
+Julia Marie Rodriguez
+juliamarie.rodriguez@email.com
+linkedin.com/in/juliarodriguezds
+San Francisco, CA
+
+
+Summary
+
+Results-driven data scientist with 8 years of experience driving business growth through data-informed decision making. Proven track record of developing and deploying predictive models, statistical analyses, and data visualizations that inform business strategy.
+
+Technical Skills
+
+Languages: Python, R
+Frameworks: PyTorch, Scikit-learn
+Tools: Docker, AWS, Jupyter Notebook
+Databases: MySQL, PostgreSQL
+Libraries: Pandas, NumPy, Matplotlib
+
+
+Experience
+
+Senior Data Scientist at NovaTech | Python, SQL 2018-Present
+– Developed and deployed a regression model that increased sales forecasting accuracy by 25% and reduced inventory costs by $1.2M.
+– Collaborated with cross-functional teams to design and implement A/B testing framework using statistical analysis and data visualization tools.
+– Built a predictive maintenance model for equipment reliability, resulting in 15% reduction in downtime and 10% increase in overall productivity.
+
+Data Scientist at Apex Analytics | R, Tableau 2015-2018
+– Created data visualizations and reports that informed business strategy, resulting in a 20% increase in revenue growth.
+– Developed and maintained a statistical model for market basket analysis using R and Python libraries.
+– Collaborated with clients to design and implement data visualization solutions using Tableau.
+
+Data Analyst at Insight Group | SQL, Statistics 2012-2015
+– Analyzed customer purchasing behavior and developed recommendations that increased sales by 15%.
+– Developed and maintained a database of customer information using MySQL and PostgreSQL.
+– Created data visualizations and reports that informed business strategy, resulting in a 10% increase in revenue growth.
+
+
+Projects
+
+Customer Churn Prediction Model | Python, PyTorch 2020
+– Built a predictive model that identified high-risk customers and recommended targeted interventions to reduce churn by 30%.
+– Used techniques such as over-sampling minority class and SMOTE for handling imbalanced data.
+
+Marketing Attribution Analysis | R, SQL 2019
+– Developed a statistical model to measure the effectiveness of marketing campaigns using A/B testing framework.
+– Created data visualizations and reports that informed business strategy, resulting in a 25% increase in ROI.
+
+Product Recommendation System | Python, Scikit-learn 2018
+– Built a recommendation system that used collaborative filtering and content-based filtering techniques to recommend products to customers.
+
+
+Education
+
+Master of Science in Data Science, University of California, Berkeley 2012
+Bachelor of Arts in Mathematics, Stanford University 2009
+
+
+Certifications
+
+ Certified Data Scientist, Data Science Council of America 2015

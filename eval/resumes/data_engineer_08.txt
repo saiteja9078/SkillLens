@@ -1,0 +1,64 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamarorales
+New York, NY
+
+Summary
+
+
+I am a seasoned Data Engineer with 8 years of experience in designing, developing, and deploying large-scale data pipelines using Apache Spark, Kafka, Airflow, and AWS Glue. Proficient in various data modeling tools and ETL/ELT processes, I have a strong track record of delivering high-quality data solutions that drive business growth.
+
+Technical Skills
+
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, Redshift, BigQuery
+Data Processing: Apache Spark, Apache Kafka, AWS Glue
+ETL/ELT Tools: dbt, Airflow
+Data Storage: Delta Lake, Databricks
+
+Experience
+
+
+Senior Data Engineer at Omnivore Inc. | Python, Apache Spark, Apache Kafka 2018-2022
+– Designed and implemented a real-time data pipeline that processed over 10TB of data per day, reducing latency by 75% and improving query performance by 300%.
+– Utilized AWS Glue to create a serverless ETL process that increased data processing capacity by 500%, while reducing costs by 20%.
+– Collaborated with cross-functional teams to integrate data into Snowflake, enabling real-time analytics and business insights.
+
+Data Engineer at Fluxx Corp. | Python, Apache Spark, Redshift 2016-2018
+– Developed a scalable data warehouse that processed over 5TB of data per day, using Apache Spark and AWS Glue.
+– Implemented a data governance framework using dbt, ensuring data quality and consistency across multiple sources.
+– Worked closely with business stakeholders to design and deploy a data mart that improved reporting efficiency by 90%.
+
+Data Analyst at Insight Analytics | SQL, Excel 2014-2016
+– Analyzed large datasets using SQL and Excel, identifying trends and insights that informed business decisions.
+– Created reports and dashboards using Tableau, improving communication of complex data findings to stakeholders.
+
+Projects
+
+
+Sales Forecasting Pipeline | Python, Apache Spark, Apache Kafka 2020
+– Designed a real-time sales forecasting pipeline that integrated historical sales data with external weather APIs, reducing forecast errors by 25%.
+– Utilized Apache Kafka and Apache Spark to process and analyze large datasets in real-time, improving forecasting accuracy by 40%.
+
+Customer Segmentation Analysis | Python, Pandas, NumPy 2019
+– Built a customer segmentation model using clustering algorithms and machine learning techniques, identifying high-value customers and optimizing marketing campaigns.
+– Utilized Pandas and NumPy for data manipulation and analysis, reducing processing time by 80% compared to traditional SQL approaches.
+
+Inventory Optimization System | Python, Apache Spark, Delta Lake 2018
+– Developed a real-time inventory optimization system that integrated with external suppliers' APIs, reducing stockouts by 50% and improving fill rates by 20%.
+– Utilized Apache Spark and Delta Lake for scalable data processing and storage, increasing inventory accuracy by 90%.
+
+Education
+
+
+Master of Science in Computer Science, New York University 2014
+Bachelor of Science in Computer Science, University of Illinois at Urbana-Champaign 2012
+
+Certifications
+
+
+AWS Certified Developer - Associate
+Google Cloud Certified - Professional Data Engineer

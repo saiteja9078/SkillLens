@@ -1,0 +1,1067 @@
+{
+  "config": {
+    "model": "llama3.1:8b",
+    "top_k": 10,
+    "total_resumes": 100
+  },
+  "per_role": {
+    "ml_engineer": {
+      "role": "ml_engineer",
+      "query": "Looking for a Machine Learning Engineer with strong experience in PyTorch, TensorFlow, deep learning, NLP, computer vision, and MLOps. Should have hands-on experience building and deploying ML models.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "ml_engineer_05",
+          "person_name": "emily wang",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.014,
+          "judge_score": 3,
+          "judge_reason": "Emily's experience and skills align perfectly with the job description, including strong expertise in PyTorch, TensorFlow, NLP, computer vision, and MLOps."
+        },
+        {
+          "resume_id": "ml_engineer_03",
+          "person_name": "aidan r. mullen",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.014,
+          "judge_score": 3,
+          "judge_reason": "Aidan's resume perfectly matches the job description, highlighting extensive experience in PyTorch, TensorFlow, NLP, computer vision, and MLOps with impressive project results."
+        },
+        {
+          "resume_id": "ml_engineer_09",
+          "person_name": "ava morales",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0137,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in PyTorch and TensorFlow, deep learning, NLP, computer vision, and MLOps, with a strong track record of building and deploying ML models."
+        },
+        {
+          "resume_id": "ml_engineer_08",
+          "person_name": "ava morales",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0134,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in PyTorch, TensorFlow, deep learning, NLP, computer vision, and MLOps, with a strong track record of building and deploying ML models."
+        },
+        {
+          "resume_id": "ml_engineer_01",
+          "person_name": "emily j. wilson",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0133,
+          "judge_score": 3,
+          "judge_reason": "Emily's resume matches the job description perfectly, with strong experience in PyTorch, TensorFlow, deep learning, NLP, computer vision, and MLOps."
+        },
+        {
+          "resume_id": "ml_engineer_06",
+          "person_name": "aurora r. patel",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0132,
+          "judge_score": 3,
+          "judge_reason": "Aurora's resume matches the job description perfectly, with strong experience in PyTorch, TensorFlow, NLP, computer vision, and MLOps, as well as hands-on experience building and deploying ML models."
+        },
+        {
+          "resume_id": "ml_engineer_10",
+          "person_name": "avinash ranganathan",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0131,
+          "judge_score": 3,
+          "judge_reason": "Avinash has extensive experience as a Machine Learning Engineer with strong skills in PyTorch, TensorFlow, NLP, computer vision, and MLOps, making him highly relevant for the role."
+        },
+        {
+          "resume_id": "ml_engineer_07",
+          "person_name": "ava morales",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0126,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in PyTorch, TensorFlow, and MLOps, with hands-on experience building and deploying ML models in various industries."
+        },
+        {
+          "resume_id": "ml_engineer_04",
+          "person_name": "astrid rachel jensen",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0126,
+          "judge_score": 3,
+          "judge_reason": "Astrid's experience and skills align perfectly with the job description, including strong expertise in PyTorch, TensorFlow, NLP, computer vision, and MLOps."
+        },
+        {
+          "resume_id": "ml_engineer_02",
+          "person_name": "kaitlyn a. tran",
+          "actual_role": "ml_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0109,
+          "judge_score": 3,
+          "judge_reason": "Kaitlyn's experience and skills align perfectly with the job description, including strong expertise in PyTorch, TensorFlow, deep learning, NLP, computer vision, and MLOps."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 3.0,
+        "normalized_relevance": 1.0,
+        "ndcg_at_k": 1.0,
+        "overall_score": 1.0
+      }
+    },
+    "backend_engineer": {
+      "role": "backend_engineer",
+      "query": "Looking for a Backend Engineer skilled in Python, Go, REST APIs, PostgreSQL, Redis, Docker, microservices architecture, and system design.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "backend_engineer_01",
+          "person_name": "avery winston",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0143,
+          "judge_score": 2,
+          "judge_reason": "Avery Winston has the required technical skills, but lacks experience in Go as the primary language and does not mention system design or microservices architecture explicitly."
+        },
+        {
+          "resume_id": "backend_engineer_04",
+          "person_name": "aisha javed",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.014,
+          "judge_score": 2,
+          "judge_reason": "Aisha's experience and skills align closely with the job description, but she lacks expertise in Spring Boot and Java, which are mentioned as required skills."
+        },
+        {
+          "resume_id": "backend_engineer_06",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0133,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including proficiency in Python, Go, REST APIs, PostgreSQL, Redis, and Docker, but lacks experience with microservices architecture."
+        },
+        {
+          "resume_id": "backend_engineer_05",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0133,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job requirements, but she has more extensive experience in Java and Spring Boot compared to Python and Go."
+        },
+        {
+          "resume_id": "backend_engineer_07",
+          "person_name": "ava moreno",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0133,
+          "judge_score": 2,
+          "judge_reason": "Ava Moreno has the required technical skills and experience in backend engineering, but her specialization is more focused on Java and Spring Boot compared to the job description's emphasis on Python and Go."
+        },
+        {
+          "resume_id": "backend_engineer_03",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0128,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job requirements, but she lacks expertise in Go as the primary language, which is a key requirement."
+        },
+        {
+          "resume_id": "backend_engineer_09",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0116,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including Python, Go, REST APIs, PostgreSQL, Redis, and Docker, but lacks experience with microservices architecture and system design."
+        },
+        {
+          "resume_id": "backend_engineer_10",
+          "person_name": "ava moreno",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.011,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job requirements, but her use of Java in some roles and frameworks like Spring Boot and Django may not be a perfect match for the Go requirement."
+        },
+        {
+          "resume_id": "backend_engineer_02",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.011,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job requirements, but she lacks direct experience with Go in her current role at NovaTech."
+        },
+        {
+          "resume_id": "backend_engineer_08",
+          "person_name": "ava morales",
+          "actual_role": "backend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0108,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including proficiency in Python, Go, REST APIs, PostgreSQL, Redis, and Docker, but lacks experience with microservices architecture and system design."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.0,
+        "normalized_relevance": 0.6667,
+        "ndcg_at_k": 1.0,
+        "overall_score": 0.9
+      }
+    },
+    "frontend_engineer": {
+      "role": "frontend_engineer",
+      "query": "Looking for a Frontend Engineer with expertise in React, TypeScript, Next.js, CSS, responsive design, and modern frontend tooling.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "frontend_engineer_04",
+          "person_name": "ava morales",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0148,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job requirements, but she has some overlap in technologies (Vue.js instead of React) and a different specialization (Next.js is mentioned as a project, not primary work)"
+        },
+        {
+          "resume_id": "frontend_engineer_10",
+          "person_name": "kathleen marie reyes",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0145,
+          "judge_score": 3,
+          "judge_reason": "Kathleen's resume perfectly matches the job description, highlighting extensive experience with React, Next.js, TypeScript, and modern frontend tooling."
+        },
+        {
+          "resume_id": "frontend_engineer_03",
+          "person_name": "aisha patel",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0142,
+          "judge_score": 3,
+          "judge_reason": "Aisha's resume matches the job description perfectly, with expertise in React, Next.js, TypeScript, and modern frontend tooling."
+        },
+        {
+          "resume_id": "frontend_engineer_02",
+          "person_name": "kaitlyn maeve chen",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0133,
+          "judge_score": 3,
+          "judge_reason": "Kaitlyn's resume perfectly matches the job description, highlighting extensive experience with React, Next.js, TypeScript, and modern frontend tooling."
+        },
+        {
+          "resume_id": "frontend_engineer_05",
+          "person_name": "kaitlyn aisha patel",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0128,
+          "judge_score": 3,
+          "judge_reason": "Kaitlyn's resume perfectly matches the job description, highlighting extensive experience with React, Next.js, TypeScript, and modern frontend tooling."
+        },
+        {
+          "resume_id": "frontend_engineer_01",
+          "person_name": "ava morales",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0128,
+          "judge_score": 3,
+          "judge_reason": "Ava's resume perfectly matches the job description, with expertise in all required technologies and relevant experience as a Frontend Engineer."
+        },
+        {
+          "resume_id": "frontend_engineer_09",
+          "person_name": "astrid jensen",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0127,
+          "judge_score": 2,
+          "judge_reason": "Astrid has the right skills and experience, but the job description specifically mentions Next.js, which is not explicitly mentioned in her resume."
+        },
+        {
+          "resume_id": "frontend_engineer_08",
+          "person_name": "amanda j. wellesley",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0124,
+          "judge_score": 3,
+          "judge_reason": "Amanda's resume perfectly matches the job description, with extensive experience in React, TypeScript, Next.js, and modern frontend tooling."
+        },
+        {
+          "resume_id": "frontend_engineer_06",
+          "person_name": "ava morales",
+          "actual_role": "frontend_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0122,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in React, Next.js, TypeScript, and modern frontend tooling, making her an ideal candidate for the role."
+        },
+        {
+          "resume_id": "fullstack_engineer_04",
+          "person_name": "emily j. chen",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": false,
+          "similarity_score": 0.0117,
+          "judge_score": 2,
+          "judge_reason": "Emily has the right skills, including React and TypeScript, but her experience is more focused on full-stack development rather than frontend engineering specifically."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 0.9,
+        "recall_at_k": 0.9,
+        "mean_judge_score": 2.7,
+        "normalized_relevance": 0.9,
+        "ndcg_at_k": 0.9437,
+        "overall_score": 0.9087
+      }
+    },
+    "devops_engineer": {
+      "role": "devops_engineer",
+      "query": "Looking for a DevOps Engineer experienced with Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "devops_engineer_02",
+          "person_name": "ava moreno",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0149,
+          "judge_score": 3,
+          "judge_reason": "Ava Moreno's experience and skills align perfectly with the job description, including expertise in Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring tools, and infrastructure as code."
+        },
+        {
+          "resume_id": "devops_engineer_03",
+          "person_name": "emily j. chen",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0144,
+          "judge_score": 3,
+          "judge_reason": "Emily's experience and skills align perfectly with the job description, including expertise in Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code."
+        },
+        {
+          "resume_id": "devops_engineer_04",
+          "person_name": "ethan ryder",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0139,
+          "judge_score": 2,
+          "judge_reason": "Ethan Ryder has most of the key skills mentioned in the job description, including Kubernetes, Docker, Terraform, and AWS experience, but lacks specific mention of CI/CD pipeline expertise with Jenkins or GitHub Actions."
+        },
+        {
+          "resume_id": "devops_engineer_10",
+          "person_name": "kaitlyn m. thompson",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0136,
+          "judge_score": 3,
+          "judge_reason": "Kaitlyn's resume perfectly matches the job description, highlighting extensive experience with Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code."
+        },
+        {
+          "resume_id": "devops_engineer_01",
+          "person_name": "aman kaur",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0135,
+          "judge_score": 2,
+          "judge_reason": "The candidate has most of the key skills mentioned in the job description, including experience with Kubernetes, Docker, Terraform, and CI/CD pipelines, but lacks direct experience with AWS."
+        },
+        {
+          "resume_id": "devops_engineer_08",
+          "person_name": "aurora r. thompson",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0134,
+          "judge_score": 3,
+          "judge_reason": "The candidate has extensive experience and skills matching the job description, including Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code."
+        },
+        {
+          "resume_id": "devops_engineer_06",
+          "person_name": "ava morales",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0131,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience and skills in Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code, making her a highly relevant candidate for the DevOps Engineer role."
+        },
+        {
+          "resume_id": "devops_engineer_05",
+          "person_name": "ariana j. thompson",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0122,
+          "judge_score": 3,
+          "judge_reason": "Ariana's extensive experience and skills align perfectly with the job description, including expertise in Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code."
+        },
+        {
+          "resume_id": "devops_engineer_09",
+          "person_name": "ava marie jenkins",
+          "actual_role": "devops_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.012,
+          "judge_score": 3,
+          "judge_reason": "Ava Marie Jenkins has extensive experience and skills in Kubernetes, Docker, Terraform, CI/CD pipelines, AWS, monitoring, and infrastructure as code, making her a highly relevant candidate for the DevOps Engineer role."
+        },
+        {
+          "resume_id": "fullstack_engineer_03",
+          "person_name": "ava morales",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": false,
+          "similarity_score": 0.0119,
+          "judge_score": 1,
+          "judge_reason": "Ava Morales has some relevant experience with Docker and Kubernetes, but the majority of her skills and experience are focused on full-stack development rather than DevOps engineering."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 0.9,
+        "recall_at_k": 0.9,
+        "mean_judge_score": 2.6,
+        "normalized_relevance": 0.8667,
+        "ndcg_at_k": 0.9783,
+        "overall_score": 0.9057
+      }
+    },
+    "data_scientist": {
+      "role": "data_scientist",
+      "query": "Looking for a Data Scientist with strong skills in Python, statistics, Pandas, Scikit-learn, A/B testing, data visualization, and machine learning.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "ml_engineer_07",
+          "person_name": "ava morales",
+          "actual_role": "ml_engineer",
+          "is_correct_role": false,
+          "similarity_score": 0.0147,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including strong Python and Scikit-learn experience, but lacks direct data visualization and A/B testing experience."
+        },
+        {
+          "resume_id": "data_scientist_05",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0139,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has all the required technical skills and experience in data science, including Python, statistics, Pandas, Scikit-learn, A/B testing, and machine learning."
+        },
+        {
+          "resume_id": "data_scientist_01",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0132,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including Python, statistics, Pandas, Scikit-learn, A/B testing, and data visualization, but lacks experience with machine learning frameworks like TensorFlow."
+        },
+        {
+          "resume_id": "data_scientist_03",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0126,
+          "judge_score": 2,
+          "judge_reason": "Ava has most of the key skills mentioned in the job description, including Python, statistics, Pandas, Scikit-learn, A/B testing, and data visualization, but lacks experience with machine learning frameworks like PyTorch."
+        },
+        {
+          "resume_id": "data_scientist_07",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0117,
+          "judge_score": 2,
+          "judge_reason": "Ava's experience and skills align closely with the job description, but her use of PyTorch and FastAPI frameworks is not mentioned in the job requirements."
+        },
+        {
+          "resume_id": "data_scientist_08",
+          "person_name": "julia marie rodriguez",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0117,
+          "judge_score": 3,
+          "judge_reason": "Julia's resume matches the job description perfectly, with strong skills in Python, statistics, Pandas, Scikit-learn, A/B testing, data visualization, and machine learning, as well as relevant experience in developing predictive models and deploying them to drive business growth."
+        },
+        {
+          "resume_id": "data_scientist_06",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0115,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including Python, statistics, Pandas, Scikit-learn, A/B testing, and data visualization, but lacks experience with FastAPI and machine learning frameworks like PyTorch."
+        },
+        {
+          "resume_id": "data_scientist_09",
+          "person_name": "ava morales",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0114,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has most of the key skills mentioned in the job description, including Python, statistics, Pandas, Scikit-learn, A/B testing, and data visualization, but lacks experience with machine learning frameworks like PyTorch."
+        },
+        {
+          "resume_id": "ml_engineer_10",
+          "person_name": "avinash ranganathan",
+          "actual_role": "ml_engineer",
+          "is_correct_role": false,
+          "similarity_score": 0.0108,
+          "judge_score": 2,
+          "judge_reason": "Avinash has strong skills in Python, Pandas, Scikit-learn, and machine learning, but the job description emphasizes A/B testing and data visualization, which are not explicitly mentioned in his resume."
+        },
+        {
+          "resume_id": "data_scientist_02",
+          "person_name": "aurora l. nguyen",
+          "actual_role": "data_scientist",
+          "is_correct_role": true,
+          "similarity_score": 0.0104,
+          "judge_score": 2,
+          "judge_reason": "The candidate has strong skills in Python, statistics, and machine learning, but lacks experience with A/B testing and some tools mentioned in the job description."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 0.8,
+        "recall_at_k": 0.8,
+        "mean_judge_score": 2.2,
+        "normalized_relevance": 0.7333,
+        "ndcg_at_k": 0.9399,
+        "overall_score": 0.808
+      }
+    },
+    "cybersecurity_analyst": {
+      "role": "cybersecurity_analyst",
+      "query": "Looking for a Cybersecurity Analyst with experience in penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "cybersecurity_analyst_06",
+          "person_name": "avery j. blackwood",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0146,
+          "judge_score": 3,
+          "judge_reason": "Avery's experience in penetration testing, SIEM tools, incident response, and compliance aligns perfectly with the job requirements."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_05",
+          "person_name": "astrid v. jensen",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0143,
+          "judge_score": 3,
+          "judge_reason": "Astrid's experience and skills align perfectly with the job description, including penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_09",
+          "person_name": "ava morales",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.014,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales' experience and skills align perfectly with the job description, including penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_10",
+          "person_name": "avery j. thompson",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0137,
+          "judge_score": 3,
+          "judge_reason": "Avery's experience in penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance aligns perfectly with the job description."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_03",
+          "person_name": "ava morales",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0137,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in penetration testing, SIEM tools, incident response, and compliance, making her a highly relevant candidate for the Cybersecurity Analyst role."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_08",
+          "person_name": "avery l. reynolds",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0132,
+          "judge_score": 3,
+          "judge_reason": "Avery's experience in penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance aligns perfectly with the job description."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_01",
+          "person_name": "aurora j. rodriguez",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0131,
+          "judge_score": 3,
+          "judge_reason": "The candidate has extensive experience in penetration testing, SIEM tools, incident response, and compliance, with specific examples of success in these areas."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_07",
+          "person_name": "emily j. thompson",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.013,
+          "judge_score": 3,
+          "judge_reason": "Emily's experience and skills align perfectly with the job description, including penetration testing, SIEM tools (Splunk), incident response, vulnerability assessment, and compliance."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_04",
+          "person_name": "emily j. chen",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0122,
+          "judge_score": 3,
+          "judge_reason": "Emily's experience and skills align perfectly with the job description, including penetration testing, SIEM tools, incident response, vulnerability assessment, and compliance."
+        },
+        {
+          "resume_id": "cybersecurity_analyst_02",
+          "person_name": "ethan j. welles",
+          "actual_role": "cybersecurity_analyst",
+          "is_correct_role": true,
+          "similarity_score": 0.0113,
+          "judge_score": 2,
+          "judge_reason": "Ethan's experience in penetration testing, SIEM tools, incident response, and vulnerability assessment aligns well with the job description, but his lack of explicit mention of compliance and some specialized tools (e.g. Qualys) prevents a higher score."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.9,
+        "normalized_relevance": 0.9667,
+        "ndcg_at_k": 1.0,
+        "overall_score": 0.99
+      }
+    },
+    "mobile_developer": {
+      "role": "mobile_developer",
+      "query": "Looking for a Mobile App Developer skilled in React Native, Flutter, Swift, Kotlin, Firebase, and cross-platform mobile development.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "mobile_developer_02",
+          "person_name": "ava morales",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0143,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in mobile app development using the required technologies, including React Native, Flutter, Swift, Kotlin, and Firebase."
+        },
+        {
+          "resume_id": "mobile_developer_07",
+          "person_name": "aurélien dupont",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0142,
+          "judge_score": 2,
+          "judge_reason": "Aurélien has relevant experience in cross-platform development using React Native and Flutter, but lacks direct experience with Firebase and Swift/Kotlin as required by the job description."
+        },
+        {
+          "resume_id": "mobile_developer_10",
+          "person_name": "aurélien dumont",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0135,
+          "judge_score": 2,
+          "judge_reason": "Aurélien has relevant experience in mobile app development, but lacks direct expertise in React Native and Flutter as primary skills."
+        },
+        {
+          "resume_id": "mobile_developer_01",
+          "person_name": "emily j. wong",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0134,
+          "judge_score": 3,
+          "judge_reason": "Emily's resume perfectly matches the job description, listing all required skills and technologies, including React Native, Flutter, Swift, Kotlin, Firebase, and cross-platform mobile development."
+        },
+        {
+          "resume_id": "mobile_developer_06",
+          "person_name": "alexandra rodriguez",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0134,
+          "judge_score": 2,
+          "judge_reason": "Alexandra has relevant experience as a mobile app developer, but the job description requires expertise in React Native and Flutter, which are only partially represented in her resume."
+        },
+        {
+          "resume_id": "mobile_developer_04",
+          "person_name": "astrid jensen",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0131,
+          "judge_score": 2,
+          "judge_reason": "Astrid has relevant experience and skills in mobile app development, but lacks proficiency in Kotlin and Swift as primary languages, which are required for the job."
+        },
+        {
+          "resume_id": "mobile_developer_03",
+          "person_name": "aurora rodriguez",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0125,
+          "judge_score": 2,
+          "judge_reason": "The candidate has relevant technical skills and experience in mobile app development, but the specialization is slightly different due to the emphasis on Kotlin and Java."
+        },
+        {
+          "resume_id": "mobile_developer_05",
+          "person_name": "ava morales",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0118,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has relevant experience in mobile app development, but the job description requires expertise in Kotlin and Swift, which are only partially represented in her resume."
+        },
+        {
+          "resume_id": "mobile_developer_09",
+          "person_name": "kaitlyn j. lee",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0114,
+          "judge_score": 2,
+          "judge_reason": "The candidate has most of the required skills and experience in mobile app development, but lacks proficiency in Swift and Kotlin as primary languages."
+        },
+        {
+          "resume_id": "mobile_developer_08",
+          "person_name": "astrid r. jenkins",
+          "actual_role": "mobile_developer",
+          "is_correct_role": true,
+          "similarity_score": 0.0111,
+          "judge_score": 2,
+          "judge_reason": "Astrid has relevant experience in mobile app development, but the job description requires expertise in Swift and Kotlin, which are only partially represented in her resume."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.2,
+        "normalized_relevance": 0.7333,
+        "ndcg_at_k": 0.9813,
+        "overall_score": 0.9163
+      }
+    },
+    "cloud_architect": {
+      "role": "cloud_architect",
+      "query": "Looking for a Cloud Architect with expertise in AWS, Azure, GCP, serverless architecture, microservices, and cloud security.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "cloud_architect_01",
+          "person_name": "aiden j. moreno",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0147,
+          "judge_score": 2,
+          "judge_reason": "The candidate has experience with all three major cloud platforms (AWS, Azure, GCP) and relevant technical skills, but the job description emphasizes serverless architecture and microservices, which are not explicitly highlighted in the resume."
+        },
+        {
+          "resume_id": "cloud_architect_02",
+          "person_name": "ava morales",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0139,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in designing and deploying cloud infrastructure on AWS, Azure, GCP, serverless architecture, microservices, and cloud security, making her a highly relevant candidate for the role."
+        },
+        {
+          "resume_id": "cloud_architect_04",
+          "person_name": "ava moreno",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0139,
+          "judge_score": 3,
+          "judge_reason": "Ava Moreno's extensive experience in designing and implementing cloud infrastructure on AWS, Azure, and GCP, as well as her expertise in serverless architecture, microservices, and cloud security, make her a highly relevant candidate for the Cloud Architect position."
+        },
+        {
+          "resume_id": "cloud_architect_08",
+          "person_name": "ava morales",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0136,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience as a Cloud Architect, with expertise in AWS, Azure, GCP, serverless architecture, microservices, and cloud security, making her a highly relevant candidate for the role."
+        },
+        {
+          "resume_id": "cloud_architect_05",
+          "person_name": "astrid a. hernandez",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0136,
+          "judge_score": 3,
+          "judge_reason": "The candidate has extensive experience and expertise in all areas mentioned in the job description, including AWS, Azure, GCP, serverless architecture, microservices, and cloud security."
+        },
+        {
+          "resume_id": "cloud_architect_06",
+          "person_name": "ariana vasquez",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0132,
+          "judge_score": 2,
+          "judge_reason": "The candidate has relevant experience and skills, but lacks expertise in GCP and serverless architecture is only partially demonstrated."
+        },
+        {
+          "resume_id": "cloud_architect_03",
+          "person_name": "avery j. wilder",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0123,
+          "judge_score": 3,
+          "judge_reason": "Avery's experience and skills align perfectly with the job description, covering all required areas such as AWS, Azure, GCP, serverless architecture, microservices, and cloud security."
+        },
+        {
+          "resume_id": "cloud_architect_09",
+          "person_name": "kaitlyn r. vasquez",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0122,
+          "judge_score": 2,
+          "judge_reason": "The candidate has experience in multiple cloud providers, serverless architecture, and microservices, but lacks direct expertise in Azure and GCP as required by the job description."
+        },
+        {
+          "resume_id": "cloud_architect_10",
+          "person_name": "ava marie reed",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0116,
+          "judge_score": 3,
+          "judge_reason": "Ava Marie Reed's extensive experience and skills in cloud architecture, serverless computing, microservices, and cloud security across AWS, Azure, and GCP platforms make her a highly relevant candidate for the position."
+        },
+        {
+          "resume_id": "cloud_architect_07",
+          "person_name": "ava maria rodriguez",
+          "actual_role": "cloud_architect",
+          "is_correct_role": true,
+          "similarity_score": 0.0106,
+          "judge_score": 3,
+          "judge_reason": "Ava Maria Rodriguez has extensive experience as a Cloud Architect, with expertise in AWS, Azure, GCP, serverless architecture, microservices, and cloud security, making her a highly relevant candidate for the role."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.7,
+        "normalized_relevance": 0.9,
+        "ndcg_at_k": 0.9398,
+        "overall_score": 0.958
+      }
+    },
+    "fullstack_engineer": {
+      "role": "fullstack_engineer",
+      "query": "Looking for a Full Stack Engineer with experience in Node.js, React, TypeScript, MongoDB, PostgreSQL, GraphQL, and Docker.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "fullstack_engineer_04",
+          "person_name": "emily j. chen",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0145,
+          "judge_score": 3,
+          "judge_reason": "Emily's resume matches the job description perfectly, listing all required technologies and experiences in her previous roles."
+        },
+        {
+          "resume_id": "fullstack_engineer_10",
+          "person_name": "emily j. miller",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0142,
+          "judge_score": 2,
+          "judge_reason": "Emily has most key skills present, including Node.js, React, TypeScript, MongoDB, and PostgreSQL, but lacks experience with GraphQL and Docker in her current role."
+        },
+        {
+          "resume_id": "fullstack_engineer_05",
+          "person_name": "kaitlyn marie nguyen",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0141,
+          "judge_score": 3,
+          "judge_reason": "The candidate has extensive experience in the required technologies and has demonstrated expertise in full-stack development, architecture, and team leadership."
+        },
+        {
+          "resume_id": "fullstack_engineer_02",
+          "person_name": "avery j. carson",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0131,
+          "judge_score": 3,
+          "judge_reason": "Avery's resume matches the job description perfectly, with experience in all required technologies and a strong track record of implementing scalable web applications."
+        },
+        {
+          "resume_id": "fullstack_engineer_09",
+          "person_name": "emily j. nguyen",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.013,
+          "judge_score": 2,
+          "judge_reason": "Emily has most of the key skills mentioned in the job description, including Node.js, React, TypeScript, and MongoDB, but is missing experience with GraphQL and PostgreSQL."
+        },
+        {
+          "resume_id": "fullstack_engineer_06",
+          "person_name": "emily j. rodriguez",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.013,
+          "judge_score": 2,
+          "judge_reason": "Emily has most key skills present, including Node.js, React, TypeScript, MongoDB, PostgreSQL, GraphQL, and Docker, but lacks experience with Next.js and Tailwind CSS"
+        },
+        {
+          "resume_id": "fullstack_engineer_08",
+          "person_name": "arianna rose",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0126,
+          "judge_score": 2,
+          "judge_reason": "Arianna has most of the key skills mentioned in the job description, including Node.js, React, TypeScript, MongoDB, PostgreSQL, GraphQL, and Docker, but lacks experience with Express.js and Next.js is only partially relevant as she used it in one project."
+        },
+        {
+          "resume_id": "fullstack_engineer_01",
+          "person_name": "ariana v. jensen",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0121,
+          "judge_score": 2,
+          "judge_reason": "Ariana has most of the key skills mentioned in the job description, including Node.js, React, TypeScript, MongoDB, and PostgreSQL, but lacks experience with GraphQL and Docker as primary tools."
+        },
+        {
+          "resume_id": "fullstack_engineer_03",
+          "person_name": "ava morales",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0105,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has relevant experience in Node.js, React, and TypeScript, but lacks direct experience with MongoDB, PostgreSQL, and GraphQL as specified in the job description."
+        },
+        {
+          "resume_id": "fullstack_engineer_07",
+          "person_name": "ava moreno",
+          "actual_role": "fullstack_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0091,
+          "judge_score": 2,
+          "judge_reason": "Ava Moreno has most of the key skills mentioned in the job description, including Node.js, React, TypeScript, MongoDB, and PostgreSQL, but lacks experience with GraphQL and Docker."
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.3,
+        "normalized_relevance": 0.7667,
+        "ndcg_at_k": 0.9821,
+        "overall_score": 0.9264
+      }
+    },
+    "data_engineer": {
+      "role": "data_engineer",
+      "query": "Looking for a Data Engineer experienced with Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, and building data pipelines at scale.",
+      "top_k": 10,
+      "retrieved": [
+        {
+          "resume_id": "data_engineer_05",
+          "person_name": "julia alexandra rodriguez",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0148,
+          "judge_score": 3,
+          "judge_reason": "Julia's resume matches the job description exactly, listing all required skills and experience in data engineering with Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, and building data pipelines at scale."
+        },
+        {
+          "resume_id": "data_engineer_01",
+          "person_name": "amanda j. patel",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0142,
+          "judge_score": 2,
+          "judge_reason": "Amanda has the right skills and experience in Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, but her background is more focused on data engineering rather than building data pipelines at scale."
+        },
+        {
+          "resume_id": "data_engineer_06",
+          "person_name": "amanda j. rodriguez",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0139,
+          "judge_score": 3,
+          "judge_reason": "Amanda's experience, skills, and projects align perfectly with the job description, showcasing expertise in Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, and building data pipelines at scale."
+        },
+        {
+          "resume_id": "data_engineer_02",
+          "person_name": "ava morales",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0134,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience in designing and implementing scalable data pipelines using Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, which exactly matches the job requirements."
+        },
+        {
+          "resume_id": "data_engineer_09",
+          "person_name": "ava morales",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0132,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has the right skills and experience in data engineering, but her specialization is more focused on Apache Spark, Kafka, and Airflow, whereas the job description mentions Snowflake as a required tool."
+        },
+        {
+          "resume_id": "data_engineer_10",
+          "person_name": "kaitlyn e. rodriguez",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.013,
+          "judge_score": 3,
+          "judge_reason": "Kaitlyn's resume matches the job description perfectly, with experience in all required technologies and a strong track record of delivering high-quality data solutions."
+        },
+        {
+          "resume_id": "data_engineer_03",
+          "person_name": "ava morales",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0128,
+          "judge_score": 3,
+          "judge_reason": "Ava Morales has extensive experience as a Senior Data Engineer, with direct expertise in Apache Spark, Kafka, Airflow, Snowflake, dbt, and SQL, making her an ideal fit for the role."
+        },
+        {
+          "resume_id": "data_engineer_07",
+          "person_name": "alyssa m. rodriguez",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0125,
+          "judge_score": 3,
+          "judge_reason": "Alyssa's resume perfectly matches the job description, highlighting extensive experience with all required tools and technologies."
+        },
+        {
+          "resume_id": "data_engineer_04",
+          "person_name": "emily j. chen",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0116,
+          "judge_score": 3,
+          "judge_reason": "Emily's resume perfectly matches the job description, highlighting extensive experience with Apache Spark, Kafka, Airflow, Snowflake, dbt, and SQL, as well as building data pipelines at scale."
+        },
+        {
+          "resume_id": "data_engineer_08",
+          "person_name": "ava morales",
+          "actual_role": "data_engineer",
+          "is_correct_role": true,
+          "similarity_score": 0.0116,
+          "judge_score": 2,
+          "judge_reason": "Ava Morales has the right role experience as a Data Engineer and possesses most of the required technical skills, but lacks expertise in Snowflake and dbt is listed under ETL/ELT Tools rather than being explicitly mentioned"
+        }
+      ],
+      "metrics": {
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mean_judge_score": 2.7,
+        "normalized_relevance": 0.9,
+        "ndcg_at_k": 0.9685,
+        "overall_score": 0.9637
+      }
+    }
+  },
+  "aggregate": {
+    "precision_at_k": 0.96,
+    "recall_at_k": 0.96,
+    "mean_judge_score": 2.53,
+    "normalized_relevance": 0.8433,
+    "ndcg_at_k": 0.9734,
+    "overall_score": 0.9277
+  }
+}

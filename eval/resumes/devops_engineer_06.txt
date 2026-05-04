@@ -1,0 +1,62 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesdevops
+San Francisco, CA
+
+
+Summary
+ 
+As a seasoned DevOps Engineer with 6 years of experience, I excel in designing and implementing scalable infrastructure systems for high-traffic applications. Proficient in cloud providers such as AWS, GCP, and Azure, I have successfully deployed containerized applications using Docker and Kubernetes.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Terraform, Ansible, Jenkins, GitHub Actions
+Databases: MySQL, PostgreSQL
+Monitoring Tools: Prometheus, Grafana
+Operating Systems: Linux (Ubuntu, CentOS)
+Scripting Languages: Bash
+
+
+Experience
+
+DevOps Engineer at NovaTech | AWS, Docker, Kubernetes 2020-2022
+– Improved deployment efficiency by 30% through automation using Terraform and Ansible.
+– Reduced application downtime by implementing proactive monitoring with Prometheus and Grafana.
+– Collaborated with the engineering team to migrate a legacy monolithic application to a containerized microservices architecture.
+
+Senior DevOps Engineer at ZetaCorp | GCP, Azure, Helm 2018-2020
+– Designed and implemented a CI/CD pipeline using Jenkins and GitHub Actions for an e-commerce platform.
+– Implemented automated scaling for a high-traffic API using Kubernetes and Horizontal Pod Autoscaling (HPA).
+– Provided on-call support for the production environment, ensuring 99.99% uptime.
+
+DevOps Engineer at Apex Solutions | AWS, Terraform 2016-2018
+– Developed and deployed a cloud-based infrastructure using Terraform for a SaaS application.
+– Implemented automated testing using Ansible for a large-scale enterprise deployment.
+– Collaborated with the QA team to implement monitoring and logging using Prometheus and Grafana.
+
+Projects
+
+Image Classification using PyTorch | PyTorch 2021
+– Built a machine learning model that achieved an accuracy of 95% in image classification tasks.
+– Utilized PyTorch's distributed training capabilities to accelerate model training by 3x.
+
+Cloud-Native CI/CD Pipeline using GitHub Actions | GitHub Actions, AWS 2020
+– Designed and implemented a cloud-native CI/CD pipeline using GitHub Actions for an e-commerce platform.
+– Integrated automated testing, deployment, and monitoring using Ansible, Jenkins, and Prometheus.
+
+Kubernetes Cluster on GCP | Kubernetes, GCP 2019
+– Set up a production-ready Kubernetes cluster on Google Cloud Platform (GCP) with high availability and scalability.
+– Implemented automated rollouts, rollbacks, and scaling for applications running in the cluster.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Cloud Certified - Professional Cloud Developer
+AWS Certified DevOps Engineer - Professional

@@ -1,0 +1,59 @@
+Amanda J. Wellesley
+amanda.wellesley@email.com
+https://www.linkedin.com/in/amandajwellesley/
+San Francisco, CA
+
+
+Summary
+
+Results-driven Frontend Engineer with 8 years of experience in building scalable and maintainable web applications using cutting-edge technologies.
+
+Technical Skills
+
+Languages: TypeScript, JavaScript, Python
+Frameworks: React, Vue.js, Next.js
+Tools: Webpack, Vite, Docker
+Libraries: Redux, GraphQL
+Design Tools: Figma
+
+
+Experience
+
+Senior Frontend Engineer at NovaTech | React, Redux, GraphQL 2020-2022
+– Built a high-performance e-commerce platform that resulted in a 300% increase in sales within the first year of deployment.
+– Collaborated with a cross-functional team to integrate a new payment gateway, reducing transaction latency by 90%.
+– Implemented a robust testing framework using Jest and Cypress, resulting in a 95% reduction in defect rates.
+
+Frontend Engineer at Catalyst Co. | React, Next.js, Tailwind CSS 2018-2020
+– Designed and developed a modern web application for a popular social media platform, achieving a 4x increase in user engagement.
+– Utilized Webpack to optimize code bundling and caching, resulting in a 30% improvement in page load times.
+– Worked with the design team to implement Figma designs, streamlining the development process.
+
+Frontend Developer at Fusion Labs | JavaScript, HTML, CSS 2015-2018
+– Built a responsive web application for a leading e-learning platform, achieving a 200% increase in user adoption.
+– Implemented a robust accessibility feature using ARIA attributes and semantic HTML, resulting in a 99.9% accessibility rating.
+– Collaborated with the testing team to implement automated tests using Cypress, reducing defect rates by 80%.
+
+Projects
+
+Weather API | JavaScript, HTML, CSS 2021
+– Built a simple weather API that displays current and forecasted weather conditions for any location worldwide.
+– Utilized a combination of APIs from OpenWeatherMap and Google Maps to provide accurate and up-to-date weather information.
+
+Personal Finance Tracker | React, Redux, GraphQL 2019
+– Developed a personal finance tracking application that allows users to track their expenses and income in real-time.
+– Implemented a robust data storage solution using GraphQL, enabling efficient querying and caching of financial data.
+
+Portfolio Site | Next.js, Tailwind CSS, Figma 2018
+– Designed and developed a modern portfolio site showcasing projects and experience as a frontend engineer.
+– Utilized Figma designs to implement responsive and visually appealing layouts.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Certified - Professional Cloud Developer

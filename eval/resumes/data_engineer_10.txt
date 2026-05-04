@@ -1,0 +1,79 @@
+Kaitlyn E. Rodriguez
+krodriguez@email.com
+linkedin.com/in/krodriguezdata
+
+San Francisco, CA
+
+
+Summary
+-------------------
+
+Results-driven Data Engineer with 5 years of experience in designing, implementing, and maintaining large-scale data architectures. Proven track record of delivering high-quality data solutions on time and within budget.
+
+Technical Skills
+-----------------
+
+Languages: Python, Go
+
+Frameworks: PyTorch, FastAPI
+
+Tools: Docker, AWS, Apache Spark
+
+Databases: Snowflake, Redshift, BigQuery
+
+ETL/ELT: dbt, Airflow, Apache Beam
+
+Data Modeling: Delta Lake, Databricks
+
+Cloud: AWS Glue, AWS S3
+
+Languages: SQL
+
+Projects
+-------------
+
+Data Pipeline Optimization | Apache Spark, Kafka 2020
+– Designed and implemented a real-time data pipeline to process 10 million events per day with 90% reduction in processing time.
+– Utilized Apache Beam and Airflow for ETL/ELT workflows and optimized resource utilization by 30%.
+– Achieved a 99.9% uptime and reduced latency by 50%.
+
+Data Modeling | Snowflake, dbt 2018
+– Developed a data warehouse using Snowflake and dbt to analyze customer behavior with 25% increase in query performance.
+– Created data models for multiple tables with over 100 million rows and improved data quality by 20%.
+– Reduced data retrieval time from hours to minutes.
+
+Real-time Analytics | BigQuery, Apache Spark 2019
+– Built a real-time analytics platform using BigQuery and Apache Spark to process 50 million events per day.
+– Implemented ETL/ELT workflows using dbt and Airflow for efficient data processing.
+– Achieved a 95% reduction in query latency and improved data freshness by 75%.
+
+Experience
+------------
+
+Senior Data Engineer at Meta Platforms | Apache Spark, Kafka 2020-2022
+– Led the development of a large-scale data pipeline to process 100 million events per day with 99.9% uptime.
+– Collaborated with cross-functional teams to design and implement data models for multiple use cases.
+– Implemented Apache Beam and Airflow for ETL/ELT workflows and optimized resource utilization by 40%.
+
+Data Engineer at Pinterest | Snowflake, dbt 2018-2020
+– Designed and implemented a data warehouse using Snowflake and dbt to analyze customer behavior with 25% increase in query performance.
+– Created data models for multiple tables with over 100 million rows and improved data quality by 20%.
+– Reduced data retrieval time from hours to minutes.
+
+Junior Data Engineer at Uber | Apache Spark, Kafka 2017-2018
+– Developed a real-time analytics platform using BigQuery and Apache Spark to process 50 million events per day.
+– Implemented ETL/ELT workflows using dbt and Airflow for efficient data processing.
+– Achieved a 95% reduction in query latency and improved data freshness by 75%.
+
+Education
+------------
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+-----------------
+
+AWS Certified Developer – Associate
+Apache Spark Certification
+Google Cloud Certified - Professional Data Engineer

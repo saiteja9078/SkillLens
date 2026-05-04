@@ -1,0 +1,67 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamoralesds
+San Francisco, CA
+
+
+Summary
+----------------
+
+Highly motivated and detail-driven data scientist with 3 years of experience in driving business growth through data analysis and machine learning. Proven track record of delivering high-impact projects that improve customer engagement and revenue.
+
+Technical Skills
+---------------
+
+Languages: Python, R
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: MySQL, PostgreSQL
+Programming skills: Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter
+Statistical knowledge: Regression, Classification, A/B Testing
+Data visualization tools: Tableau
+
+Experience
+-------------
+
+Data Scientist at NovaTech | Python, SQL, Statistics 2020-2022
+– Developed and deployed a predictive maintenance model that reduced equipment downtime by 30% and saved the company $1.5M in maintenance costs.
+– Utilized Jupyter notebooks to create interactive visualizations of sensor data, enabling engineers to quickly identify areas for improvement.
+– Collaborated with cross-functional teams to design and implement A/B testing framework for new product features.
+
+Data Analyst at Fusion Inc | R, Tableau 2019-2020
+– Created data dashboards that increased sales team's efficiency by 25% through real-time monitoring of customer behavior.
+– Built regression models in Scikit-learn to predict customer churn, resulting in a 15% reduction in attrition rate.
+– Worked with stakeholders to develop and implement data governance policies for data quality and security.
+
+Junior Data Scientist at CodeCraft | Python, Pandas 2018-2019
+– Contributed to the development of a recommendation engine using collaborative filtering and matrix factorization techniques.
+– Utilized NumPy and Matplotlib to create interactive visualizations of user behavior, informing product development decisions.
+– Assisted in the deployment of data pipelines using Apache Beam and GCP Cloud Storage.
+
+Projects
+---------
+
+Customer Segmentation | Python, Pandas 2021
+– Built a clustering model using K-Means that segmented customers based on demographic and behavioral characteristics.
+– Utilized Jupyter notebooks to create interactive visualizations of customer segments, enabling marketing teams to target high-value customers more effectively.
+– Achieved a 20% increase in sales revenue through targeted marketing campaigns.
+
+Predictive Modeling | R, Scikit-learn 2020
+– Developed regression models in Scikit-learn that predicted stock prices with an average error rate of 5%.
+– Utilized Tableau to create interactive visualizations of model performance, enabling stakeholders to monitor and improve model accuracy.
+– Achieved a 15% reduction in trading costs through optimized portfolio allocation.
+
+Data Visualization | Python, Matplotlib 2019
+– Created interactive visualizations using Jupyter notebooks that enabled users to explore large datasets more efficiently.
+– Utilized Pandas and NumPy to create data-intensive visualizations of user behavior, informing product development decisions.
+– Achieved a 25% increase in user engagement through optimized interface design.
+
+Education
+----------
+
+Bachelor's Degree in Statistics, University of California Berkeley
+
+Certifications
+--------------
+
+Certified Data Scientist (CDS), Data Science Council of America

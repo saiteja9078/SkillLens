@@ -1,0 +1,79 @@
+Avery J. Carson
+acarson@email.com
+https://www.linkedin.com/in/averyjcarson
+New York, NY
+
+
+Summary
+Technical Skills
+Experience
+Projects
+Education
+Certifications
+
+Julia F. Reynolds
+julialfreynolds@email.com
+https://www.linkedin.com/in/juliareynolds
+San Francisco, CA
+
+
+Summary
+As a seasoned Full Stack Engineer with 2 years of experience, I excel in crafting efficient and scalable web applications using cutting-edge technologies. Proficient in Node.js, TypeScript, and React, I thrive in collaborative environments where innovation meets problem-solving.
+
+
+Technical Skills
+
+Languages: JavaScript, Python
+Frameworks: Next.js, PyTorch
+Tools: Docker, AWS
+Databases: MongoDB, PostgreSQL
+APIs: GraphQL, REST APIs
+Version Control: Git
+CI/CD: Jenkins
+
+
+Experience
+
+Full Stack Engineer at NovaTech Inc. | Node.js, TypeScript, Express.js 2021-2023
+– Designed and implemented a real-time dashboard for tracking IoT device performance with a 95% reduction in latency.
+– Utilized Docker to containerize applications and enhance deployment efficiency by 30%.
+– Collaborated with the DevOps team to establish a CI/CD pipeline using Jenkins, resulting in a 99.9% deployment success rate.
+
+
+Senior Software Engineer at Apex Solutions | React, Next.js, Tailwind CSS 2020-2022
+– Developed a scalable e-commerce platform featuring a REST API, GraphQL schema, and integrated payment gateway.
+– Implemented caching with Redis to boost page load times by 45%, resulting in improved user experience.
+– Participated in code reviews and ensured adherence to coding standards, contributing to the team's overall efficiency.
+
+
+Full Stack Developer at CodeCraft Inc. | Python, Go, PostgreSQL 2019-2021
+– Built a data analytics platform with a PyTorch-based machine learning model, achieving an accuracy rate of 92%.
+– Designed and implemented a modular architecture for efficient database query optimization.
+– Collaborated with the QA team to identify and resolve critical bugs, ensuring timely product delivery.
+
+
+Projects
+
+Predictive Maintenance Platform | Node.js, MongoDB 2022
+– Developed a web application that predicts equipment failures using machine learning algorithms and real-time sensor data.
+– Utilized GraphQL schema and implemented REST APIs for seamless communication between microservices.
+
+Weather Forecasting System | Python, PostgreSQL 2021
+– Created a user-friendly interface for displaying weather forecasts based on historical climate patterns and current conditions.
+– Implemented a caching mechanism to reduce database queries and enhance application performance.
+
+
+Home Automation System | Go, Redis 2020
+– Built an IoT-based home automation system that integrates with various devices using REST APIs and GraphQL schema.
+– Utilized Docker to containerize the application, ensuring smooth deployment on multiple platforms.
+
+
+Education
+
+Bachelor of Science in Computer Science
+New York University
+
+
+Certifications
+
+CompTIA Security+ Certification

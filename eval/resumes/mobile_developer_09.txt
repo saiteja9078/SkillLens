@@ -1,0 +1,67 @@
+Kaitlyn J. Lee
+klee@gmail.com
+linkedin.com/in/kaitlynjlee
+New York, NY
+
+
+Summary
+--------------------------------------------------------
+
+Highly skilled mobile app developer with 3 years of experience in designing and developing scalable and efficient mobile applications for both iOS and Android platforms.
+
+Technical Skills
+--------------------------------------------------------
+
+Languages: Python, Java
+Frameworks: React Native, Flutter
+Tools: Docker, AWS, Firebase
+Databases: SQLite, Realm
+State Management: Redux
+
+Experience
+--------------------------------------------------------
+
+Senior Mobile App Developer at NovaTech | Swift, Kotlin, iOS 10.0-2022
+– Designed and developed a location-based mobile app for navigation and tracking using Core Location and MapKit.
+– Utilized Xcode to implement features like AR and object detection.
+– Resulted in a 30% increase in user engagement.
+
+Mobile App Developer at PixelPerfect | React Native, Android 9.0-2019
+– Built a social media platform for users with disabilities, incorporating accessibility features using the Firebase SDK.
+– Implemented State Management using Redux to ensure data consistency across multiple screens.
+– Achieved a 25% reduction in bounce rate due to improved user experience.
+
+Mobile App Developer at CodeCraft | Flutter, iOS 11.0-2018
+– Developed an e-commerce app for mobile devices, integrating payment gateways and inventory management systems.
+– Utilized the Firebase Realtime Database to manage data synchronization across multiple users.
+– Increased sales by 40% through effective marketing campaigns.
+
+Projects
+--------------------------------------------------------
+
+Location-Based Navigation App | Swift, Core Location 2020
+– Built a location-based navigation app for iOS devices using Core Location and MapKit.
+– Implemented features like AR and object detection using Xcode's built-in tools.
+– Achieved a 50% increase in user satisfaction due to improved navigation experience.
+
+Social Media Platform for Disabilities | React Native, Firebase 2019
+– Developed a social media platform for users with disabilities, incorporating accessibility features using the Firebase SDK.
+– Implemented State Management using Redux to ensure data consistency across multiple screens.
+– Resulted in a 25% increase in user engagement due to improved accessibility features.
+
+E-commerce App for Mobile Devices | Flutter, Firebase 2018
+– Built an e-commerce app for mobile devices, integrating payment gateways and inventory management systems.
+– Utilized the Firebase Realtime Database to manage data synchronization across multiple users.
+– Achieved a 40% increase in sales through effective marketing campaigns.
+
+Education
+--------------------------------------------------------
+
+Bachelor of Science in Computer Science
+University of New York at Buffalo
+
+Certifications
+--------------------------------------------------------
+
+Android Developer Certification, Google Cloud Platform
+Mobile App Development Certification, Apple Developer Academy

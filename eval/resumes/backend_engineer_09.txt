@@ -1,0 +1,58 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales
+New York, NY
+
+Summary
+
+Highly motivated and experienced Backend Engineer with 3 years of experience in designing, developing, and deploying scalable and efficient microservices using a range of technologies. Proven track record of improving system performance, reducing latency, and increasing user engagement.
+
+Technical Skills
+
+Languages: Python, Go, Java
+Frameworks: FastAPI, Django, Spring Boot
+Tools: Docker, AWS, Kafka
+Databases: PostgreSQL, MySQL, Redis
+
+Experience
+
+Backend Engineer at Greenify | Python, Flask, MongoDB 2021-2023
+– Improved system throughput by 30% and reduced latency by 25% through the implementation of load balancing and caching mechanisms.
+– Designed and developed a RESTful API using Flask that handled over 10 million requests per day with an average response time of under 50ms.
+– Collaborated with cross-functional teams to migrate a monolithic application to a microservices architecture, resulting in increased scalability and maintainability.
+
+Senior Backend Engineer at WeatherCast | Go, gRPC, PostgreSQL 2019-2021
+– Led the development of a real-time weather forecasting system that used machine learning algorithms and gRPC APIs to provide accurate and timely forecasts.
+– Implemented a message queue using Kafka that improved data processing efficiency by 40% and reduced queue size by 30%.
+– Collaborated with the DevOps team to implement automated testing and deployment processes, resulting in 99.9% uptime and increased developer productivity.
+
+Backend Engineer at EduLearn | Java, Spring Boot, MySQL 2018-2019
+– Designed and developed a web application that provided personalized learning recommendations to over 100,000 users using natural language processing and machine learning algorithms.
+– Implemented a real-time analytics dashboard using Redis that provided insights into user behavior and engagement metrics.
+– Collaborated with the QA team to implement automated testing processes, resulting in 95% reduction in test cycle time.
+
+Projects
+
+Personal Finance Manager | Python, Django, PostgreSQL 2020
+– Built a web application that allowed users to track their expenses and create budgets using machine learning algorithms to provide personalized financial recommendations.
+– Implemented data encryption and security measures using HTTPS and SSL/TLS protocols to ensure user data confidentiality.
+– Achieved an accuracy rate of 92% in predicting user spending habits.
+
+Weather Forecasting System | Go, gRPC, PostgreSQL 2019
+– Developed a real-time weather forecasting system that used machine learning algorithms and gRPC APIs to provide accurate and timely forecasts.
+– Implemented a message queue using Kafka that improved data processing efficiency by 40% and reduced queue size by 30%.
+– Achieved an accuracy rate of 95% in predicting weather patterns.
+
+E-learning Platform | Java, Spring Boot, MySQL 2018
+– Designed and developed a web application that provided personalized learning recommendations to over 100,000 users using natural language processing and machine learning algorithms.
+– Implemented a real-time analytics dashboard using Redis that provided insights into user behavior and engagement metrics.
+– Achieved an accuracy rate of 90% in predicting user learning outcomes.
+
+Education
+
+Bachelor of Science in Computer Science, New York University 2018
+
+Certifications
+
+AWS Certified Developer - Associate 2020
+Python Programming Certification, Python Institute 2019

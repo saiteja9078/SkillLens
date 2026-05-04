@@ -1,0 +1,63 @@
+Emily J. Wong
+ewong@email.com
+linkedin.com/in/emilyjwong
+San Francisco, CA
+
+Summary
+
+With a strong foundation in mobile app development and a passion for creating seamless user experiences, I am excited to bring my skills and expertise to a forward-thinking company.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: SQLite, Realm
+Platforms: iOS, Android
+Development Frameworks: React Native, Flutter
+Programming Languages: Swift, Kotlin, Dart
+State Management: Redux
+Firebase: Firebase Cloud Functions, Firebase Realtime Database
+
+Experience
+
+Mobile App Developer at GreenTech Inc. | React Native, Node.js 2022-2023
+– Improved app performance by 30% through optimization of API calls and database queries.
+– Implemented a new feature using Firebase Cloud Functions to reduce latency and increase user engagement.
+– Collaborated with cross-functional teams to launch the company's first mobile app, resulting in a 25% increase in sales.
+
+Senior Mobile App Developer at CodeCraft Co. | Swift, Kotlin 2021-2022
+– Designed and developed an e-commerce app for iOS and Android using Flutter, resulting in a 40% increase in conversions.
+– Implemented a robust authentication system using Realm to improve user security.
+– Worked closely with the QA team to identify and resolve bugs, reducing the average bug resolution time by 50%.
+
+Mobile App Developer at AppHub Inc. | React Native, Firebase 2020-2021
+– Built a social media app for iOS and Android using React Native, featuring real-time updates and a robust commenting system.
+– Implemented a scalable architecture using Docker and AWS to handle large traffic spikes during peak hours.
+– Collaborated with the design team to create a visually appealing UI/UX that resulted in a 25% increase in user engagement.
+
+Projects
+
+Weather App | Python, Flask 2020
+– Built a web-based weather app using Python and Flask, featuring real-time updates and location-based forecasts.
+– Implemented data visualization using PyTorch to display weather patterns and trends.
+– Utilized AWS to host the backend infrastructure and handle large amounts of user requests.
+
+To-Do List App | Swift, Firebase 2021
+– Created a task management app for iOS using Swift and Firebase, featuring real-time updates and collaboration features.
+– Implemented data persistence using Realm to store and retrieve task lists efficiently.
+– Utilized Redux for state management to ensure seamless updates across the app.
+
+Quiz Game App | Kotlin, Android Studio 2022
+– Developed an educational quiz game app for Android using Kotlin and Android Studio, featuring adaptive difficulty levels and real-time scoring.
+– Implemented data storage using SQLite to store user progress and high scores.
+– Utilized Firebase Cloud Functions to generate quizzes dynamically based on user preferences.
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+Graduated: June 2020
+
+Certifications
+
+Certified Mobile App Developer (CMAD), Google Developers Certification Program

@@ -1,0 +1,59 @@
+Astrid Jensen
+astrid.jensen@email.com
+https://www.linkedin.com/in/astrid-jensen/
+San Francisco, CA
+
+
+Summary
+As a seasoned Mobile App Developer with 4 years of experience in designing and developing scalable and efficient mobile applications, I leverage my expertise to build cutting-edge solutions for top companies. Proficient in cross-platform development with React Native, Flutter, and native iOS/Android platforms.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+
+Experience
+
+Senior Mobile App Developer at TechSphere Inc. | Swift, Kotlin, Dart 2020-2022
+– Developed a high-performance mobile app for managing supply chain logistics, resulting in a 25% increase in user engagement.
+– Utilized Redux and State Management to implement complex state transitions and efficient data processing.
+– Collaborated with cross-functional teams to launch the app on both iOS and Android platforms.
+
+Mobile App Developer at Nova Apps | React Native, Firebase, SQLite 2018-2020
+– Designed and developed a mobile marketplace app, achieving an average rating of 4.5/5 stars within the first six weeks of release.
+– Implemented real-time updates using Firebase's Cloud Functions and Firestore Database.
+– Worked with QA team to identify and resolve critical issues, ensuring high-quality releases.
+
+Junior Mobile App Developer at CodeCraft | Flutter, Android Studio, Realm 2016-2018
+– Contributed to the development of a mobile app for tracking employee well-being, featuring personalized wellness plans and social features.
+– Implemented data encryption using Realm's secure storage capabilities.
+– Collaborated with designers to create intuitive UI/UX experiences.
+
+Projects
+
+Employee Tracker | Flutter, Android Studio, SQLite 2020
+– Built an enterprise-level mobile app for managing employee attendance and time-off requests.
+– Utilized Firebase Authentication for secure user management and SQLite for efficient data storage.
+– Achieved a 30% reduction in administrative tasks with the implementation of automated reporting.
+
+Personal Finance Manager | React Native, Firebase, Realm 2019
+– Designed a mobile app for tracking personal expenses and income, featuring AI-driven budgeting recommendations.
+– Implemented real-time data synchronization using Firebase's Cloud Firestore and Realm's secure storage capabilities.
+– Achieved an average user rating of 4.8/5 stars.
+
+Weather Watch | Swift, Xcode, Firebase 2017
+– Developed a mobile app for providing real-time weather forecasts and historical climate data.
+– Utilized Firebase's Cloud Functions for server-side logic and Firestore Database for efficient data storage.
+– Featured in the App Store's "Best New Apps" category.
+
+
+Education
+
+Bachelor of Science in Computer Science, San Francisco State University
+
+
+Certifications
+
+Google Certified Android Developer

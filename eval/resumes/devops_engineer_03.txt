@@ -1,0 +1,58 @@
+Emily J. Chen
+echen@gmail.com
+https://www.linkedin.com/in/emilyjchen/
+New York, NY
+
+
+Summary
+
+Results-driven DevOps Engineer with 3 years of experience in designing and implementing scalable cloud infrastructure using Kubernetes, Docker, and Terraform. Proven track record of improving deployment efficiency by up to 50% through automation and CI/CD pipelines.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, GCP, Azure, Jenkins, GitHub Actions, Prometheus, Grafana
+Operating Systems: Linux
+Scripting Languages: Bash
+
+
+Experience
+
+DevOps Engineer at NovaTech | Kubernetes, Docker, Terraform 2020-2022
+– Successfully deployed a highly available web application on Google Cloud Platform using Kubernetes and Terraform, resulting in a 30% reduction in deployment time.
+– Implemented a CI/CD pipeline using Jenkins and GitHub Actions to automate testing and deployment of microservices.
+– Collaborated with the development team to improve monitoring and logging using Prometheus and Grafana.
+
+DevOps Engineer at Apex Solutions | AWS, Ansible 2019-2020
+– Designed and implemented an automated deployment process for containerized applications on Amazon Web Services using Terraform and Ansible.
+– Improved application performance by up to 25% through optimization of AWS resources and configuration.
+– Collaborated with the operations team to implement a centralized logging and monitoring system using ELK Stack.
+
+Junior DevOps Engineer at CodeFest | Azure, Helm 2018-2019
+– Assisted in deploying a highly available database on Microsoft Azure using Terraform and Helm.
+– Implemented automated backups and disaster recovery procedures for critical applications.
+– Participated in the development of an internal tool for monitoring and optimizing application performance.
+
+
+Projects
+
+Kubernetes Cluster Autoscaler | Kubernetes, Python 2020
+– Built a custom Kubernetes cluster autoscaler to dynamically adjust node resources based on workload demand.
+– Achieved up to 30% reduction in resource utilization through automated scaling.
+
+Cloudformation-Based CI/CD Pipeline | AWS, Terraform 2019
+– Designed and implemented an automated CI/CD pipeline using CloudFormation and Terraform for deploying cloud infrastructure.
+– Improved deployment efficiency by up to 40% through automation of provisioning and configuration.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified DevOps Engineer - Professional
+Google Cloud Platform Certified Professional Cloud Developer

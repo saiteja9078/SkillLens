@@ -1,0 +1,50 @@
+Ava Morales
+amorales@example.com
+https://www.linkedin.com/in/avamoralesds
+San Francisco, CA
+
+
+Summary
+As a seasoned data scientist with 7 years of experience, I excel in driving business growth through data-driven insights and strategic recommendations. Proven track record of developing and implementing predictive models, A/B testing, and statistical analysis to optimize customer engagement and revenue.
+
+Technical Skills
+
+Languages: Python, R
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Tableau
+
+Experience
+
+Senior Data Scientist at FinTechCo | SQL, Pandas, NumPy 2019-2022
+– Developed and deployed a predictive model to forecast customer churn, resulting in a 25% reduction in attrition rate.
+– Collaborated with cross-functional teams to design and implement A/B testing framework for feature rollouts, achieving an average uplift of 12%.
+– Implemented regression analysis to optimize marketing campaigns, increasing ROI by 15%.
+
+Data Scientist at HealthCarePlus | Python, Scikit-learn, Matplotlib 2017-2019
+– Built and trained a classification model using imbalanced data to identify high-risk patients, reducing hospital readmissions by 20%.
+– Created interactive visualizations using Tableau to communicate insights to stakeholders, improving decision-making.
+– Conducted A/B testing to optimize patient engagement campaigns, resulting in a 30% increase in appointment bookings.
+
+Data Analyst at StartUpX | R, Jupyter, SQL 2015-2017
+– Developed and maintained dashboards to track key performance indicators, providing real-time insights to leadership.
+– Analyzed customer purchase behavior using regression analysis and clustering techniques, informing product development decisions.
+– Collaborated with product team to design and launch a new feature, resulting in a 25% increase in sales.
+
+Projects
+
+Personal Finance Tracker | Python, Pandas 2018
+– Developed an interactive web application to track personal expenses, income, and budget using PyTorch for data visualization.
+– Implemented machine learning algorithms to predict user spending habits, providing actionable insights for financial planning.
+
+Marketing Campaign Optimizer | R, Scikit-learn 2020
+– Built a predictive model to forecast campaign effectiveness, informing resource allocation decisions.
+– Conducted A/B testing to optimize email marketing campaigns, achieving an average uplift of 15% in engagement metrics.
+
+Education
+
+Master of Science in Data Science, Stanford University 2015
+Bachelor of Arts in Mathematics, University of California, Berkeley 2013
+
+Certifications
+
+Certified Data Scientist, Data Science Council of America 2020

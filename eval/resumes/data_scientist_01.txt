@@ -1,0 +1,72 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales
+San Francisco, CA
+
+
+Summary
+-----------------
+
+Highly motivated and detail-driven Data Scientist with 1 year of experience in driving business growth through data analysis and insights. Proven track record of developing predictive models and visualizations that inform strategic decisions.
+
+Technical Skills
+----------------
+
+Languages: Python, R
+Frameworks: PyTorch, scikit-learn
+Tools: Docker, AWS, Tableau
+Databases: MySQL, PostgreSQL
+Statistics: Regression, Classification, A/B Testing
+Machine Learning: Scikit-learn, TensorFlow
+Visualization: Matplotlib, Seaborn, Plotly
+
+
+Experience
+----------------
+
+Data Scientist at NovaTech | Python, PyTorch, SQL 2022-2023
+– Developed and deployed a predictive model for customer churn using PyTorch and scikit-learn, resulting in a 25% reduction in churn rate
+– Utilized SQL to analyze customer behavior and identify areas of improvement in the company's retention strategy
+– Collaborated with cross-functional teams to integrate data insights into business decisions, leading to a 15% increase in revenue
+
+Data Analyst at Catalyst Inc. | R, Tableau, MySQL 2021-2022
+– Designed and implemented A/B testing framework using R and SQL, resulting in a 12% increase in conversion rate
+– Developed data visualizations using Tableau to communicate complex insights to stakeholders, improving decision-making by 30%
+– Worked closely with the marketing team to optimize campaigns based on data-driven recommendations
+
+Business Intelligence Developer at FusionPoint | Python, Jupyter, Pandas 2020-2021
+– Built and maintained data pipelines using Python and Pandas to ensure accurate and timely data delivery
+– Utilized scikit-learn for predictive modeling and classification tasks, achieving a 90% accuracy rate
+– Collaborated with the product team to integrate data insights into product development, resulting in a 20% increase in customer satisfaction
+
+
+Projects
+----------------
+
+Predicting Stock Prices | Python, PyTorch, NumPy 2022
+– Developed a deep learning model using PyTorch and NumPy to predict stock prices, achieving an 85% accuracy rate
+– Utilized NumPy for efficient numerical computations and data manipulation
+– Results showed significant improvement in prediction accuracy over traditional methods
+
+Analyzing Customer Behavior | R, SQL, Tableau 2021
+– Designed a database schema using SQL to store customer behavior data
+– Developed data visualizations using Tableau to communicate complex insights to stakeholders
+– Utilized A/B testing framework to identify areas of improvement in the company's retention strategy
+
+Time Series Forecasting | Python, Pandas, Matplotlib 2020
+– Built and maintained a time series forecasting model using Pandas and Matplotlib to predict sales trends
+– Utilized scikit-learn for regression tasks, achieving a 95% accuracy rate
+– Results showed significant improvement in prediction accuracy over traditional methods
+
+
+Education
+----------------
+
+Master of Science in Data Science, Stanford University 2020
+Bachelor of Science in Computer Science, University of California, Berkeley 2018
+
+
+Certifications
+----------------
+
+Certified Data Scientist, Data Science Council of America (DASCA) 2022

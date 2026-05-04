@@ -1,0 +1,67 @@
+Ava Moreno
+amoreno@email.com
+linkedin.com/in/avamoreno
+New York, NY
+
+Summary
+
+
+As a seasoned Full Stack Engineer with 7 years of experience, I possess a unique blend of technical expertise and business acumen. Proficient in a wide range of technologies, I excel at designing, developing, and deploying scalable web applications. My passion lies in crafting innovative solutions that meet the evolving needs of modern businesses.
+
+Technical Skills
+
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Database Management Systems: MongoDB, PostgreSQL
+Front-end Development: React, Next.js
+Back-end Development: Node.js, Express.js
+State Management: Redux, GraphQL
+CSS Frameworks: Tailwind CSS
+Version Control: Git
+CI/CD Tools: Jenkins
+
+Experience
+
+
+Senior Full Stack Engineer at NovaTech | Node.js, React, TypeScript 2020-2022
+– Designed and implemented a real-time analytics platform for e-commerce clients, achieving a 30% increase in sales conversions within the first six months of deployment.
+– Developed a robust REST API using Express.js to handle high traffic volumes and ensure seamless data integration with multiple third-party services.
+– Collaborated with cross-functional teams to launch a cloud-based SaaS application, resulting in a 25% reduction in operational costs.
+
+Full Stack Developer at Apex Solutions | Python, Django, PostgreSQL 2018-2020
+– Built a machine learning-powered chatbot for customer support, achieving an 80% success rate in resolving user inquiries within the first month of launch.
+– Designed and implemented a scalable data warehouse using MongoDB to store and analyze large datasets from multiple sources.
+– Contributed to the development of a web-based project management tool, resulting in a 40% reduction in project delivery times.
+
+Junior Full Stack Engineer at Zenith Technologies | JavaScript, React, Redux 2016-2018
+– Developed a mobile-friendly e-commerce website using Next.js and Tailwind CSS, achieving a 25% increase in sales within the first three months of launch.
+– Designed and implemented a real-time commenting system using Redis to handle high traffic volumes and ensure seamless user interactions.
+– Collaborated with senior engineers to develop a cloud-based CRM application, resulting in a 20% reduction in operational costs.
+
+Projects
+
+
+E-commerce Analytics Platform | Node.js, React, GraphQL 2021
+– Built a real-time analytics platform for e-commerce clients using Node.js, React, and GraphQL, providing actionable insights on sales trends, customer behavior, and marketing effectiveness.
+– Utilized Amazon Web Services to deploy the application, leveraging AWS Lambda functions and API Gateway for serverless architecture.
+
+Machine Learning-powered Chatbot | Python, Django, MongoDB 2019
+– Developed a machine learning-powered chatbot using Python and Django to provide personalized customer support and recommendations to e-commerce clients.
+– Trained and integrated multiple machine learning models using PyTorch to achieve high accuracy in resolving user inquiries.
+
+Personal Finance Tracker | JavaScript, React, Redux 2017
+– Built a personal finance tracking application using JavaScript, React, and Redux, providing users with real-time budgeting insights and financial recommendations.
+– Utilized MongoDB to store and analyze user data, leveraging Docker containers for efficient deployment and scalability.
+
+Education
+
+
+Bachelor of Science in Computer Science, New York University, 2016
+
+Certifications
+
+
+AWS Certified Developer - Associate
+Git Certified Developer

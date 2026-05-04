@@ -1,0 +1,63 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales/
+New York, NY
+
+
+Summary
+
+Highly skilled Backend Engineer with 8 years of experience in designing and developing scalable, efficient, and secure software systems. Proven expertise in leading technical teams and driving innovation through the adoption of cutting-edge technologies.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: FastAPI, Spring Boot
+Tools: Docker, AWS
+Databases: PostgreSQL, MySQL, Redis
+Message Brokers: Kafka
+Communication Protocols: REST APIs, gRPC
+Operating Systems: Linux
+
+
+Experience
+
+Senior Backend Engineer at NovaTech | Java, PyTorch, Apache Kafka 2018-2022
+– Designed and implemented a real-time data processing pipeline that increased throughput by 300% and reduced latency by 50%.
+– Utilized PyTorch to develop a machine learning model that improved prediction accuracy by 25%.
+– Led a team of three engineers in developing a microservices-based architecture that enabled scalable deployment and reduced downtime by 90%.
+
+Backend Engineer at Apex Inc. | Go, PostgreSQL, gRPC 2015-2018
+– Developed a high-performance API gateway using Go and gRPC that increased request throughput by 400%.
+– Implemented a caching layer using Redis to improve application performance by 30%.
+– Collaborated with cross-functional teams to design and implement a cloud-based infrastructure using AWS.
+
+Backend Developer at ZetaSoft | Python, Django, MySQL 2012-2015
+– Built a web application using Django that handled over 10,000 concurrent users with minimal downtime.
+– Utilized PostgreSQL as the primary database and implemented data warehousing using Amazon Redshift.
+
+
+Projects
+
+Real-Time Analytics Platform | PyTorch, Apache Kafka, Docker 2020
+– Developed a real-time analytics platform that leveraged PyTorch for machine learning model training and Apache Kafka for event processing.
+– Implemented a containerization strategy using Docker to enable efficient deployment and scaling.
+
+Personal Finance Manager | Go, PostgreSQL, gRPC 2019
+– Built a personal finance management application that integrated with bank APIs using gRPC and stored user data in a secure PostgreSQL database.
+– Utilized Redis as an in-memory caching layer to improve application performance.
+
+Home Automation System | Python, Django, MySQL 2017
+– Developed a home automation system that integrated with IoT devices using Django and stored sensor data in a MySQL database.
+– Implemented a RESTful API using Django Rest Framework for device control and monitoring.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Solutions Architect - Associate
+Python Institute's Python Programming Certification

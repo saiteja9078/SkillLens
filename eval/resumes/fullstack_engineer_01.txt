@@ -1,0 +1,62 @@
+Ariana V. Jensen
+arijensen@email.com
+linkedin.com/in/arianavjensen
+San Francisco, CA
+
+
+Summary
+
+Results-driven Full Stack Engineer with a passion for building scalable and efficient web applications. Proven expertise in designing and implementing robust backend systems using Node.js, Express.js, and MongoDB.
+
+Technical Skills
+
+Languages: Python, TypeScript
+Frameworks: Next.js, FastAPI
+Tools: Docker, AWS, Git, Redis
+Databases: PostgreSQL, MongoDB
+APIs: GraphQL, REST APIs
+Frontend: React, Tailwind CSS
+
+
+Experience
+
+Full Stack Engineer at NovaTech | Node.js, Express.js, MongoDB 2022-2023
+– Successfully implemented a real-time analytics dashboard for a major e-commerce platform, resulting in a 25% increase in sales conversions.
+– Designed and developed a microservices-based architecture using Docker and Kubernetes to improve application scalability and reliability.
+– Collaborated with cross-functional teams to launch new features and services, reducing time-to-market by 30%.
+
+Junior Engineer at CodeCraft | TypeScript, React, PostgreSQL 2021-2022
+– Contributed to the development of a web-based project management tool using Next.js and GraphQL, achieving a 95% customer satisfaction rate.
+– Implemented caching mechanisms using Redis to improve application performance and reduce latency.
+– Worked with QA engineers to identify and resolve bugs, resulting in a 50% reduction in defects.
+
+Software Engineer at FusionForge | Python, PyTorch, MongoDB 2020-2021
+– Designed and developed an AI-powered chatbot for customer support using PyTorch and GraphQL, achieving a 90% accuracy rate.
+– Developed a data pipeline to ingest and process large datasets from various sources, resulting in a 30% improvement in data processing speed.
+
+
+Projects
+
+Weather API | Node.js, Express.js, MongoDB 2022
+– Built a RESTful API for retrieving current and forecasted weather data using OpenWeatherMap API and MongoDB.
+– Implemented authentication and rate limiting mechanisms to ensure secure access to the API.
+
+Personal Finance Tracker | React, Next.js, Tailwind CSS 2021
+– Developed a web-based application for tracking personal expenses and income using Next.js and GraphQL.
+– Integrated with popular financial APIs to retrieve transaction data and display on the dashboard.
+
+Social Network Analysis | Python, PyTorch, PostgreSQL 2020
+– Built a tool for analyzing social network structures and relationships using PyTorch and PostgreSQL.
+– Visualized complex networks using graph algorithms and libraries.
+
+
+Education
+
+Bachelor of Science in Computer Science
+University of California, Berkeley
+
+
+Certifications
+
+CompTIA Cloud+ Certification
+Google Cloud Certified - Professional Data Engineer

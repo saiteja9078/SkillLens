@@ -1,0 +1,62 @@
+Aidan R. Mullen
+amullen@mlengineer.com
+linkedin.com/in/aidanrmullen
+San Francisco, CA
+
+
+Summary
+
+Highly motivated and experienced Machine Learning Engineer with a strong background in deep learning and natural language processing. Proven track record of delivering high-quality projects on time and exceeding expectations.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, TensorFlow
+Tools: Docker, Kubernetes
+Libraries: Scikit-learn, Pandas, NumPy
+Specializations: NLP, Computer Vision, MLOps
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech | PyTorch, TensorFlow 2020-2022
+– Developed and deployed a real-time sentiment analysis model for customer feedback with an accuracy of 92.5% and a latency of less than 50ms.
+– Utilized Hugging Face Transformers to implement state-of-the-art NLP techniques and achieved a significant reduction in model size without compromising performance.
+– Collaborated with the DevOps team to integrate the model into a Kubernetes cluster using MLflow for model monitoring and tracking.
+
+Machine Learning Engineer at Apex Systems | Scikit-learn, Pandas 2019-2020
+– Designed and implemented an object detection system using computer vision techniques that achieved a precision of 95.2% on the COCO dataset.
+– Built a recommender system using collaborative filtering and matrix factorization that resulted in a 25% increase in sales for our client.
+– Contributed to the development of a cloud-agnostic MLOps pipeline using Docker and Kubernetes.
+
+Junior Machine Learning Engineer at Catalyst AI | PyTorch, TensorFlow 2018-2019
+– Developed a chatbot using sequence-to-sequence models that achieved an F1 score of 85.6% on the DSTC2 dataset.
+– Built a data preprocessing pipeline using Pandas and NumPy that reduced processing time by 30%.
+– Collaborated with the research team to explore new applications of deep learning in computer vision.
+
+
+Projects
+
+Image Captioning Model | PyTorch, ONNX 2020
+– Developed a PyTorch model that generates image captions with an accuracy of 88.2% on the COCO dataset.
+– Utilized ONNX to export the model for deployment on Android devices and achieved a latency of less than 100ms.
+
+Emotion Recognition System | TensorFlow, Scikit-learn 2019
+– Built a system that recognizes human emotions from facial expressions with an accuracy of 91.5% on the FER dataset.
+– Implemented a real-time emotion recognition module using OpenCV and achieved a frame rate of 30fps.
+
+Speech-to-Text Model | PyTorch, Hugging Face 2021
+– Developed a PyTorch model that achieves a word error rate of 12.3% on the LibriSpeech dataset.
+– Utilized Hugging Face Transformers to implement state-of-the-art speech recognition techniques and achieved a significant reduction in model size without compromising performance.
+
+
+Education
+
+Bachelor's Degree in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Cloud Certified - Professional Data Engineer
+AWS Certified - Developer - Associate

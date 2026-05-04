@@ -1,0 +1,67 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesds
+San Francisco, CA
+
+
+Summary
+
+Results-driven data scientist with 5 years of experience driving business growth through data-driven decision making. Proven track record of delivering high-impact projects that improve customer engagement and drive revenue.
+
+
+Technical Skills
+
+Languages: Python, R
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: MySQL, PostgreSQL
+Libraries: Pandas, NumPy, Scikit-learn
+Visualization Tools: Matplotlib, Jupyter, Tableau
+
+
+Experience
+
+Data Scientist at NovaTech | SQL, Python 2018-2022
+– Improved customer churn rate by 25% through A/B testing and regression analysis of user behavior data.
+– Developed a predictive model using PyTorch that accurately forecasted sales by 12%.
+– Implemented a data visualization dashboard in Tableau to improve business insights for stakeholders.
+
+
+Senior Data Analyst at Apex Solutions | R, SQL 2017-2018
+– Analyzed customer purchase patterns and developed recommendations for product placement, resulting in a 15% increase in sales.
+– Conducted A/B testing of marketing campaigns using Scikit-learn and reported results to senior management.
+– Developed a data pipeline using Docker that improved data processing time by 30%.
+
+
+Data Analyst at Insightful Analytics | Python, SQL 2016-2017
+– Built a classification model using Scikit-learn that accurately predicted customer response rates by 20%.
+– Created interactive visualizations in Matplotlib to communicate results to stakeholders.
+– Collaborated with cross-functional teams to develop data-driven strategies for business growth.
+
+
+Projects
+
+Customer Segmentation Analysis | Python, Pandas 2020
+– Built a predictive model using clustering algorithms and evaluated its performance using metrics such as silhouette score and calinski-harabasz index.
+– Developed a dashboard in Jupyter Notebook to visualize cluster characteristics and customer demographics.
+
+Time Series Forecasting Model | R, ARIMA 2019
+– Built an ARIMA model that accurately forecasted sales by 10% over the next quarter.
+– Conducted sensitivity analysis of parameters using simulations and reported results to stakeholders.
+
+
+Recommendation Engine | Python, Scikit-learn 2018
+– Developed a recommendation engine that suggested products to customers based on their purchase history and browsing behavior.
+– Implemented collaborative filtering using matrix factorization and evaluated its performance using metrics such as precision and recall.
+
+
+Education
+
+Master of Science in Data Science, University of California, Berkeley
+Bachelor of Arts in Statistics, Stanford University
+
+
+Certifications
+
+Certified Data Scientist, Data Science Council of America (DASCA)
+Certified Analytics Professional, Institute for Operations Research and the Management Sciences (INFORMS)

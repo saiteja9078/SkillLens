@@ -1,0 +1,66 @@
+Avinash Ranganathan
+aranganathan@email.com
+linkedin.com/in/avinash-ranganathan-ml
+San Francisco, CA
+
+
+Summary
+
+Results-driven Machine Learning Engineer with 5 years of experience in developing and deploying scalable AI models across various industries. Proven track record of improving model accuracy by up to 25% through efficient hyperparameter tuning and data preprocessing techniques.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Kubernetes
+Libraries: TensorFlow, Scikit-learn, NumPy, Pandas
+Specializations: NLP, Computer Vision, MLOps, Hugging Face, ONNX, MLflow
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech | PyTorch, TensorFlow 2019-2022
+– Improved model accuracy by 22% through the use of transfer learning and data augmentation techniques.
+– Implemented a containerization strategy using Docker to deploy models in production environments.
+– Collaborated with cross-functional teams to integrate ML-based recommendations into the company's e-commerce platform.
+
+Machine Learning Engineer at Apex Analytics | Scikit-learn, Pandas 2018-2019
+– Developed a predictive model that reduced customer churn by 15% through personalized product recommendations.
+– Utilized Jupyter notebooks and data visualization tools to communicate insights to stakeholders.
+– Worked with the DevOps team to integrate ML models into existing applications using APIs.
+
+Machine Learning Engineer at Insight Labs | PyTorch, ONNX 2017-2018
+– Built a computer vision model that achieved 90% accuracy in detecting defects on manufacturing equipment.
+– Utilized Hugging Face's Transformers library for NLP tasks and saw a 20% improvement in sentiment analysis results.
+– Collaborated with data scientists to develop and deploy models using MLflow.
+
+
+Projects
+
+Image Captioning Model | PyTorch, ONNX 2020
+– Developed a PyTorch-based image captioning model that achieved 85% accuracy on the COCO dataset.
+– Utilized Hugging Face's Transformers library for text preprocessing and generated captions with high accuracy.
+– Deployed the model using MLflow and monitored performance metrics in real-time.
+
+Predictive Maintenance Model | Scikit-learn, Pandas 2019
+– Developed a predictive maintenance model that reduced equipment downtime by 10% through anomaly detection techniques.
+– Utilized Jupyter notebooks to visualize data and communicate insights to stakeholders.
+– Worked with the operations team to integrate the model into existing workflows using APIs.
+
+NLP-based Sentiment Analysis Model | PyTorch, ONNX 2018
+– Built a PyTorch-based NLP model that achieved 95% accuracy in sentiment analysis tasks.
+– Utilized Hugging Face's Transformers library for text preprocessing and saw a 20% improvement in results.
+– Deployed the model using MLflow and monitored performance metrics in real-time.
+
+
+Education
+
+Master of Science in Computer Science, Stanford University 2017
+Bachelor of Technology in Computer Science, Indian Institute of Technology 2015
+
+
+Certifications
+
+Certified Machine Learning Engineer (CMLE) by Data Science Council of America (DASCA)
+AWS Certified Developer - Associate

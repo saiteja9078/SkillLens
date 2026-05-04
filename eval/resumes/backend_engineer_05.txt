@@ -1,0 +1,66 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales/
+New York, NY
+
+
+Summary
+------------------
+
+Highly motivated and detail-oriented Backend Engineer with 5 years of experience in designing and developing scalable microservices-based architectures using Java, Python, and Go. Proven track record of delivering high-performance applications that meet business requirements.
+
+Technical Skills
+----------------
+
+Languages: Python, Go
+Frameworks: FastAPI, Django
+Tools: Docker, AWS, Kubernetes
+Databases: PostgreSQL, MySQL
+Message Queue: Kafka
+Cache: Redis
+
+
+Experience
+-------------
+
+Backend Engineer at NovaTech | Java, Spring Boot 2018-2022
+– Improved the performance of a critical customer-facing API by 30% through caching and load balancing.
+– Collaborated with cross-functional teams to design and implement a new microservices-based architecture using Docker and Kubernetes.
+– Successfully migrated a large-scale application from on-premise to cloud-based infrastructure, reducing costs by 25%.
+
+Backend Engineer at Echo Systems | Python, Django 2016-2018
+– Developed a real-time analytics platform that processed over 10 million events per hour using Apache Kafka and Redis.
+– Worked with the QA team to implement automated testing frameworks for backend APIs.
+– Contributed to the design of a scalable data pipeline using Airflow and PostgreSQL.
+
+Software Engineer at Apex Solutions | Go, gRPC 2015-2016
+– Built a high-performance API gateway using Google's Protocol Buffers (gRPC) that increased throughput by 50%.
+– Collaborated with the DevOps team to implement a CI/CD pipeline using Jenkins and Docker.
+– Contributed to the design of a distributed caching layer using Redis and Memcached.
+
+
+Projects
+------------
+
+E-commerce Search Engine | Python, Elasticsearch 2020
+– Built a search engine for e-commerce applications that returned results in under 50ms using Elasticsearch and Apache Lucene.
+– Implemented real-time indexing and caching using Redis to improve performance.
+
+Social Media Analytics Platform | Go, gRPC 2019
+– Developed a high-performance analytics platform that processed over 1 million events per minute using Kafka and Redis.
+– Worked with the DevOps team to implement automated testing frameworks for backend APIs.
+
+Weather API | Java, Spring Boot 2018
+– Built a real-time weather API that returned data in under 200ms using PostgreSQL and Apache HttpClient.
+
+
+Education
+------------
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+---------------
+
+AWS Certified Developer - Associate

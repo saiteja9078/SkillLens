@@ -1,0 +1,59 @@
+Emily J. Wilson
+emily.wilson@email.com
+linkedin.com/in/emilyjwilson
+San Francisco, CA
+
+
+Summary
+As a detail-oriented and innovative Machine Learning Engineer with 1 year of experience, I excel in designing and developing cutting-edge AI solutions that drive business growth.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, TensorFlow
+Tools: Docker, AWS, Kubernetes
+Machine Learning Libraries: Scikit-learn, Hugging Face Transformers
+Other: NumPy, Pandas, MLflow
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech Inc. | Python, PyTorch 2022-2023
+– Improved model accuracy by 30% through hyperparameter tuning using Optuna and Bayesian optimization.
+– Developed a computer vision system for object detection that achieved an mAP of 92.5% on the COCO dataset.
+– Implemented MLOps with MLflow and Docker, enabling seamless deployment to production environments.
+
+Machine Learning Engineer at ApexAI Labs | Python, TensorFlow 2021-2022
+– Built a natural language processing (NLP) model for sentiment analysis that achieved an F1 score of 0.88 on the Stanford Sentiment Treebank dataset.
+– Created a data pipeline using Apache Beam and Google Cloud Storage to process large-scale datasets.
+– Collaborated with cross-functional teams to integrate AI-powered recommendations into the company's e-commerce platform.
+
+Junior Machine Learning Engineer at CogWorks Inc. | Python, Scikit-learn 2021
+– Developed a recommender system for e-commerce products that increased customer engagement by 25%.
+– Worked on a project to classify medical images using deep learning techniques and achieved an accuracy of 95%.
+– Contributed to the development of a chatbot powered by NLP and Hugging Face Transformers.
+
+
+Projects
+
+Image Classification with PyTorch | Python, PyTorch 2021
+– Developed a convolutional neural network (CNN) that achieved an accuracy of 98% on the CIFAR-10 dataset.
+– Implemented transfer learning using pre-trained models and fine-tuning for improved performance.
+
+Speech Recognition System using TensorFlow | Python, TensorFlow 2022
+– Built a deep learning-based speech recognition system that achieved a word error rate of 5.1% on the LibriSpeech dataset.
+– Utilized ONNX to convert the model for deployment on mobile devices.
+
+Facial Recognition with Hugging Face Transformers | Python, Hugging Face Transformers 2023
+– Developed a facial recognition system using Hugging Face Transformers that achieved an accuracy of 99.2%.
+– Implemented data augmentation and pre-processing techniques for improved performance.
+
+
+Education
+
+Bachelor's in Computer Science, Stanford University 2018-2022
+
+
+Certifications
+
+Certified Machine Learning Engineer (CMLE), Data Science Council of America (DASCA)

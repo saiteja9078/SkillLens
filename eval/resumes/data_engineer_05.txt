@@ -1,0 +1,64 @@
+Julia Alexandra Rodriguez
+julia.rodriguez@email.com
+https://www.linkedin.com/in/juliaarodriguez
+New York, NY
+
+
+Summary
+------------------
+
+Highly skilled data engineer with 5 years of experience in designing, developing, and deploying large-scale data pipelines using Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, Python, and AWS Glue. Proven track record of delivering high-quality solutions that meet business requirements while ensuring scalability, reliability, and efficiency.
+
+Technical Skills
+-----------------
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+Experience
+------------
+
+Senior Data Engineer at Acme Inc. | Apache Spark, Kafka, Airflow 2019-2022
+– Designed and developed a real-time data ingestion pipeline using Apache Kafka, Apache Spark, and AWS Glue that processed over 10TB of data per day, resulting in a 30% reduction in data processing time.
+– Implemented ETL/ELT processes using dbt and Snowflake to transform and load data into Redshift for business analytics, improving query performance by 50%.
+– Collaborated with cross-functional teams to design and deploy a data warehousing solution using AWS Glue and Delta Lake that reduced costs by 25% while increasing data quality.
+
+Data Engineer at Byte-Sized | Apache Spark, Kafka, Airflow 2017-2019
+– Developed a data pipeline using Apache Spark, Kafka, and Airflow to process IoT sensor data, resulting in a 90% reduction in data latency.
+– Implemented a data modeling framework using dbt that transformed raw data into actionable insights for business stakeholders, improving data quality by 85%.
+– Integrated BigQuery with Apache Beam to perform real-time data processing and analysis.
+
+Data Engineer at DataDash | Apache Spark, Kafka, Airflow 2015-2017
+– Designed and developed a data pipeline using Apache Spark, Kafka, and Airflow that processed over 1TB of data per hour for a leading e-commerce company.
+– Implemented a data governance framework using Snowflake and dbt to ensure data quality, security, and compliance.
+– Collaborated with the data science team to develop predictive models using PyTorch and FastAPI.
+
+Projects
+------------
+
+Real-Time Stock Price Tracker | Apache Spark, Kafka, Python 2020
+– Built a real-time stock price tracker that used Apache Spark and Kafka to process financial market data and provide instant insights for traders.
+– Implemented a web interface using FastAPI to visualize real-time stock prices and trading volumes.
+– Achieved an accuracy of 95% in predicting stock price movements within 1 minute of market close.
+
+Predictive Maintenance System | Apache Beam, BigQuery, Python 2019
+– Developed a predictive maintenance system that used Apache Beam and BigQuery to process sensor data from industrial equipment and predict potential failures.
+– Implemented a machine learning model using PyTorch that improved maintenance scheduling by 30%.
+– Achieved an accuracy of 92% in predicting equipment failure within 1 hour.
+
+Customer Behavior Analysis | Apache Spark, Kafka, Snowflake 2018
+– Built a customer behavior analysis system that used Apache Spark and Kafka to process large-scale data from e-commerce platforms.
+– Implemented a data modeling framework using dbt that transformed raw data into actionable insights for business stakeholders.
+– Achieved an accuracy of 88% in predicting customer churn within 1 week.
+
+Education
+------------
+
+Bachelor's Degree in Computer Science, New York University
+
+
+Certifications
+-----------------
+
+AWS Certified Data Engineer - Associate

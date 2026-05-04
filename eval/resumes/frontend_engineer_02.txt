@@ -1,0 +1,61 @@
+Kaitlyn Maeve Chen
+kchen@email.com
+linkedin.com/in/kaitlynmchen
+San Francisco, CA
+
+
+Summary
+
+Highly motivated and detail-oriented Frontend Engineer with 2 years of experience in building scalable and efficient web applications. Proficient in modern frontend technologies such as React, TypeScript, and Next.js.
+
+Technical Skills
+
+Languages: TypeScript, JavaScript, Python
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Docker
+UI Libraries: Tailwind CSS
+Testing Frameworks: Jest, Cypress
+State Management: Redux
+Graphql
+
+Experience
+
+Senior Frontend Engineer at PixelPerfect | React, Next.js, TypeScript 2022-2024
+– Improved application performance by 30% through code refactoring and optimization.
+– Implemented a new features module using GraphQL and Apollo Client, resulting in a 25% reduction in API calls.
+– Collaborated with the backend team to integrate real-time analytics, enhancing user engagement.
+
+Frontend Engineer at NovaTech | React, Vue.js, JavaScript 2020-2022
+– Built a responsive and accessible dashboard using Tailwind CSS and Figma design files.
+– Developed a reusable UI component library using Storybook and Webpack.
+– Worked with the QA team to implement automated testing using Cypress and Jest.
+
+Frontend Engineer Intern at DreamScape | HTML, CSS, JavaScript 2019-2020
+– Contributed to the development of a web-based game using Phaser.io and Pixi.js.
+– Implemented a scoring system using Redux and local storage.
+– Collaborated with designers to create visually appealing UI elements using Figma.
+
+Projects
+
+WeatherAPI | React, Next.js, GraphQL 2023
+– Built a real-time weather application that fetches data from the OpenWeatherMap API.
+– Used Apollo Client to cache data and improve performance.
+– Implemented a user-friendly interface using Tailwind CSS and React Hooks.
+
+To-Do List App | Vue.js, Vuex, Vite 2022
+– Created a simple to-do list application with features such as adding, editing, and deleting tasks.
+– Used Vuex for state management and Vite for efficient code splitting.
+– Implemented a responsive design using Tailwind CSS.
+
+Personal Finance Tracker | JavaScript, HTML, CSS 2021
+– Developed a web-based personal finance tracker that allows users to manage their expenses and income.
+– Used Figma for designing the UI elements and Webpack for bundling scripts.
+– Implemented data visualization using Chart.js and local storage.
+
+Education
+
+Bachelor of Science in Computer Science at Stanford University 2015-2019
+
+Certifications
+
+Certified Frontend Developer (CFD) by Google Developers Certification

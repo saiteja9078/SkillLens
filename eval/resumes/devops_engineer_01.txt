@@ -1,0 +1,56 @@
+Aman Kaur
+akaur@example.com
+linkedin.com/in/aman-kaur-devops-engineer
+San Francisco, CA
+
+
+Summary
+As a highly motivated and detail-oriented DevOps Engineer, I am passionate about designing and implementing scalable infrastructure solutions using cloud-native technologies. With 1 year of experience in deploying applications on Kubernetes clusters and automating workflows with Ansible, I possess a strong understanding of CI/CD pipelines and monitoring tools.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Cloud Platforms: GCP, Azure
+Monitoring Tools: Prometheus, Grafana
+CI/CD Tools: Jenkins, GitHub Actions
+Configuration Management: Ansible
+Infrastructure as Code: Terraform
+
+Experience
+DevOps Engineer at NovaTech | Kubernetes, Docker, Terraform 2022-2023
+– Improved deployment efficiency by 30% through automated rollouts using Helm charts and CI/CD pipelines in Jenkins.
+– Implemented monitoring and logging with Prometheus and Grafana for real-time performance insights.
+– Collaborated with development teams to migrate legacy applications to containerized environments.
+
+Cloud Engineer at Apex Solutions | AWS, Ansible, Bash 2021-2022
+– Designed and implemented a hybrid cloud infrastructure using AWS services such as EC2, S3, and RDS.
+– Automated system updates and patches using Ansible playbooks for improved security and compliance.
+
+Junior DevOps Engineer at FusionSoft | Kubernetes, Docker, Jenkins 2021
+– Assisted in setting up CI/CD pipelines with Jenkins for automated testing and deployment of microservices applications.
+– Helped integrate Prometheus monitoring with Grafana dashboards for better performance metrics.
+
+
+Projects
+Containerized Web Application | PyTorch, FastAPI 2022
+– Built a web application using Python, PyTorch, and FastAPI, containerizing it with Docker for easy deployment on Kubernetes clusters.
+– Implemented automated testing with GitHub Actions to ensure code quality and compliance.
+
+Cloud-Native Chatbot | Go, AWS Lambda 2021
+– Developed a cloud-native chatbot using Go and deployed it as an AWS Lambda function for event-driven processing.
+– Integrated with Alexa Skills Kit for voice assistant integration and used Terraform for infrastructure provisioning.
+
+Automated Backup and Restore System | Bash, Ansible 2021
+– Designed and implemented an automated backup and restore system using Ansible playbooks to ensure data integrity and availability.
+– Used Prometheus monitoring to track performance metrics and Grafana dashboards for real-time insights.
+
+
+Education
+Bachelor of Science in Computer Science, Stanford University
+
+
+Certifications
+CompTIA Cloud+ Certification
+AWS Certified Developer - Associate

@@ -1,0 +1,62 @@
+Ava Morales
+amorales@example.com
+https://www.linkedin.com/in/avamoralesmleng
+San Francisco, CA
+
+
+Summary
+As a seasoned Machine Learning Engineer with 8 years of experience, I have developed and deployed scalable AI solutions in various industries, including finance, healthcare, and retail. Proficient in end-to-end ML development, from data preparation to model deployment.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: MySQL, PostgreSQL
+Libraries: NumPy, Pandas, Scikit-learn
+Model Serving: Hugging Face Transformers, ONNX
+MLOps: MLflow, Docker, Kubernetes
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech | TensorFlow, PyTorch 2018-2022
+– Developed a natural language processing (NLP) model for sentiment analysis that achieved an accuracy of 92% and reduced customer complaints by 30%.
+– Implemented a computer vision system using YOLOv3 for object detection with a precision of 95%, increasing product quality control efficiency.
+– Collaborated with cross-functional teams to integrate ML models into production pipelines, reducing deployment time by 50%.
+
+Machine Learning Engineer at Apex Solutions | Scikit-learn, Keras 2015-2018
+– Built an anomaly detection system using One-class SVM that reduced false positives by 80% and improved overall system accuracy.
+– Designed a recommender system using matrix factorization that increased customer engagement by 25%.
+– Worked closely with data scientists to develop predictive models for demand forecasting, resulting in a 15% reduction in inventory costs.
+
+Machine Learning Engineer at Zenith Inc | PyTorch, TensorFlow 2013-2015
+– Created a facial recognition system using convolutional neural networks (CNNs) that achieved an accuracy of 98%, improving security and identity verification.
+– Developed a chatbot using RNNs for conversational dialogue with a response accuracy of 95%.
+– Implemented data preprocessing pipelines using Pandas and NumPy to improve model performance.
+
+
+Projects
+
+Object Detection System | PyTorch, YOLOv3 2020
+– Built an object detection system that detects pedestrians, vehicles, and traffic lights in real-time video streams.
+– Achieved a precision of 95% on the COCO dataset and successfully integrated it into production pipelines.
+
+Medical Image Analysis | TensorFlow, Keras 2019
+– Developed a deep learning model for medical image analysis that achieved an accuracy of 98% in tumor detection.
+– Utilized transfer learning and data augmentation techniques to improve model robustness.
+
+NLP Text Classification | Scikit-learn, NLTK 2018
+– Built a text classification system using NLP techniques that achieved an accuracy of 92% on the 20-Newsgroups dataset.
+– Successfully integrated it into production pipelines for real-time sentiment analysis.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+AWS Certified Developer - Associate
+Google Cloud Certified - Professional Machine Learning Engineer

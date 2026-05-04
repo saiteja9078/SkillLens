@@ -1,0 +1,61 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesdev
+New York, NY
+
+
+Summary
+As a seasoned Frontend Engineer with 7 years of experience, I have a proven track record of delivering scalable and maintainable web applications that exceed customer expectations. With expertise in modern frontend technologies such as React, Next.js, and Vue.js, I excel at crafting intuitive user interfaces and efficient workflows.
+
+
+Technical Skills
+
+Languages: JavaScript, TypeScript
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Figma
+Testing Frameworks: Jest, Cypress
+State Management: Redux
+GraphQL: Apollo Client
+UI Libraries: Tailwind CSS
+
+
+Experience
+
+Senior Frontend Engineer at NovaTech | React, Next.js, GraphQL 2020-2023
+– Successfully led the development of a flagship e-commerce platform that achieved a 300% increase in sales within the first six months.
+– Implemented a custom CMS using Apollo Client and Next.js to enable seamless content updates and reduce backend dependencies by 40%.
+– Collaborated with cross-functional teams to design and implement a robust payment gateway, resulting in a 95% reduction in transaction errors.
+
+Frontend Engineer at Pulse Labs | React, Webpack, Jest 2018-2020
+– Built and maintained the user interface of a popular social media platform that saw a 50% increase in engagement within the first year.
+– Designed and implemented a responsive web design using Tailwind CSS to improve accessibility and reduce bounce rates by 20%.
+– Contributed to the development of a cutting-edge content recommendation engine that achieved a 25% increase in user retention.
+
+Frontend Developer at CodeCraft | JavaScript, HTML, CSS 2015-2018
+– Developed multiple single-page applications for a prominent healthcare provider, resulting in a 30% reduction in patient wait times.
+– Implemented a responsive web design using Vue.js to improve accessibility and reduce bounce rates by 15%.
+– Collaborated with the QA team to identify and resolve critical issues, achieving a 99.9% uptime rate for all applications.
+
+
+Projects
+
+PulsePal | React, Next.js, GraphQL 2022
+– Developed a social media platform that allows users to discover new music and connect with artists in real-time.
+– Implemented a custom recommendation engine using Apollo Client and Next.js to enable personalized content suggestions.
+– Achieved a 50% increase in user engagement within the first six months.
+
+MedPal | Vue.js, Tailwind CSS, GraphQL 2020
+– Built a mobile app that connects patients with healthcare providers for remote consultations.
+– Designed and implemented a robust payment gateway using Stripe and Apollo Client to ensure secure transactions.
+– Achieved a 25% increase in user retention within the first year.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+Certified Frontend Engineer (CFFE), Frontend Masters
+Certified Scrum Master (CSM), Scrum Alliance

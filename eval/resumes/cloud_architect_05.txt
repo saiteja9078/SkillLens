@@ -1,0 +1,64 @@
+Astrid A. Hernandez
+a.hernandez@email.com
+https://www.linkedin.com/in/aahernandez1
+San Francisco, CA
+
+
+Summary
+As a seasoned Cloud Architect with 5 years of experience, I have a proven track record of designing and implementing scalable cloud infrastructure on AWS, Azure, and GCP. My expertise includes microservices architecture, serverless computing, and cloud security.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, Terraform, Ansible
+Cloud Platforms: AWS, Azure, GCP
+Databases: DynamoDB, MySQL
+Security: IAM, VPC, Cloud Security
+
+
+Experience
+
+Senior Cloud Architect at NovaTech | AWS, Azure 2019-2022
+– Designed and implemented a multi-cloud infrastructure for a Fortune 500 company, resulting in a 30% reduction in costs and a 25% increase in scalability.
+– Collaborated with the DevOps team to migrate legacy applications to containerized microservices architecture on EKS and ECS.
+– Implemented cloud security measures using IAM, VPC, and Cloud Security, achieving a 99.9% uptime for critical services.
+
+Cloud Engineer at ZettaCorp | GCP, Kubernetes 2018-2019
+– Built and deployed a serverless application on Google Cloud Functions, reducing latency by 40% and improving responsiveness.
+– Designed and implemented a Kubernetes cluster on GKE, automating deployment and scaling of containerized applications.
+– Collaborated with the security team to implement Cloud Security measures, achieving a 99.5% uptime for critical services.
+
+Cloud Architect at Apex Solutions | AWS, Terraform 2017-2018
+– Designed and implemented a cloud infrastructure using AWS CloudFormation, resulting in a 20% reduction in costs and a 15% increase in scalability.
+– Collaborated with the DevOps team to migrate legacy applications to serverless computing on Lambda and API Gateway.
+– Implemented IAM and VPC security measures, achieving a 99.8% uptime for critical services.
+
+
+Projects
+
+Cloud-Based IoT Platform | AWS, DynamoDB 2020
+– Designed and implemented a cloud-based IoT platform using AWS IoT Core, DynamoDB, and S3, resulting in a 90% reduction in data processing time.
+– Implemented serverless computing on Lambda and API Gateway, reducing costs by 50%.
+– Collaborated with the security team to implement IAM and VPC security measures, achieving a 99.9% uptime for critical services.
+
+Microservices Architecture using Terraform | AWS, Terraform 2019
+– Designed and implemented a microservices architecture using Terraform on AWS, resulting in a 25% increase in scalability.
+– Collaborated with the DevOps team to migrate legacy applications to containerized microservices architecture on EKS and ECS.
+– Implemented cloud security measures using IAM and VPC, achieving a 99.8% uptime for critical services.
+
+Cloud Security using CloudFormation | AWS, CloudFormation 2018
+– Designed and implemented cloud security measures using AWS CloudFormation, resulting in a 20% reduction in costs and a 15% increase in scalability.
+– Collaborated with the security team to implement IAM and VPC security measures, achieving a 99.5% uptime for critical services.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+AWS Certified Solutions Architect - Associate
+Google Cloud Certified Professional - Cloud Developer

@@ -1,0 +1,61 @@
+Emily J. Chen
+echen@email.com
+linkedin.com/in/emilyjchen
+San Francisco, CA
+
+
+Summary
+As a seasoned Full Stack Engineer with 4 years of experience, I excel in designing and developing scalable, high-performance applications using modern technologies such as Node.js, React, and TypeScript. My expertise spans the full stack, from database design to frontend development, and I'm passionate about delivering exceptional user experiences.
+
+
+Technical Skills
+
+Languages: JavaScript, Python
+Frameworks: Express.js, Next.js
+Tools: Docker, AWS
+Databases: MongoDB, PostgreSQL
+APIs: REST APIs, GraphQL
+Frontend: React, TypeScript
+CSS: Tailwind CSS
+
+
+Experience
+
+Senior Full Stack Engineer at NovaTech | Node.js, React, MongoDB 2019-2022
+– Improved application performance by 30% through caching using Redis and optimizing database queries.
+– Implemented a GraphQL API to enhance data retrieval efficiency, resulting in a 25% reduction in API calls.
+– Collaborated with cross-functional teams to launch a new product feature, increasing customer engagement by 40%.
+
+Full Stack Engineer at Apex Solutions | Node.js, Express.js, PostgreSQL 2018-2019
+– Designed and developed a RESTful API for a real-time analytics platform, achieving an average response time of under 50ms.
+– Utilized Tailwind CSS to enhance the frontend experience of a client-side application, resulting in a 20% increase in user engagement.
+
+Full Stack Engineer at Zenith Innovations | TypeScript, React, MongoDB 2017-2018
+– Built a high-performance chat application using WebSockets and Node.js, supporting up to 10,000 concurrent connections.
+– Developed a CI/CD pipeline using Jenkins and Git for automated testing and deployment.
+
+
+Projects
+
+Social Media Analyzer | Python, PyTorch 2020
+– Created a deep learning model to analyze social media posts and sentiment analysis, achieving an accuracy of 85%.
+– Implemented a Flask API to retrieve and display the analyzed data, utilizing a PostgreSQL database.
+
+E-commerce Recommendation System | Node.js, MongoDB 2019
+– Designed and developed a recommendation engine using collaborative filtering and natural language processing.
+– Integrated the system with an existing e-commerce platform, resulting in a 25% increase in sales conversions.
+
+Personal Finance Tracker | React, Next.js, Tailwind CSS 2022
+– Built a user-friendly web application for tracking personal expenses and income, utilizing a PostgreSQL database.
+– Implemented authentication using OAuth and JWT tokens, ensuring secure data access.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley 2017
+
+
+Certifications
+
+Amazon Web Services Certified Developer - Associate 2020
+Google Cloud Platform Certified Professional Cloud Developer 2019

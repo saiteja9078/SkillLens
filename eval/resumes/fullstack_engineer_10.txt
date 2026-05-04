@@ -1,0 +1,67 @@
+Emily J. Miller
+emily.miller@email.com
+https://www.linkedin.com/in/emilymiller10
+New York, NY
+
+Summary
+
+
+As a seasoned Full Stack Engineer with 5 years of experience, I excel in designing and developing scalable, efficient, and high-performing web applications using cutting-edge technologies such as Node.js, React, TypeScript, and GraphQL. With a strong foundation in database management systems like MongoDB and PostgreSQL, I consistently deliver robust solutions that meet the evolving needs of modern businesses.
+
+Technical Skills
+
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: MongoDB, PostgreSQL
+Front-end: React, Next.js
+Back-end: Node.js, Express.js
+State Management: Redis
+UI Frameworks: Tailwind CSS
+Version Control: Git
+CI/CD Pipelines: Jenkins
+
+Experience
+
+
+Senior Full Stack Engineer at NovaTech Inc. | JavaScript, TypeScript, MongoDB 2020-2022
+– Improved the performance of a critical e-commerce platform by implementing caching using Redis, resulting in a 30% increase in page load speed and a 25% reduction in server costs.
+– Migrated legacy code to modern Node.js with Express.js framework, reducing maintenance time by 50%.
+– Collaborated with cross-functional teams to launch a new mobile app feature, increasing customer engagement by 15%.
+
+Full Stack Engineer at Sparkle Corp. | JavaScript, React, PostgreSQL 2018-2020
+– Designed and developed a scalable web application using Next.js, Tailwind CSS, and GraphQL, achieving a 95% uptime rate and a 40% reduction in server utilization.
+– Implemented a CI/CD pipeline using Jenkins and Docker, reducing deployment time by 70%.
+– Worked closely with the QA team to identify and fix bugs, improving overall software quality by 25%.
+
+Full Stack Engineer at Flux Labs | JavaScript, Node.js, MongoDB 2015-2018
+– Built a RESTful API using Express.js and MongoDB, serving over 10 million requests per day with an average response time of under 50ms.
+– Implemented a caching layer using Redis, reducing database queries by 80% and improving application performance by 25%.
+– Collaborated with the DevOps team to implement automated testing and deployment scripts, increasing development efficiency by 30%.
+
+Projects
+
+
+Weather API | Node.js, MongoDB, Express.js 2022
+– Built a real-time weather API that aggregates data from multiple sources and provides accurate forecasts for over 1 million users.
+– Implemented authentication and authorization using JWT tokens and MongoDB queries to ensure secure access control.
+
+E-commerce Platform | React, Next.js, GraphQL 2020
+– Designed and developed an e-commerce platform with features such as product recommendations, cart management, and order tracking.
+– Implemented a subscription-based payment system using Stripe API and integrated it with the existing database schema.
+
+Image Recognition System | Python, PyTorch, AWS 2019
+– Built a deep learning-based image recognition system that can classify images into various categories with an accuracy rate of over 90%.
+– Utilized AWS services such as S3, EC2, and Lambda to deploy the application and handle large-scale computations.
+
+Education
+
+
+Bachelor of Science in Computer Science, New York University 2015
+
+Certifications
+
+
+AWS Certified Developer - Associate
+Certified Scrum Master (CSM)

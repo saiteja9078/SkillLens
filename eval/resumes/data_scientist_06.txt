@@ -1,0 +1,58 @@
+Ava Morales
+avamorales@email.com
+https://www.linkedin.com/in/avamoralesds
+San Francisco, CA
+
+Summary
+
+Highly motivated data scientist with 6 years of experience in developing predictive models and driving business growth through data-driven insights. Proven track record of delivering high-impact projects on time and on budget.
+
+Technical Skills
+
+Languages: Python, R
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+Experience
+
+Senior Data Scientist at OptimizeCo | R, SQL, Statistics 2018-Present
+– Developed a predictive model that increased sales by 25% for a major retailer using A/B testing and regression analysis.
+– Collaborated with cross-functional teams to implement data-driven marketing strategies resulting in a 15% increase in customer engagement.
+– Led the development of an internal data warehousing platform, reducing data processing time by 80%.
+
+Data Scientist at Insightful Inc | Python, Pandas, NumPy 2016-2018
+– Built and deployed multiple machine learning models using Scikit-learn and Matplotlib for a large-scale customer segmentation project.
+– Conducted exploratory data analysis on customer purchase behavior to identify key drivers of sales growth.
+– Developed and implemented A/B testing framework to optimize website design resulting in a 20% increase in conversions.
+
+Data Analyst at DataSavvy | SQL, Tableau 2015-2016
+– Designed and developed dashboards for key stakeholders using Tableau to track business performance metrics.
+– Conducted regression analysis on sales data to identify correlations with customer demographics.
+– Collaborated with the marketing team to develop targeted campaigns based on data-driven insights.
+
+Projects
+
+Customer Churn Prediction | Python, Pandas 2020
+– Developed a predictive model that forecasted customer churn for a telecom company resulting in a 30% reduction in customer loss.
+– Used techniques such as feature engineering and hyperparameter tuning to optimize model performance.
+– Implemented the model using Jupyter Notebook and deployed it to production.
+
+Product Recommendation System | R, SQL 2019
+– Built a collaborative filtering-based recommendation system for an e-commerce platform resulting in a 25% increase in sales.
+– Conducted exploratory data analysis on customer purchase behavior to identify key drivers of sales growth.
+– Implemented the system using SQL and integrated it with the existing website.
+
+Credit Risk Prediction | Python, Scikit-learn 2018
+– Developed a predictive model that forecasted credit risk for a financial institution resulting in a 15% reduction in bad debt.
+– Used techniques such as feature engineering and cross-validation to optimize model performance.
+– Implemented the model using Jupyter Notebook and deployed it to production.
+
+Education
+
+Master of Science in Data Science, Stanford University 2015
+Bachelor of Science in Computer Science, University of California, Berkeley 2013
+
+Certifications
+
+Google Cloud Certified - Professional Data Engineer
+Microsoft Certified: Azure Developer Associate

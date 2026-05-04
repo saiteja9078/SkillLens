@@ -1,0 +1,50 @@
+Kaitlyn Marie Nguyen
+knguyen@email.com
+linkedin.com/in/knguyen123
+San Francisco, CA
+
+
+Summary
+As a seasoned Full Stack Engineer with 5 years of experience in crafting scalable and efficient software solutions, I excel at architecting complex systems, leading technical teams, and driving business growth through innovative technologies. With expertise in full-stack development using Node.js, React, TypeScript, MongoDB, PostgreSQL, GraphQL, and REST APIs, I thrive in fast-paced environments and take pride in delivering high-quality products on time.
+
+
+Technical Skills
+Languages: Python, Go, JavaScript (TypeScript)
+Frameworks: Express.js, Next.js, PyTorch
+Tools: Docker, AWS, Git, CI/CD, Redis
+Databases: MongoDB, PostgreSQL
+Frontend Libraries: React, Tailwind CSS
+
+Experience
+Senior Full Stack Engineer at NovaTech | Node.js, React, TypeScript 2019-2022
+– Improved application performance by 30% through efficient caching with Redis and optimized database queries.
+– Implemented a robust GraphQL API for seamless data integration across multiple services, reducing the need for ETL processes.
+– Collaborated with cross-functional teams to migrate legacy systems to modern microservices architecture, resulting in improved scalability and maintainability.
+
+Front-end Developer at Apex Solutions | React, Next.js 2017-2019
+– Designed and developed a responsive e-commerce platform using Next.js, achieving a 25% increase in user engagement and conversion rates.
+– Implemented a scalable payment gateway integration with Stripe API, reducing transaction time by 50%.
+– Worked closely with the design team to create visually appealing UI components using Tailwind CSS, resulting in a 90% customer satisfaction rate.
+
+Software Engineer at Cloud9 | Python, Go 2016-2017
+– Contributed to building a scalable cloud-based gaming platform using Go, achieving a 95% uptime and a 20% increase in user retention.
+– Designed and implemented a data pipeline using Apache Beam and BigQuery, reducing data processing time by 80%.
+– Collaborated with the DevOps team to implement automated testing and deployment scripts using Jenkins and Docker, resulting in a 30% reduction in release cycle.
+
+
+Projects
+Personal Portfolio | React, Next.js 2020
+– Built a responsive portfolio website showcasing my skills and projects, receiving over 10,000 unique visitors within the first month.
+– Utilized Next.js's built-in internationalization features to create a multilingual interface, catering to a global audience.
+
+Weather Forecast App | Node.js, MongoDB 2019
+– Developed a real-time weather forecasting web application using Node.js, MongoDB, and GraphQL API, receiving over 1 million requests within the first week.
+– Implemented a caching mechanism using Redis to improve performance by 50%, reducing server load during peak hours.
+
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+Certifications
+Certified Full Stack Developer, Fullstack Academy (2016)
+AWS Certified Developer – Associate, Amazon Web Services (2020)

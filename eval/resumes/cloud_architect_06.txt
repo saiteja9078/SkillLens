@@ -1,0 +1,65 @@
+Ariana Vasquez
+ariana.vasquez@email.com
+linkedin.com/in/ariana-vasquez-cloud-architect
+New York, NY
+
+
+Summary
+
+Results-driven Cloud Architect with 6 years of experience designing and implementing scalable cloud infrastructure for large enterprises. Proven track record of improving application performance, reducing costs, and ensuring security compliance.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, Terraform
+Cloud Platforms: AWS (Advanced), Azure, GCP
+Infrastructure Services: VPC, IAM, S3, EC2, EKS
+Database Services: DynamoDB
+Security Tools: CloudFormation, Lambda
+
+Experience
+
+Cloud Architect at NovaTech | AWS, Azure, Microservices 2019-2022
+- Improved application performance by 30% through optimization of cloud resources and implementation of serverless architecture.
+- Designed and implemented a multi-cloud strategy for NovaTech, resulting in a 25% reduction in costs.
+- Collaborated with cross-functional teams to ensure security compliance and data protection.
+
+Senior Cloud Engineer at CyberCorp | AWS, GCP, Terraform 2018-2019
+- Led the migration of legacy applications to cloud-native architecture using Microservices and Serverless computing.
+- Developed and implemented a CloudFormation template for infrastructure-as-code deployment.
+- Ensured 99.99% uptime for critical applications through proactive monitoring and incident response.
+
+Cloud Engineer at GreenStart | AWS, VPC, IAM 2017-2018
+- Designed and implemented a secure cloud architecture using VPC and IAM services to protect sensitive data.
+- Developed and deployed a scalable web application using EC2 instances and DynamoDB database.
+- Collaborated with development teams to ensure smooth deployment of applications.
+
+Projects
+
+E-commerce Platform | Python, PyTorch 2020
+- Built an e-commerce platform using Microservices architecture and Serverless computing on AWS Lambda.
+- Implemented AI-powered recommendations using PyTorch and optimized image processing for faster page loads.
+- Achieved a 25% increase in sales through improved user experience.
+
+Cloud Security Framework | CloudFormation, Terraform 2019
+- Developed a cloud security framework using CloudFormation and Terraform to ensure compliance with industry standards.
+- Implemented automated security checks and alerts for real-time threat detection.
+- Collaborated with CISO to develop policies for secure cloud adoption.
+
+Disaster Recovery System | DynamoDB, AWS Lambda 2018
+- Built a disaster recovery system using DynamoDB database and AWS Lambda functions.
+- Developed automated backup and restore scripts to ensure data availability in case of disasters.
+- Achieved a 99.9% uptime for critical applications through proactive monitoring and incident response.
+
+Education
+
+Bachelor's Degree in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Cloud Practitioner - Professional
+AWS Certified Solutions Architect - Associate
+Cloud Security Alliance (CSA) Certificate in Cloud Security

@@ -1,0 +1,55 @@
+Aurora J. Rodriguez
+arodriguez@email.com
+linkedin.com/in/aurorajrodriguez
+New York, NY
+
+
+Summary
+As a seasoned Cybersecurity Analyst with 1 year of experience, I possess a unique blend of technical expertise and industry knowledge to effectively protect against complex threats. Proficient in penetration testing, incident response, and security operations, I remain committed to staying ahead of the curve in the ever-evolving cybersecurity landscape.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Network Devices: Firewalls (Cisco ASA), IDS/IPS (Snort)
+Log Management: Splunk, SIEM (IBM QRadar)
+Vulnerability Scanners: Nessus, OpenVAS
+Penetration Testing Tools: Metasploit, Burp Suite
+
+Experience
+Cybersecurity Analyst at NovaTech | Penetration Testing, SIEM 2022-2023
+– Conducted quarterly penetration testing exercises for high-profile clients, achieving a 95% success rate in identifying vulnerabilities.
+– Implemented and configured Splunk to monitor log data from various sources, improving incident response times by 30%.
+– Collaborated with the SOC team to develop and implement an ISO 27001-compliant security framework.
+
+Senior Cybersecurity Analyst at Apex Solutions | Incident Response, NIST 2021-2022
+– Led a team of analysts in responding to a high-profile ransomware attack, successfully containing the breach within 4 hours.
+– Developed and implemented a comprehensive incident response plan aligned with NIST guidelines.
+– Conducted regular security audits and vulnerability assessments using Metasploit.
+
+Cybersecurity Analyst at Zenith Corporation | Firewall Management, IDS/IPS 2020-2021
+– Configured and managed Cisco ASA firewalls for multiple clients, achieving a 99% uptime rate.
+– Implemented Snort as an IDS/IPS solution for detecting and preventing advanced threats.
+– Conducted security awareness training for employees on best practices for secure internet browsing.
+
+Projects
+Network Traffic Analysis Tool | Python, PyTorch 2022
+– Developed a tool to analyze network traffic using machine learning techniques (PyTorch) and visualized results with Matplotlib.
+– Successfully detected anomalies in network traffic with an accuracy rate of 90%.
+
+Web Application Security Scanner | Go, Docker 2021
+– Created a web application scanner that utilized the Burp Suite API to identify vulnerabilities.
+– Implemented Docker containers for efficient deployment and testing.
+
+SIEM Integration Tool | Splunk, AWS 2020
+– Designed and developed a tool to integrate Splunk with AWS services (IAM, EC2).
+– Successfully reduced incident response times by 25% through streamlined log analysis.
+
+
+Education
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+CompTIA Security+ (SY0-501) – Certified Security Analyst

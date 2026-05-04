@@ -1,0 +1,86 @@
+Avery Winston
+awinston@email.com
+https://www.linkedin.com/in/averywinston/
+San Francisco, CA
+
+
+Summary
+
+Highly motivated Backend Engineer with 1 year of experience in designing and implementing scalable microservices-based systems using Python, Go, and Java. Proficient in building REST APIs and gRPC services, as well as utilizing various databases like PostgreSQL, MySQL, and Redis.
+
+
+Technical Skills
+
+Languages: 
+  Python
+  Go
+
+Frameworks:
+  FastAPI
+  Django
+
+Tools:
+  Docker
+  AWS
+
+Databases:
+  PostgreSQL
+  MySQL
+  Redis
+
+Communication Protocols:
+  REST APIs
+  gRPC
+
+Operating Systems:
+  Linux
+  Windows
+
+Cloud Platforms:
+  AWS
+  Google Cloud
+
+
+Experience
+
+Backend Engineer at NovaTech | Python, Java 2022-2023
+– Designed and developed a scalable e-commerce platform using microservices architecture, resulting in a 30% increase in website traffic and a 25% reduction in server latency.
+– Implemented efficient data processing using Apache Kafka and Redis for caching, leading to a significant improvement in system performance.
+– Collaborated with the front-end team to integrate REST APIs and ensured seamless communication between services.
+
+Software Engineer at Apex Solutions | Go, Django 2021-2022
+– Built a real-time analytics dashboard using Python and Django, which provided a 50% reduction in data processing time and improved user experience.
+– Designed and implemented a message broker using RabbitMQ to handle high-volume messaging, leading to a 90% decrease in latency.
+– Worked closely with the DevOps team to ensure seamless deployment of services using Docker and Kubernetes.
+
+Backend Developer at Zeta Corporation | Java, Spring Boot 2020-2021
+– Developed a cloud-based CRM system using microservices architecture and Spring Boot, resulting in a 40% increase in customer engagement and a 20% reduction in support tickets.
+– Implemented efficient data storage using PostgreSQL and MySQL, leading to improved database performance and reduced latency.
+– Collaborated with the QA team to ensure comprehensive testing of services, ensuring high-quality deliverables.
+
+
+Projects
+
+Image Recognition System | Python, PyTorch 2022
+– Developed a deep learning-based image recognition system that achieved an accuracy rate of 95% using PyTorch, significantly improving object detection and classification.
+– Utilized efficient data preprocessing techniques and implemented transfer learning to improve model performance, resulting in reduced training time and improved accuracy.
+
+Real-Time Weather Monitoring System | Go, FastAPI 2021
+– Built a real-time weather monitoring system that provided accurate and up-to-date weather forecasts using FastAPI, improving user experience and reducing latency.
+– Implemented efficient data processing using Redis for caching and Apache Kafka for message queuing, leading to significant improvements in system performance.
+
+Social Media Sentiment Analysis | Java, Spring Boot 2020
+– Developed a sentiment analysis system that analyzed social media posts and provided accurate sentiment scores using Spring Boot, improving customer engagement and insights.
+– Utilized machine learning techniques and implemented efficient data processing using Apache Kafka, resulting in improved model accuracy and reduced training time.
+
+
+Education
+
+Bachelor of Science in Computer Science
+University of California, Berkeley
+
+
+Certifications
+
+AWS Certified Developer - Associate
+Google Cloud Certified - Professional Cloud Developer

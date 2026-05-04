@@ -1,0 +1,49 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamorales
+San Francisco, CA
+
+
+Summary
+Ava Morales is a seasoned Frontend Engineer with 6 years of experience in building scalable and maintainable web applications using modern technologies such as React, Next.js, and Vue.js. She has a strong foundation in JavaScript, TypeScript, and HTML/CSS and has worked on several projects that have positively impacted her companies.
+
+Technical Skills
+Languages: JavaScript, TypeScript
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Figma
+Libraries: Redux, GraphQL, Jest
+
+Experience
+Senior Frontend Engineer at TechSpark | React, Next.js, AWS 2020-2022
+– Improved the performance of the e-commerce platform by optimizing images and implementing lazy loading techniques, resulting in a 30% reduction in page load time.
+– Designed and developed a new dashboard component using Tailwind CSS and Next.js, reducing development time by 50%.
+– Collaborated with the backend team to integrate GraphQL API, enabling faster data retrieval and improved data consistency.
+
+Frontend Engineer at NovaTech | React, Vue.js, Docker 2018-2020
+– Developed a modular architecture for the company's flagship product using Webpack and Vite, making it easier to maintain and update.
+– Created reusable UI components using Figma designs, reducing development time by 20%.
+– Worked closely with the QA team to implement end-to-end testing using Cypress, resulting in a 90% reduction in bugs.
+
+Frontend Engineer at SparkEngine | JavaScript, HTML/CSS, Tailwind CSS 2016-2018
+– Built a responsive and accessible web application for a major client using modern HTML5 and CSS3 features.
+– Implemented a robust form validation system using JavaScript and Regex, reducing errors by 80%.
+– Collaborated with the design team to create a visually appealing dashboard, improving user engagement by 25%.
+
+Projects
+Personal Project: Todo List App | React, TypeScript, Redux 2022
+– Developed a simple todo list application that demonstrates the use of React hooks and state management using Redux.
+– Implemented authentication using JSON Web Tokens (JWT) for secure data storage.
+
+Personal Project: Weather Dashboard | Vue.js, Tailwind CSS, GraphQL 2021
+– Created a weather dashboard that fetches current and forecasted weather data from a public API.
+– Used GraphQL to query the API, demonstrating its efficiency in data retrieval.
+
+Personal Project: E-commerce Website | Next.js, JavaScript, HTML/CSS 2019
+– Built a simple e-commerce website using Next.js, showcasing its features such as server-side rendering and static site generation.
+– Implemented responsive design using Tailwind CSS, ensuring a smooth user experience on various devices.
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+Certifications
+Certified Scrum Master (CSM)

@@ -1,0 +1,52 @@
+Emily J. Chen
+echen@email.com
+linkedin.com/in/emilyjchen
+San Francisco, CA
+
+
+Summary
+As a seasoned Data Engineer with 4 years of experience, I have developed expertise in designing and implementing large-scale data pipelines using cutting-edge technologies such as Apache Spark, Kafka, and Airflow. With a strong background in data modeling and ETL/ELT, I excel at optimizing data processing workflows for high performance and scalability.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, Redshift, BigQuery
+ETL/ELT Tools: dbt, AWS Glue, Apache Beam
+Data Storage: Delta Lake, Databricks
+
+
+Experience
+Senior Data Engineer at Acme Inc. | Apache Spark, Kafka, Airflow 2020-2022
+• Designed and implemented a real-time data pipeline for processing 100 million events per day with an average latency of under 1 second
+• Collaborated with cross-functional teams to develop a scalable and fault-tolerant architecture using Apache Beam and AWS Glue
+• Improved overall data quality by implementing data validation and cleansing processes using dbt
+
+Data Engineer at Nova Tech | Python, PyTorch 2018-2020
+• Built and deployed multiple machine learning models using PyTorch for predicting customer churn and stock prices
+• Developed a data warehouse on Snowflake using SQL and optimized queries for high performance
+• Implemented data modeling and ETL processes to integrate multiple sources into a unified dataset
+
+Junior Data Engineer at Apex Solutions | Apache Spark, Delta Lake 2016-2018
+• Assisted in designing and deploying a large-scale data processing pipeline using Apache Spark and Delta Lake
+• Collaborated with the DevOps team to automate deployment and monitoring of data pipelines using Airflow and AWS CodePipeline
+
+
+Projects
+Sales Forecasting Model | PyTorch, Apache Spark 2021
+• Built a deep learning model for predicting sales trends using historical sales data and weather patterns
+• Implemented data preprocessing and feature engineering steps using Pandas and NumPy
+• Achieved an average accuracy of 95% on a test set of 1000 samples
+
+Customer Segmentation | SQL, dbt 2020
+• Developed a data warehouse on Snowflake to store customer transactional data from multiple sources
+• Implemented data modeling and ETL processes using dbt to integrate data into a unified dataset
+• Generated actionable insights for marketing teams by analyzing customer behavior and demographics
+
+
+Education
+Bachelor of Science in Computer Science, Stanford University 2016
+
+Certifications
+AWS Certified Developer - Associate

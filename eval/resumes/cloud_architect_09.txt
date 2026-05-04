@@ -1,0 +1,64 @@
+Kaitlyn R. Vasquez
+kvasquez@email.com
+linkedin.com/in/kaitlynavasquez
+Denver, CO
+
+
+Summary
+
+Results-driven Cloud Architect with 3 years of experience designing and implementing scalable cloud solutions for global enterprises. Proven track record of improving cloud security posture, increasing application performance, and reducing costs.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS CLI
+Cloud Providers: AWS, Azure, GCP
+Infrastructure as Code: CloudFormation, Terraform
+Containerization: Kubernetes (EKS)
+Databases: DynamoDB, PostgreSQL
+Security: IAM, VPC, S3
+
+Experience
+
+Senior Cloud Architect at NovaTech | AWS, Azure 2020-2022
+– Improved cloud security posture by implementing a zero-trust architecture, resulting in a 30% reduction in security incidents.
+– Designed and deployed a serverless API gateway using AWS Lambda and API Gateway, reducing API request latency by 40%.
+– Developed a cloud governance framework using CloudFormation and Terraform, ensuring consistency across multiple environments.
+
+Cloud Architect at Apex Solutions | GCP, Kubernetes 2019-2020
+– Migrated a legacy on-premises application to Google Cloud Platform, resulting in a 25% reduction in costs.
+– Designed a containerized microservices architecture using Kubernetes (EKS), improving application scalability by 50%.
+– Implemented a cloud-based CI/CD pipeline using Cloud Build and Cloud Source Repositories.
+
+Cloud Engineer at Zenith Technologies | AWS, Microservices 2018-2019
+– Developed a scalable microservices architecture using AWS Lambda and API Gateway.
+– Implemented a cloud-based monitoring and logging solution using Prometheus, Grafana, and ELK Stack.
+– Improved application performance by 20% through the implementation of load balancing and auto-scaling.
+
+Projects
+
+Cloud Security Audit Tool | Python, AWS 2020
+– Developed a security audit tool using Python and AWS CLI to identify vulnerabilities in cloud infrastructure.
+– Implemented a scoring system to prioritize remediation efforts based on risk level.
+– Results: improved cloud security posture by 25% through targeted remediation efforts.
+
+Serverless Image Processing Pipeline | PyTorch, AWS 2019
+– Designed and deployed a serverless image processing pipeline using AWS Lambda and PyTorch.
+– Implemented image classification and object detection models to improve accuracy by 15%.
+– Results: reduced image processing time from 10 minutes to 1 minute.
+
+Cloud Cost Optimizer | Go, GCP 2018
+– Developed a cloud cost optimizer tool using Go and Google Cloud CLI to identify opportunities for cost reduction.
+– Implemented a machine learning model to predict future costs based on historical data.
+– Results: improved cloud cost savings by 30% through targeted optimization efforts.
+
+Education
+
+Bachelor of Science in Computer Science, University of Colorado Boulder
+
+
+Certifications
+
+AWS Certified Solutions Architect - Professional
+Google Cloud Certified - Professional Cloud Developer

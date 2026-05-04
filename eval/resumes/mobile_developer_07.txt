@@ -1,0 +1,59 @@
+Aurélien Dupont
+adupont@gmail.com
+linkedin.com/in/auréliendupont
+San Francisco, CA
+
+
+Summary
+
+Results-driven Mobile App Developer with 7 years of experience delivering high-quality mobile applications for various industries. Skilled in cross-platform development using React Native and Flutter, with expertise in iOS and Android development.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+
+Experience
+
+Senior Mobile App Developer at TechCorp | Swift, Kotlin 2019-2022
+– Developed a high-performance mobile app for logistics management that reduced delivery times by 30% and increased customer satisfaction ratings by 25%.
+– Utilized Firebase for backend services, Realm for database management, and Xcode for iOS development.
+– Collaborated with cross-functional teams to implement State Management using Redux.
+
+Mobile App Developer at Innovatech | Dart, Flutter 2018-2019
+– Designed and developed a mobile app for real-time language translation that achieved an accuracy rate of 95% within the first month of launch.
+– Implemented data storage using SQLite and Android Studio for development.
+– Contributed to the company's growth by developing several internal tools, resulting in a 20% reduction in development time.
+
+Junior Mobile App Developer at CodeLab | React Native 2016-2018
+– Built a mobile app for event planning that saw a 50% increase in user engagement within the first quarter of launch.
+– Utilized Redux for State Management and AWS for backend services.
+– Collaborated with designers to implement a visually appealing UI using React Native.
+
+
+Projects
+
+EcoCycle | Dart, Flutter 2020
+– Developed a mobile app for users to track their daily carbon footprint and receive personalized recommendations for reduction.
+– Implemented data storage using Realm and Android Studio for development.
+
+SocialBuzz | Swift, Kotlin 2019
+– Created a mobile app for social media influencers to manage their online presence and engage with their audience.
+– Utilized Firebase for backend services and Xcode for iOS development.
+
+FitFriend | React Native 2018
+– Designed and developed a mobile app for finding fitness buddies and tracking workout routines.
+– Implemented data storage using SQLite and Redux for State Management.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Cloud Certified - Professional Mobile App Developer
+Apple Certified Developer

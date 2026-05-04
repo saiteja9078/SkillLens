@@ -1,0 +1,56 @@
+Ava Moreno
+avamoreno@email.com
+linkedin.com/in/avamoreno
+New York, NY
+
+
+Summary
+As a seasoned Backend Engineer with 5 years of experience, I excel in designing and developing scalable, high-performance systems using modern technologies like Python, Go, and Java. Proven track record of delivering efficient solutions that meet business needs.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: FastAPI, Spring Boot
+Tools: Docker, AWS
+Databases: PostgreSQL, MySQL
+Message Queue: Kafka
+Cache: Redis
+Operating System: Linux
+
+Experience
+Senior Backend Engineer at NovaTech | Python, Django 2020-2022
+– Improved application performance by 30% through caching and load balancing 
+– Implemented REST APIs using FastAPI for improved scalability and ease of use
+– Collaborated with cross-functional teams to migrate legacy system to microservices architecture, resulting in a 25% reduction in development time
+
+Backend Engineer at Apex Solutions | Java, Spring Boot 2018-2020
+– Designed and developed a real-time data processing system using Apache Kafka and Redis 
+– Implemented gRPC APIs for efficient communication between services
+– Participated in the design of a scalable architecture that reduced latency by 50%
+
+Backend Developer at CodeFusion | Python, Flask 2017-2018
+– Developed a machine learning model using PyTorch for image classification with an accuracy of 92%
+– Built a real-time analytics dashboard using Django and PostgreSQL 
+– Collaborated with data scientists to integrate predictive models into production systems
+
+
+Projects
+Image Classification System | PyTorch, MySQL 2020
+– Developed a PyTorch-based machine learning model that achieved an accuracy of 95% on the CIFAR-10 dataset
+– Implemented a MySQL database schema for efficient storage and retrieval of image metadata
+
+Real-time Analytics Dashboard | Django, PostgreSQL 2019
+– Built a real-time analytics dashboard using Django and PostgreSQL 
+– Implemented data aggregation and visualization techniques to improve insight into business operations
+
+Microservices Architecture | Java, Spring Boot 2018
+– Designed and developed a microservices architecture for a legacy system, resulting in improved scalability and maintainability
+
+
+Education
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+Certified Scrum Master (CSM), Scrum Alliance
+Certified DevOps Engineer (CDE), AWS

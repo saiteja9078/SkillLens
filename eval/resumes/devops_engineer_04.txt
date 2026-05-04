@@ -1,0 +1,62 @@
+Ethan Ryder
+ethan.r.y@gmail.com
+https://www.linkedin.com/in/ethanryder/
+San Francisco, CA
+
+
+Summary
+
+Highly motivated DevOps Engineer with 4 years of experience in designing and implementing scalable cloud infrastructure, automation tools, and monitoring systems for large-scale applications. Proven track record of improving deployment efficiency by up to 30% and reducing downtime by 25%. Strong technical skills in Kubernetes, Docker, Terraform, Ansible, and AWS.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, GCP, Azure, Jenkins, GitHub Actions
+Monitoring Systems: Prometheus, Grafana
+Operating System: Linux
+Scripting Languages: Bash
+
+
+Experience
+
+DevOps Engineer at FinTechCorp | Kubernetes, Terraform, Ansible 2020-2023
+– Improved deployment efficiency by up to 30% through automation of CI/CD pipelines using Jenkins and GitHub Actions.
+– Designed and implemented a scalable monitoring system using Prometheus and Grafana, reducing alert fatigue by 40%.
+– Collaborated with the development team to implement a containerized application on Kubernetes, resulting in a 25% reduction in downtime.
+
+Senior DevOps Engineer at HealthCarePro | Docker, AWS, Helm 2019-2020
+– Designed and implemented a serverless architecture using AWS Lambda and API Gateway, reducing costs by up to 50%.
+– Developed and deployed a CI/CD pipeline using Jenkins and Docker, resulting in a 20% reduction in deployment time.
+– Collaborated with the infrastructure team to implement a load balancer using HAProxy and Terraform.
+
+DevOps Engineer at EduTechCo | GCP, Kubernetes, Prometheus 2018-2019
+– Designed and implemented a scalable data pipeline using Apache Beam and Google Cloud Dataflow, resulting in a 30% reduction in data processing time.
+– Developed and deployed a monitoring system using Prometheus and Grafana, reducing alert fatigue by 35%.
+– Collaborated with the development team to implement a containerized application on Kubernetes, resulting in a 20% reduction in downtime.
+
+
+Projects
+
+Weather Forecasting System | PyTorch, AWS S3 2022
+– Built a machine learning model using PyTorch that forecasts weather patterns based on historical data.
+– Implemented a data pipeline using Apache Beam and AWS Dataflow to collect and process weather data from various sources.
+
+Automated Deployment Tool | Python, Ansible 2019
+– Developed an automated deployment tool using Python and Ansible that automates the deployment of applications to production environments.
+– Integrated the tool with CI/CD pipelines to improve deployment efficiency by up to 40%.
+
+Containerized Web Application | Kubernetes, Docker 2018
+– Built a containerized web application using Kubernetes and Docker that can scale horizontally and vertically based on demand.
+
+
+Education
+
+Bachelor's Degree in Computer Science, Stanford University
+
+
+Certifications
+
+Certified DevOps Engineer (CDE), Linux Foundation
+Certified Cloud Architect (CCA), AWS

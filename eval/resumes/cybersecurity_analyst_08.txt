@@ -1,0 +1,61 @@
+Avery L. Reynolds
+areynolds@cybersecpros.com
+https://www.linkedin.com/in/averylreynolds/
+Denver, CO
+
+
+Summary
+As a seasoned Cybersecurity Analyst with 8 years of experience, I possess in-depth knowledge of security protocols and regulations. Proven track record of identifying vulnerabilities and implementing effective mitigation strategies to protect sensitive data. Skilled in penetration testing, incident response, and SOC operations.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Security Tools: Splunk, Firewalls, IDS/IPS, Wireshark, Metasploit, Burp Suite
+Compliance: NIST, ISO 27001
+
+
+Experience
+
+Cybersecurity Analyst at CyberGuard Inc. | Penetration Testing, SIEM, Splunk | 2018-2022
+• Conducted quarterly penetration testing engagements to identify vulnerabilities and provide recommendations for remediation.
+• Implemented a custom Splunk dashboard to monitor and analyze network traffic, resulting in a 30% reduction in mean time to detect (MTTD) and mean time to respond (MTTR).
+• Collaborated with the SOC team to develop and implement an incident response plan, reducing incident resolution time by 25%.
+
+Security Engineer at Prodigy Tech | Firewalls, IDS/IPS, SOC Operations | 2015-2018
+• Designed and implemented a layered security architecture using firewalls, IDS/IPS, and SIEM systems to protect against advanced threats.
+• Developed and maintained a network traffic monitoring system using Wireshark and Splunk, providing real-time visibility into network activity.
+• Participated in the development of an incident response plan, ensuring compliance with NIST guidelines.
+
+Incident Response Specialist at CyberProtect | Incident Response, Penetration Testing | 2012-2015
+• Responded to and managed high-severity security incidents, including data breaches and ransomware attacks.
+• Conducted penetration testing engagements to identify vulnerabilities and provide recommendations for remediation.
+• Collaborated with the SOC team to develop and implement an incident response plan, ensuring compliance with ISO 27001 standards.
+
+
+Projects
+
+Network Traffic Analysis Tool | Python, Splunk | 2020
+• Developed a custom tool using Python and Splunk to analyze network traffic patterns and identify potential security threats.
+• Implemented machine learning algorithms to classify network traffic as normal or anomalous, resulting in a 95% accuracy rate.
+
+Vulnerability Scanning Tool | Go, Docker | 2019
+• Created a vulnerability scanning tool using Go and Docker to identify potential vulnerabilities in web applications.
+• Developed a scoring system to prioritize remediation efforts based on risk level, resulting in a 40% reduction in remediation time.
+
+Compliance Dashboard | PyTorch, AWS | 2018
+• Designed and implemented a compliance dashboard using PyTorch and AWS to monitor and analyze security controls and policies.
+• Implemented a data visualization framework to provide real-time visibility into compliance metrics, resulting in a 25% reduction in audit preparation time.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of Colorado Denver
+
+
+Certifications
+
+CompTIA Security+, CompTIA Cybersecurity Analyst+

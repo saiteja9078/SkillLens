@@ -1,0 +1,11 @@
+pymupdf
+python-docx
+endee
+fastembed
+langchain-google-genai
+langchain-core
+langchain
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart

@@ -1,0 +1,65 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamar
+San Francisco, CA
+
+
+Summary
+Cloud Architect with 2 years of experience designing and deploying scalable cloud infrastructure on AWS, Azure, and GCP. Proven track record of improving application performance, reducing costs, and enhancing security.
+
+Technical Skills
+
+Languages: Python, Go, Java
+Frameworks: PyTorch, FastAPI, Spring Boot
+Tools: Docker, Kubernetes, Terraform
+Cloud Platforms: AWS, Azure, GCP
+Security: IAM, VPC, S3, Cloud Security
+Database: DynamoDB, Relational Databases
+Serverless: Lambda, API Gateway
+
+
+Experience
+
+Cloud Architect at TechCorp | AWS, Azure 2020-2022
+– Improved application performance by 30% through optimization of microservices and serverless architecture
+– Designed and implemented a cloud security framework using IAM, VPC, and S3 to protect against data breaches
+– Collaborated with DevOps team to deploy containerized applications on EKS and EC2
+
+Senior Cloud Engineer at NovaTech | AWS, GCP 2019-2020
+– Migrated legacy applications to serverless architecture using Lambda and API Gateway, resulting in 40% cost reduction
+– Designed and implemented a cloud infrastructure automation framework using Terraform and CloudFormation
+– Collaborated with development team to implement microservices-based architecture on EKS and DynamoDB
+
+Cloud Engineer at ApexIT | Azure, GCP 2018-2019
+– Designed and deployed a hybrid cloud infrastructure using Azure Stack and GCP Compute Engine
+– Implemented a cloud security framework using IAM, VPC, and S3 to protect against data breaches
+– Collaborated with DevOps team to deploy containerized applications on EKS and EC2
+
+
+Projects
+
+E-commerce Platform | AWS, Python 2021
+– Built a scalable e-commerce platform using microservices architecture and serverless technology
+– Implemented a cloud security framework using IAM, VPC, and S3 to protect against data breaches
+– Achieved 20% improvement in application performance through optimization of database queries and caching
+
+Real-time Analytics Platform | GCP, Go 2020
+– Designed and implemented a real-time analytics platform using Bigtable, Pub/Sub, and Cloud Functions
+– Implemented a cloud security framework using IAM, VPC, and S3 to protect against data breaches
+– Achieved 30% improvement in data processing speed through optimization of streaming data processing
+
+IoT Device Management System | Azure, C# 2019
+– Built an IoT device management system using microservices architecture and serverless technology
+– Implemented a cloud security framework using IAM, VPC, and S3 to protect against data breaches
+– Achieved 25% improvement in application performance through optimization of database queries and caching
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley 2015-2019
+
+
+Certifications
+
+AWS Certified Solutions Architect - Professional 2020
+Google Cloud Certified - Professional Cloud Developer 2019

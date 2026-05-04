@@ -1,0 +1,58 @@
+Kaitlyn Aisha Patel
+kpatel@email.com
+linkedin.com/in/kaitlynapatel
+New York, NY
+
+
+Summary
+As a seasoned Frontend Engineer with 5 years of experience, I have developed expertise in crafting scalable and efficient web applications using modern technologies such as React, Next.js, and TypeScript. With a strong foundation in JavaScript and HTML/CSS, I excel at delivering high-quality user interfaces that meet the needs of diverse stakeholders.
+
+
+Technical Skills
+Languages: JavaScript, TypeScript
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Jest, Cypress
+Design: Figma
+Database: GraphQL
+
+
+Experience
+Senior Frontend Engineer at NovaTech | React, TypeScript, Redux 2020-2022
+– Improved application performance by 30% through optimization of code and implementation of caching mechanisms.
+– Designed and developed a new feature for real-time collaboration using WebSockets and Redux-Saga.
+– Collaborated with the backend team to integrate a GraphQL API, reducing API calls by 50%.
+
+Frontend Engineer at Synthia | HTML/CSS, JavaScript, Tailwind CSS 2018-2020
+– Built a reusable UI component library using React and Storybook, increasing development speed by 25%.
+– Implemented accessibility features for a website, improving user experience for visually impaired users.
+– Worked closely with the design team to implement design systems using Figma.
+
+Junior Frontend Engineer at Fluxion | Python, Go, Docker 2017-2018
+– Contributed to the development of a web application using Flask and React, handling over 10,000 concurrent users.
+– Developed a automated testing framework using Cypress and Jest, reducing testing time by 75%.
+– Collaborated with the infrastructure team to deploy containerized applications on AWS.
+
+
+Projects
+Personal Website | Next.js, TypeScript, Tailwind CSS 2022
+– Built a modern personal website showcasing projects and skills using Next.js and Tailwind CSS.
+– Implemented a responsive design using CSS Grid and Flexbox.
+– Used Vite for fast development and deployment.
+
+Weather Forecast App | Vue.js, JavaScript, Figma 2019
+– Developed a web application displaying real-time weather forecasts using Vue.js and the OpenWeatherMap API.
+– Designed an intuitive user interface using Figma, improving user engagement by 40%.
+– Implemented unit tests using Jest to ensure robustness and reliability.
+
+To-Do List App | React, Redux, GraphQL 2018
+– Built a simple to-do list application using React and Redux, handling state management efficiently.
+– Integrated a GraphQL API for data fetching, reducing server requests by 20%.
+– Used Cypress for end-to-end testing, ensuring seamless user experience.
+
+
+Education
+Bachelor of Science in Computer Science, New York University 2017
+
+
+Certifications
+Certified Frontend Engineer (CFF), Frontend Masters 2020

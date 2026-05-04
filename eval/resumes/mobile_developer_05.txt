@@ -1,0 +1,63 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesdev
+San Francisco, CA
+
+
+Summary
+As a seasoned mobile app developer with 5 years of experience in designing and developing engaging user experiences for both iOS and Android platforms, I bring a unique blend of technical expertise and creative vision to the table. Proven track record of delivering high-quality applications that exceed client expectations.
+
+
+Technical Skills
+
+Languages: Java, Swift
+Frameworks: Flutter, React Native
+Tools: Docker, Firebase
+Databases: SQLite, Realm
+
+
+Experience
+
+Senior Mobile App Developer at NovaTech | iOS, Android, Swift 2018-2022
+– Developed and maintained several high-profile mobile applications for clients across various industries, including a popular fitness app that saw a 300% increase in user engagement after a major redesign.
+– Utilized Firebase Authentication and Firestore to create seamless user experiences and improve data consistency across devices.
+– Collaborated with cross-functional teams to integrate mobile apps with web applications using Redux and State Management.
+
+Mobile App Developer at PulseSoft | iOS, Android, Kotlin 2017-2018
+– Contributed to the development of a groundbreaking medical app that increased patient engagement by 25% through personalized treatment plans and real-time analytics.
+– Implemented Realm Database for efficient data storage and retrieval, resulting in a 40% reduction in app size.
+– Worked closely with designers to create visually stunning UI/UX experiences using Material Design principles.
+
+Mobile App Developer at SparkTech | iOS, Android, Dart 2016-2017
+– Built and deployed multiple mobile applications for clients in the e-commerce space, including a popular shopping app that saw a 20% increase in sales through targeted promotions.
+– Utilized Firebase Realtime Database to create real-time updates and push notifications, improving user engagement by 50%.
+– Collaborated with QA engineers to implement rigorous testing processes using Xcode and Android Studio.
+
+
+Projects
+
+Personal Fitness Tracker | Flutter, Firebase 2020
+– Developed a mobile application that tracks daily workouts, monitors progress, and provides personalized recommendations for users.
+– Implemented Firebase Authentication and Firestore for secure user data storage and retrieval.
+– Utilized Redux and State Management to create seamless transitions between app screens.
+
+E-commerce App | React Native, SQLite 2019
+– Built a comprehensive e-commerce app with features such as product filtering, search functionality, and secure payment processing using Stripe API.
+– Implemented SQLite Database for efficient data storage and retrieval.
+– Worked closely with designers to create visually appealing UI/UX experiences using Material Design principles.
+
+Weather Forecast App | Swift, Xcode 2018
+– Developed a mobile application that provides accurate weather forecasts and updates using OpenWeatherMap API.
+– Utilized Realm Database for efficient data storage and retrieval.
+– Implemented push notifications to provide users with real-time weather updates.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Certified Android Developer
+Apple Certified iOS Developer

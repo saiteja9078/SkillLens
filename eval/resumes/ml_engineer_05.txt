@@ -1,0 +1,75 @@
+Emily Wang
+ewang@email.com
+linkedin.com/in/emilywangml
+San Francisco, CA
+
+
+Summary:
+Results-driven Machine Learning Engineer with 5 years of experience in building and deploying scalable AI models for real-world applications. Proven track record of delivering high-quality projects on time, with a strong passion for MLOps and model interpretability.
+
+
+Technical Skills:
+
+
+Languages: Python, Go
+
+Frameworks: PyTorch, FastAPI
+
+Tools: Docker, AWS, Kubernetes
+
+Libraries: NumPy, Pandas, Scikit-learn
+
+Specialized Libraries: Hugging Face Transformers, TensorFlow
+
+MLOps Tools: MLflow, ONNX
+
+
+Experience:
+
+
+Machine Learning Engineer at NVIDIA | Python, PyTorch 2019-2022
+– Designed and implemented a real-time object detection system for autonomous vehicles, achieving 95% accuracy on the KITTI dataset.
+– Utilized PyTorch to develop a custom model architecture that outperformed existing state-of-the-art models by 10%.
+– Deployed the model on NVIDIA's in-house Kubernetes cluster, resulting in a 30% reduction in inference time.
+
+
+Senior Machine Learning Engineer at Airbnb | Python, TensorFlow 2018-2019
+– Built and deployed a recommendation engine using TensorFlow, which resulted in a 25% increase in user engagement.
+– Collaborated with the data engineering team to design and implement a scalable data pipeline for handling large-scale image and text data.
+– Developed a computer vision model using PyTorch that classified listings into categories with an accuracy of 90%.
+
+
+Machine Learning Engineer at Google | Python, Scikit-learn 2017-2018
+– Contributed to the development of a natural language processing model for sentiment analysis, which achieved state-of-the-art results on the Stanford Sentiment Treebank dataset.
+– Utilized Scikit-learn to develop a clustering algorithm that improved recommendation accuracy by 20%.
+– Worked with the devops team to integrate the model into Google's in-house infrastructure.
+
+
+Projects:
+
+
+NLP-based Chatbot for Customer Support | Python, Hugging Face Transformers 2020
+– Built a chatbot that used pre-trained language models from the Hugging Face library to respond to customer queries.
+– Achieved an accuracy of 95% on a test dataset of over 10,000 conversations.
+
+
+Object Detection System for Autonomous Vehicles | PyTorch 2019
+– Designed and implemented a custom object detection model using PyTorch that outperformed existing state-of-the-art models by 15%.
+– Integrated the model with NVIDIA's in-house sensor data pipeline to enable real-time object detection.
+
+
+Image Captioning Model using Computer Vision | TensorFlow 2018
+– Built a computer vision model that generated captions for images, achieving an accuracy of 85% on the COCO dataset.
+– Utilized TensorFlow to develop a custom architecture that improved captioning performance by 10%.
+
+
+Education:
+
+
+Bachelor's Degree in Computer Science from Stanford University
+
+
+Certifications:
+
+
+Certified Data Scientist with a specialization in Machine Learning

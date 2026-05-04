@@ -1,0 +1,52 @@
+Emily J. Chen
+echen@email.com
+linkedin.com/in/emilyjchen
+New York, NY
+
+
+Summary
+As a seasoned Cybersecurity Analyst with 4 years of experience, I possess a unique blend of technical expertise and industry knowledge to help organizations protect against ever-evolving threats.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Security Software: Splunk, Burp Suite, Metasploit
+Network Devices: Firewalls, IDS/IPS
+
+
+Experience
+Cybersecurity Analyst at QuantLab | Penetration Testing, SIEM 2020-2022
+• Conducted comprehensive penetration testing engagements for Fortune 500 clients, resulting in a 30% reduction in vulnerabilities discovered.
+• Developed and implemented custom SIEM rules to improve threat detection by 25%, leveraging Splunk's robust query language.
+• Collaborated with the incident response team to develop an effective playbook for SOC operations, ensuring compliance with NIST guidelines.
+
+Cybersecurity Consultant at SafeHaven | Incident Response, ISO 27001 2018-2020
+• Led incident response efforts for a major data breach, resulting in minimal downtime and no financial losses.
+• Implemented ISO 27001-compliant security controls, including the deployment of firewalls and IDS/IPS systems.
+• Conducted regular vulnerability assessments using Penetration Testing to ensure compliance with industry standards.
+
+Cybersecurity Analyst at CodeCraft | SOC Operations, Wireshark 2018
+• Designed and implemented a SOC operations framework for real-time threat monitoring and incident response.
+• Utilized Wireshark to analyze network traffic patterns and identify potential security threats.
+
+
+Projects
+RedTeam | Penetration Testing Tools, Python 2021
+• Developed a custom pen testing tool using Python to automate vulnerability discovery and exploitation.
+• Utilized Metasploit and Burp Suite to enhance the tool's capabilities.
+
+SIEM Analytics Tool | Splunk, Go 2019
+• Created a Splunk-based analytics tool using Go to improve SIEM query efficiency by 40%.
+• Integrated custom data visualizations to provide real-time threat insights.
+
+
+Education
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+CompTIA Security+ (2020)
+CISSP (in progress)

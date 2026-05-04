@@ -1,0 +1,52 @@
+Astrid R. Jenkins
+ajenkins@email.com
+linkedin.com/in/astridjenkins
+San Francisco, CA
+
+
+Summary
+Developing innovative mobile applications that drive user engagement and business growth.
+
+
+Technical Skills
+Languages: Python, Go, Dart, Kotlin
+Frameworks: PyTorch, FastAPI, Redux
+Tools: Docker, AWS, Firebase, SQLite, Realm
+Platforms: iOS, Android
+Development Environments: Xcode, Android Studio
+
+Experience
+Senior Mobile App Developer at NovaTech | Flutter, Swift, Kotlin 2020-2022
+– Successfully led a team to develop a social media app that reached 1 million downloads within the first quarter.
+– Implemented real-time commenting and liking features using Firebase Firestore and Cloud Functions.
+– Collaborated with designers to create an intuitive user interface that increased user retention by 30%.
+
+Mobile App Developer at Apex Software | React Native, Java 2018-2020
+– Built a mobile banking app that achieved a 95% adoption rate among users within the first year.
+– Utilized Redux for state management and implemented encryption using Realm.
+– Contributed to the development of a mobile wallet feature that processed $1 million in transactions per month.
+
+Mobile App Engineer at CodeCraft | Dart, Python 2016-2018
+– Developed a mobile e-commerce app with over 500 products and integrated payment gateway using Stripe.
+– Implemented caching using SQLite and optimized database queries for improved performance.
+– Worked on the team that delivered a new version of the app that increased sales by 25%.
+
+Projects
+Social Media App | Flutter, Firebase 2021
+– Created a social media platform with features such as real-time commenting, liking, and sharing.
+– Implemented user authentication using Google OAuth2 and profile management using Firestore.
+
+E-commerce Mobile Wallet | Dart, Realm 2019
+– Built a mobile wallet that integrated with an e-commerce app to enable secure transactions.
+– Utilized Realm for encryption and implemented caching using SQLite for improved performance.
+
+Fitness Tracker App | Kotlin, Android Studio 2018
+– Developed a fitness tracker app that monitored user activity levels and provided personalized recommendations.
+– Integrated GPS tracking and calorie burn estimation features using Google Maps API and ML algorithms.
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+Certifications
+Google Cloud Certified - Professional Cloud Developer
+AWS Certified Developer - Associate

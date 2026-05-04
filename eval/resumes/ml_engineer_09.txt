@@ -1,0 +1,67 @@
+Ava Morales
+amorales@example.com
+https://www.linkedin.com/in/avamoralesml/
+New York, NY
+
+
+Summary
+
+Highly motivated and experienced Machine Learning Engineer with a strong background in building scalable and efficient models using PyTorch and TensorFlow. Proven track record of delivering projects on time and exceeding expectations.
+
+
+Technical Skills
+
+Languages: Python
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Libraries: Scikit-learn, NumPy, Pandas
+NLP: Hugging Face Transformers
+Computer Vision: OpenCV
+MLOps: MLflow, ONNX
+Databases: PostgreSQL
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech | PyTorch, TensorFlow 2021-2023
+– Developed a real-time object detection system using PyTorch and reached an accuracy of 98.5% on the COCO dataset.
+– Implemented a data pipeline using AWS S3 and Apache Kafka to process large datasets for training models.
+– Collaborated with cross-functional teams to integrate ML models into production, resulting in a 25% reduction in operational costs.
+
+
+Machine Learning Engineer at Apex Solutions | Scikit-learn, Hugging Face Transformers 2019-2021
+– Designed and built a chatbot using Hugging Face Transformers that achieved an F1 score of 92.2% on the MultiWOZ dataset.
+– Worked with the data engineering team to develop a data warehousing solution using PostgreSQL for large-scale analytics.
+– Contributed to the development of a computer vision model using OpenCV and reached an accuracy of 95.8% on the ImageNet dataset.
+
+
+Junior Machine Learning Engineer at CodeForge | TensorFlow, ONNX 2018-2019
+– Built a recommender system using TensorFlow that achieved a precision of 94.1% on the MovieLens dataset.
+– Participated in the development of a speech recognition model using PyTorch and reached a word error rate of 5.3%.
+– Collaborated with the DevOps team to deploy ML models using Kubernetes and Docker.
+
+
+Projects
+
+Object Detection System | PyTorch, OpenCV 2022
+– Built a real-time object detection system that can detect multiple objects in a single frame.
+– Achieved an accuracy of 98.2% on the COCO dataset using a combination of PyTorch and OpenCV.
+
+Image Classification Model | TensorFlow, Scikit-learn 2019
+– Designed and built a image classification model that achieved an accuracy of 97.5% on the ImageNet dataset.
+– Used Scikit-learn for data preprocessing and reached an F1 score of 95.8%.
+
+Time Series Forecasting Model | PyTorch, Hugging Face Transformers 2020
+– Developed a time series forecasting model using PyTorch that achieved a MAE of 2.5 on the M4 dataset.
+– Used Hugging Face Transformers for feature extraction and reached an accuracy of 97.1%.
+
+
+Education
+
+Master of Science in Computer Science, New York University
+
+
+Certifications
+
+Machine Learning Engineer Certification, Coursera
+Data Science Certification, edX

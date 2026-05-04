@@ -1,0 +1,76 @@
+Alexandra Rodriguez
+arodriguez@email.com
+linkedin.com/in/arodriguezdev
+
+San Francisco, CA
+
+
+Summary
+Technical Skills
+Experience
+Projects
+Education
+Certifications
+
+
+Alexandra Rodriguez
+arodriguez@email.com
+linkedin.com/in/arodriguezdev
+
+San Francisco, CA
+
+
+Summary
+As a seasoned mobile app developer with 6 years of experience, I have a proven track record of designing and developing innovative mobile applications for top-tier clients. Skilled in both iOS and Android development, I excel at leveraging the latest technologies to drive business growth.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: SQLite, Realm
+State Management: Redux
+
+
+Experience
+Senior Mobile App Developer at NovaTech | React Native, Swift 2019-2022
+– Successfully led the development of a popular social media app, resulting in a 25% increase in user engagement and a 30% boost in revenue.
+– Implemented a highly scalable architecture using AWS services and optimized database queries for improved performance.
+– Collaborated with cross-functional teams to design a seamless onboarding experience, increasing new user activation rates by 50%.
+Mobile App Developer at PixelPerfect | Flutter, Kotlin 2018-2019
+– Contributed to the development of a visually stunning e-commerce app, featuring a cutting-edge UI and smooth navigation.
+– Utilized Firebase for backend services and integrated Realm for local data storage, resulting in a 20% reduction in app size.
+– Worked closely with designers to implement custom UI components using Flutter's widget tree, enhancing the overall user experience.
+
+
+Junior Mobile App Developer at DreamApps | iOS, Android 2016-2018
+– Participated in the development of a location-based augmented reality game, achieving top rankings on the Apple App Store and Google Play.
+– Implemented a robust caching mechanism to improve app performance, resulting in a 15% increase in user satisfaction ratings.
+– Collaborated with QA engineers to identify and fix critical bugs, ensuring timely releases and maintaining high-quality standards.
+
+
+Projects
+Social Media Revamp | React Native, Firebase 2020
+– Designed and developed a mobile app that integrated social media features, including profile management, friend requests, and trending posts.
+– Utilized Redux for state management and implemented authentication using Firebase's Authentication API.
+Result: Improved user engagement by 20% and reduced average session duration to 3 minutes.
+
+
+Weather Forecast App | Swift, Realm 2019
+– Created a mobile app that provided accurate weather forecasts based on users' locations.
+– Implemented a custom map view using MapKit and integrated local data storage with Realm.
+Result: Achieved an average rating of 4.5/5 and increased user retention by 30%.
+
+
+E-commerce Shopping List | Flutter, SQLite 2018
+– Developed a mobile app that allowed users to create shopping lists and track items in real-time.
+– Implemented a simple yet effective UI using Flutter's material design widgets.
+Result: Reached top rankings on the Google Play Store and maintained an average rating of 4.2/5.
+
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley 2016
+
+
+Certifications
+Google Developers Certification - Mobile Developer Associate

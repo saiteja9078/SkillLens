@@ -1,0 +1,56 @@
+Aisha Patel
+apatel@email.com
+linkedin.com/in/apatelfullstack
+New York, NY
+
+Summary
+
+Highly motivated and detail-oriented Frontend Engineer with 3 years of experience in building scalable and efficient web applications using modern technologies such as React, Next.js, and Vue.js. Proficient in TypeScript, JavaScript, and HTML/CSS, with a strong understanding of front-end development principles.
+
+Technical Skills
+
+Languages: TypeScript, JavaScript
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Figma
+Testing Frameworks: Jest, Cypress
+State Management: Redux
+API Querying: GraphQL
+
+Experience
+
+Senior Frontend Engineer at NovaTech | React, Next.js, TypeScript 2022-2023
+– Improved application performance by implementing lazy loading and code splitting techniques, resulting in a 30% reduction in page load times.
+– Utilized Webpack to manage dependencies and optimized bundle sizes, reducing the overall file size by 50%.
+– Collaborated with cross-functional teams to design and implement a new user interface for the company's flagship product.
+
+Frontend Engineer at Apex Solutions | React, Vue.js, JavaScript 2021-2022
+– Developed a reusable UI component library using Tailwind CSS, which reduced development time by 25% for future projects.
+– Implemented Cypress for end-to-end testing and Jest for unit testing, resulting in a 90% test coverage rate.
+– Contributed to the migration of the company's web application from Angular to React, reducing technical debt by 40%.
+
+Frontend Developer at ZetaCorp | JavaScript, HTML/CSS 2020-2021
+– Built a responsive web application using CSS Grid and Flexbox, which improved user engagement by 20%.
+– Utilized Redux for state management and GraphQL for API querying, resulting in a 50% reduction in server requests.
+– Collaborated with designers to create high-fidelity prototypes using Figma, which improved project timelines by 15%.
+
+Projects
+
+Portfolio Site | React, Next.js, TypeScript 2022
+– Developed a responsive portfolio site that showcases projects and skills using Next.js and Tailwind CSS.
+– Utilized GraphQL for API querying and Redux for state management, resulting in a 30% reduction in server requests.
+
+Weather App | Vue.js, JavaScript, HTML/CSS 2021
+– Built a weather application using Vue.js and OpenWeatherMap API, which provides real-time weather updates to users.
+– Utilized Webpack to manage dependencies and optimized bundle sizes, reducing the overall file size by 40%.
+
+To-Do List App | React, Redux, GraphQL 2020
+– Developed a simple to-do list application using React and Redux for state management, which allows users to add, edit, and delete tasks.
+– Utilized GraphQL for API querying and Cypress for end-to-end testing, resulting in a 90% test coverage rate.
+
+Education
+
+Bachelor of Science in Computer Science, New York University, 2018-2022
+
+Certifications
+
+Certified Scrum Master (CSM), Scrum Alliance, 2021

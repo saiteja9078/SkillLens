@@ -1,0 +1,62 @@
+Emily J. Rodriguez
+erodriguez@email.com
+linkedin.com/in/emilyjrodriguez
+New York, NY
+
+
+Summary
+
+Results-driven Full Stack Engineer with 6 years of experience delivering scalable and efficient software solutions using cutting-edge technologies.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: React, Next.js
+Tools: Docker, AWS
+Databases: MongoDB, PostgreSQL
+APIs: GraphQL, REST APIs
+Libraries: Express.js, Tailwind CSS
+Version Control: Git
+
+
+Experience
+
+Senior Full Stack Engineer at NovaTech | Node.js, TypeScript, PostgreSQL 2020-2022
+– Improved application performance by 30% through code optimization and caching techniques.
+– Developed a microservices architecture using Docker containers and Kubernetes for increased scalability.
+– Collaborated with cross-functional teams to implement a new feature that resulted in a 25% increase in user engagement.
+
+Full Stack Engineer at PulseCorp | React, MongoDB, GraphQL 2018-2020
+– Built a real-time analytics dashboard using Next.js and Tailwind CSS, reducing development time by 50%.
+– Implemented a caching layer using Redis to improve application responsiveness.
+– Worked with the QA team to resolve critical issues, resulting in a 99.9% uptime.
+
+Junior Full Stack Engineer at ApexSoft | Python, Flask 2016-2018
+– Contributed to the development of a REST API for data ingestion and processing.
+– Participated in code reviews and ensured adherence to coding standards.
+– Collaborated with the DevOps team to deploy applications using Docker containers.
+
+
+Projects
+
+Personal Project: Smart Home Automation System | Node.js, PostgreSQL 2020
+– Designed and implemented a web interface for users to control and monitor their smart home devices remotely.
+– Used Express.js to handle API requests and PostgreSQL for storing device information.
+
+Academic Project: Image Classification Model | PyTorch, MongoDB 2019
+– Developed a neural network using PyTorch for image classification tasks.
+– Stored model outputs in a MongoDB database for further analysis.
+
+Open-Source Project: ChatBot Framework | Go, Redis 2018
+– Created a modular chatbot framework using Go and Redis for storing conversation history.
+– Implemented machine learning models using TensorFlow for sentiment analysis.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Developer - Associate

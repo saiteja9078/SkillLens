@@ -1,0 +1,62 @@
+Kaitlyn M. Thompson
+kthompson@example.com
+linkedin.com/in/kathrynmthompson
+San Francisco, CA
+
+Summary
+
+Highly motivated DevOps Engineer with 5 years of experience in designing and implementing scalable cloud-based infrastructure using Kubernetes, Docker, and Terraform. Proven track record of improving application reliability, security, and performance through automation, monitoring, and logging.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Linux (Ubuntu, CentOS)
+Scripting Languages: Bash
+CI/CD Tools: Jenkins, GitHub Actions
+Monitoring and Logging: Prometheus, Grafana
+Infrastructure as Code: Terraform, Ansible
+
+Experience
+
+DevOps Engineer at CloudSpark | Kubernetes, Docker, Terraform 2018-2022
+– Improved application deployment time by 50% through automated CI/CD pipeline using Jenkins and Terraform
+– Reduced infrastructure costs by 30% through optimized resource allocation on AWS
+– Implemented monitoring and logging using Prometheus and Grafana to improve application reliability
+
+Senior DevOps Engineer at NovaTech | Kubernetes, Ansible 2016-2018
+– Designed and implemented a scalable containerized application on GKE using Kubernetes and Docker
+– Improved deployment efficiency by 40% through automation of infrastructure provisioning with Terraform and Ansible
+– Collaborated with development team to implement continuous integration and delivery pipeline using Jenkins
+
+DevOps Engineer at Apex Solutions | AWS, Linux 2015-2016
+– Migrated on-premises application to cloud-based infrastructure on AWS using Terraform and Ansible
+– Improved application security through implementation of network firewalls and access controls on AWS
+– Implemented monitoring and logging using Prometheus and Grafana to improve application reliability
+
+Projects
+
+Cloud-based Machine Learning Platform | PyTorch, Docker 2020
+– Designed and implemented a cloud-based machine learning platform using PyTorch and Docker for seamless deployment and scaling of ML models
+– Utilized Terraform and Ansible for automation of infrastructure provisioning and configuration management
+– Achieved 90% reduction in deployment time through optimized resource allocation on AWS
+
+Containerized Web Application | Kubernetes, Helm 2019
+– Designed and implemented a containerized web application using Kubernetes and Docker for improved scalability and reliability
+– Utilized Helm to manage and deploy applications efficiently across multiple environments
+– Achieved 30% improvement in performance through optimization of resource allocation on GKE
+
+Infrastructure as Code Tooling | Terraform, Ansible 2018
+– Designed and implemented a comprehensive infrastructure as code tooling using Terraform and Ansible for improved consistency and reliability
+– Utilized Terraform to automate infrastructure provisioning and configuration management
+– Achieved 50% reduction in deployment time through optimized resource allocation on AWS
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley 2015
+
+Certifications
+
+AWS Certified DevOps Engineer - Professional 2020
+Google Cloud Certified - Professional Cloud Developer 2019

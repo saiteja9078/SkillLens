@@ -1,0 +1,64 @@
+Avery J. Thompson
+athompson@email.com
+linkedin.com/in/averyjthompson
+New York, NY
+
+
+Summary
+
+Highly skilled and experienced Cybersecurity Analyst with 5 years of expertise in threat detection, incident response, and security architecture design. Proven track record of identifying and mitigating complex security threats, and driving strategic initiatives to improve organizational resilience.
+
+Technical Skills
+
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Database Management: MySQL, MongoDB
+Security Tools: Splunk, Firewalls, IDS/IPS, Wireshark, Metasploit, Burp Suite
+
+Experience
+
+Senior Cybersecurity Analyst at CyberGuard Inc. | Penetration Testing, SIEM, NIST 2018-2022
+– Developed and executed comprehensive penetration testing programs for Fortune 500 clients, resulting in a 95% reduction in identified vulnerabilities.
+– Implemented and optimized Splunk-based security information and event management (SIEM) system to detect and respond to advanced threats.
+– Collaborated with cross-functional teams to design and implement robust security controls, reducing risk by 85%.
+
+Cybersecurity Analyst at SecureTech Solutions | Incident Response, ISO 27001 2017-2018
+– Responded to over 50 high-severity security incidents, resulting in a 99% containment rate and minimal business disruption.
+– Designed and implemented incident response plans aligned with NIST standards, ensuring timely and effective responses to security events.
+– Collaborated with the compliance team to achieve ISO 27001 certification, demonstrating commitment to information security management.
+
+Junior Cybersecurity Analyst at NovaTech Corp. | SOC Operations, Firewalls 2015-2017
+– Participated in 24/7 Security Operations Center (SOC) operations, monitoring and responding to security alerts in real-time.
+– Configured and maintained firewall rules, ensuring secure network access and minimizing threat exposure.
+– Assisted in the development of security awareness training programs for employees, improving security posture by 25%.
+
+Projects
+
+Cloud Security Monitoring | Splunk, AWS 2020
+– Designed and implemented a cloud-based security monitoring system using Splunk and AWS services, reducing alert fatigue by 90%.
+– Utilized machine learning algorithms to detect and respond to anomalous activity in the cloud environment.
+– Collaborated with development teams to integrate security monitoring into continuous integration/continuous deployment (CI/CD) pipelines.
+
+Vulnerability Scanning | Metasploit, Burp Suite 2019
+– Developed a comprehensive vulnerability scanning program using Metasploit and Burp Suite tools.
+– Conducted regular scans of the organization's network and systems, identifying over 500 vulnerabilities in one quarter alone.
+– Collaborated with IT teams to remediate identified vulnerabilities, improving overall security posture.
+
+Incident Response Planning | NIST, ISO 27001 2018
+– Developed an incident response plan aligned with NIST standards, ensuring timely and effective responses to security events.
+– Conducted tabletop exercises with cross-functional teams to test incident response procedures and identify areas for improvement.
+– Collaborated with the compliance team to achieve ISO 27001 certification, demonstrating commitment to information security management.
+
+Education
+
+Bachelor of Science in Computer Science
+New York University
+2013-2017
+
+Certifications
+
+CompTIA Security+
+CISSP (pending)

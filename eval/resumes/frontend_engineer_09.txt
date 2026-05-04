@@ -1,0 +1,80 @@
+Astrid Jensen
+astrid.jensen@email.com
+linkedin.com/in/astrid-jensen-developer
+San Francisco, CA
+
+
+Summary
+Technical Skills
+Experience
+Projects
+Education
+Certifications
+
+Julia Rodriguez
+julia.rodriguez@email.com
+linkedin.com/in/julia-rodriguez-dev
+Los Angeles, CA
+
+Ava Patel
+ava.patel@email.com
+linkedin.com/in/ava-patel-engineer
+New York, NY
+
+Emily Chen
+emily.chen@email.com
+linkedin.com/in/emily-chen-coder
+Chicago, IL
+
+
+Summary
+As a highly motivated and detail-oriented frontend engineer with 3 years of experience, I excel in crafting visually stunning and user-friendly interfaces for web applications. Proficient in React, TypeScript, and JavaScript, I am passionate about staying up-to-date with the latest technologies and trends.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+Experience
+
+Frontend Engineer at NovaTech | React, Next.js, GraphQL, Redux 2020-2023
+– Improved application performance by implementing a caching layer, resulting in a 30% reduction in page load times.
+– Utilized Figma to design and develop a responsive UI component library, reducing development time by 25%.
+– Collaborated with cross-functional teams to launch a new product feature, increasing user engagement by 50%.
+
+Senior Frontend Developer at OmniCorp | Vue.js, Tailwind CSS, Jest, Cypress 2019-2020
+– Developed a reusable UI kit using TypeScript and Tailwind CSS, reducing development time by 40%.
+– Implemented automated testing with Jest and Cypress, resulting in a 90% reduction in test suite execution time.
+– Worked closely with designers to create a visually appealing dashboard, increasing user satisfaction by 25%.
+
+Frontend Engineer at ApexLab | JavaScript, HTML, CSS, Webpack 2018-2019
+– Built a responsive web application using React and Next.js, resulting in a 20% increase in user engagement.
+– Optimized code performance using Webpack, reducing bundle size by 50%.
+– Collaborated with backend engineers to implement real-time updates using GraphQL.
+
+Projects
+
+Weather App | JavaScript, HTML, CSS, Figma 2020
+– Developed a mobile-friendly weather app that fetches current and forecasted weather data from APIs.
+– Utilized Figma to design the UI components and wireframes for a seamless user experience.
+– Implemented responsive design with media queries to accommodate various screen sizes.
+
+Task Manager | React, TypeScript, GraphQL, Redux 2019
+– Built a task management application using React and Next.js, allowing users to create, assign, and track tasks.
+– Utilized GraphQL to fetch data from the backend API and implement real-time updates.
+– Implemented authentication using JWT tokens for secure user sessions.
+
+Personal Website | HTML, CSS, JavaScript, Figma 2018
+– Designed and developed a personal website showcasing my skills and experiences.
+– Utilized Figma to design the UI components and layout for a clean and modern look.
+– Implemented responsive design with media queries to accommodate various screen sizes.
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Los Angeles (UCLA) 2018
+
+
+Certifications
+
+Google Cloud Certified - Professional Cloud Developer

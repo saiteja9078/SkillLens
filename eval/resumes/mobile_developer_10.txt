@@ -1,0 +1,58 @@
+Aurélien Dumont
+adumont@live.com
+linkedin.com/in/adumontdev
+San Francisco, CA
+
+Summary
+
+Results-driven Mobile App Developer with 5 years of experience in designing and developing scalable, user-friendly mobile applications for both iOS and Android platforms.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Database Management Systems: SQLite, Realm
+
+Experience
+
+Mobile App Developer at Bloomify | Swift, Kotlin, React Native 2018-2022
+– Designed and developed a popular mobile marketplace app with over 1 million downloads, achieving a 4.5-star rating on the Apple Store.
+– Utilized Firebase for backend services, including authentication, storage, and real-time database management.
+– Collaborated with cross-functional teams to launch new features and improve app performance.
+
+Senior Mobile App Developer at Greenify | Flutter, Dart, Android 2016-2018
+– Led a team in developing a mobile app for tracking personal energy consumption, resulting in a 30% reduction in household energy usage among pilot users.
+– Implemented State Management with Redux to handle complex state changes and improve app responsiveness.
+– Optimized app performance by leveraging Firebase's Cloud Functions and Realtime Database.
+
+Mobile App Developer at FreshFusion | iOS, Android Studio, SQLite 2015-2016
+– Contributed to the development of a food delivery app, which saw a 25% increase in customer orders within the first six months.
+– Designed and implemented a seamless payment processing system using Stripe.
+– Collaborated with designers to create an intuitive user interface that resulted in a 90% satisfaction rate among users.
+
+Projects
+
+Weather Forecast App | React Native, OpenWeatherMap API 2020
+– Built a mobile app for displaying current and forecasted weather conditions, including temperature, humidity, and wind speed.
+– Utilized Realm for local data storage and caching of frequently accessed weather data.
+– Achieved an average rating of 4.2 stars on the Google Play Store.
+
+Recipe Book App | Flutter, Firebase Firestore 2019
+– Developed a mobile app for storing and organizing personal recipes, including images, ingredients, and cooking instructions.
+– Implemented authentication using Firebase's Authentication service to ensure secure user data storage.
+– Achieved a 95% user retention rate within the first three months of launch.
+
+To-Do List App | Swift, SQLite 2018
+– Built a simple mobile app for managing daily tasks and reminders.
+– Utilized Xcode's built-in debugging tools to identify and resolve performance issues.
+– Achieved an average rating of 4.5 stars on the Apple Store within the first month of launch.
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley 2012-2016
+
+Certifications
+
+Google Cloud Certified - Professional Cloud Developer
+AWS Certified Developer - Associate

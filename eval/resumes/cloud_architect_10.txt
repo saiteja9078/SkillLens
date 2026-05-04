@@ -1,0 +1,62 @@
+Ava Marie Reed
+areed@email.com
+linkedin.com/in/avamariereed
+San Francisco, CA
+
+
+Summary
+Ava Marie Reed is a seasoned Cloud Architect with 5 years of experience designing and implementing scalable cloud architectures on AWS, Azure, and GCP platforms. She specializes in microservices-based applications, serverless computing, and cloud security.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS CLI, Terraform, CloudFormation
+Databases: DynamoDB, MySQL
+Cloud Platforms: AWS, Azure, GCP
+Serverless: Lambda, API Gateway
+Containerization: Kubernetes (EKS), Docker
+
+
+Experience
+
+Senior Cloud Architect at DataPulse | AWS, Python 2018-2022
+– Designed and implemented a cloud-native data pipeline using AWS Lake Formation, reducing data processing time by 75% and cost by 30%.
+– Implemented serverless architecture using Lambda, API Gateway, and S3, resulting in 90% reduction in infrastructure costs.
+– Led a team of engineers to migrate on-premises applications to the cloud, achieving 99.9% uptime and 95% reduction in maintenance time.
+
+Cloud Engineer at NovaTech | Azure, C# 2016-2018
+– Developed and deployed microservices-based architecture using Azure Kubernetes Service (AKS) and Docker, resulting in 25% increase in application performance.
+– Implemented cloud security measures including VPC, IAM, and Network Security Groups, achieving 99.5% compliance rate.
+– Collaborated with DevOps team to implement continuous integration and delivery pipeline using Azure DevOps.
+
+Cloud Consultant at Cloudify | GCP, Go 2020-2022
+– Designed a serverless architecture for a Fortune 500 company using Google Cloud Functions and App Engine, reducing infrastructure costs by 50%.
+– Implemented cloud security measures including VPC, IAM, and Cloud Armor, achieving 99.9% compliance rate.
+– Migrated on-premises applications to the cloud, resulting in 95% reduction in maintenance time.
+
+
+Projects
+
+Cloud Security Framework | AWS, Terraform 2020
+– Designed a cloud security framework using Terraform and AWS, implementing VPC, IAM, and CloudWatch.
+– Implemented security measures including S3 bucket policy and DynamoDB access control, achieving 99.5% compliance rate.
+
+Microservices-based E-commerce Platform | Azure, Kubernetes 2019
+– Developed a microservices-based e-commerce platform using Azure Kubernetes Service (AKS) and Docker, resulting in 25% increase in application performance.
+– Implemented load balancing and autoscaling using Azure Load Balancer and AKS.
+
+Real-time Analytics Platform | GCP, Cloud Functions 2021
+– Designed a real-time analytics platform using Google Cloud Functions and BigQuery, processing 10 million events per minute.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+AWS Certified Solutions Architect - Professional
+Google Cloud Certified - Professional Cloud Developer
+Microsoft Certified: Azure Solutions Architect Expert

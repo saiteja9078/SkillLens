@@ -1,0 +1,60 @@
+Ava Morales
+amorales@email.com
+https://www.linkedin.com/in/avamoralesdev
+New York, NY
+
+
+Summary
+
+Results-driven frontend engineer with 1 year of experience in building scalable and efficient web applications. Skilled in modern JavaScript frameworks and tools, with a strong focus on user experience and accessibility.
+
+
+Technical Skills
+
+Languages: TypeScript, JavaScript
+Frameworks: React, Next.js
+Tools: Webpack, Vite, Figma
+Testing Frameworks: Jest, Cypress
+State Management: Redux
+Database: GraphQL
+
+
+Experience
+
+Frontend Engineer at NovaTech | React, TypeScript, Next.js 2022-2023
+– Designed and developed a responsive e-commerce website with a 30% increase in conversions and a 25% reduction in bounce rate.
+– Utilized Next.js for server-side rendering and static site generation to improve SEO and page load times.
+– Collaborated with the backend team to implement GraphQL APIs, resulting in a 50% decrease in API request latency.
+
+Frontend Developer at Apex Solutions | Vue.js, Tailwind CSS, Jest 2021-2022
+– Built a feature-rich dashboard application using Vue.js and Tailwind CSS, achieving a 95% user satisfaction rate.
+– Developed custom UI components using Vuetify and integrated with Redux for state management.
+– Worked on optimizing code quality through the use of ESLint, Prettier, and Jest for testing.
+
+Junior Frontend Engineer at Zeta Inc | JavaScript, HTML, CSS, Figma 2020-2021
+– Contributed to the development of a web-based project management tool using vanilla JavaScript, HTML, and CSS.
+– Created responsive designs using Figma and implemented animations using CSS transitions.
+– Collaborated with the QA team to identify and fix bugs, improving overall product stability.
+
+
+Projects
+
+Personal Portfolio | Next.js, TypeScript, Tailwind CSS 2022
+– Built a personal portfolio website showcasing projects and experience using Next.js for server-side rendering and static site generation.
+– Utilized Tailwind CSS for styling and implemented responsive design using flexbox.
+– Integrated Redux for state management and deployed on Vercel.
+
+Weather API | React, GraphQL, Jest 2021
+– Created a web application that fetches real-time weather data from the OpenWeatherMap API using GraphQL.
+– Implemented error handling using try-catch blocks and tested with Jest.
+– Deployed on Netlify and optimized for performance using code splitting and caching.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+Certified Frontend Developer (CFD), Codecademy

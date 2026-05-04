@@ -1,0 +1,72 @@
+Aisha Javed
+aisha.javed@email.com
+https://www.linkedin.com/in/aishajaved/
+New York, NY
+
+
+Summary
+Kavita Ramesh
+kavita.ramesh@email.com
+https://www.linkedin.com/in/kavitramesh/
+San Francisco, CA
+
+
+Summary
+Highly motivated and detail-oriented Backend Engineer with 4 years of experience in designing and developing scalable microservices-based architectures. Proficient in a range of programming languages including Python, Go, and Java. Proven track record of delivering high-quality software solutions on time.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: FastAPI, Spring Boot
+Tools: Docker, AWS
+Databases: PostgreSQL, MySQL
+Message Queue: Kafka
+Cache: Redis
+
+
+Experience
+
+Senior Backend Engineer at TechForge | Python, Django 2020-2022
+– Designed and implemented a real-time analytics platform using Kafka, PostgreSQL, and Redis, resulting in a 30% reduction in query latency.
+– Utilized FastAPI to build a RESTful API for data ingestion, achieving a throughput of 10K requests per second.
+– Collaborated with the DevOps team to deploy the application on Docker containers, ensuring high availability and scalability.
+
+Backend Engineer at NovaTech | Java, Spring Boot 2018-2020
+– Developed a microservices-based architecture using Spring Boot, Kafka, and PostgreSQL for a leading e-commerce platform, resulting in a 25% reduction in response time.
+– Implemented a caching layer using Redis to improve application performance by 40%.
+– Worked with the QA team to identify and fix critical bugs, ensuring high-quality software delivery.
+
+Backend Engineer at ApexSoft | Go, gRPC 2016-2018
+– Designed and implemented a distributed system for real-time data processing using gRPC, Kafka, and PostgreSQL.
+– Built a RESTful API using FastAPI for data ingestion, achieving a throughput of 5K requests per second.
+– Collaborated with the DevOps team to deploy the application on Docker containers, ensuring high availability and scalability.
+
+
+Projects
+
+Real-Time Analytics Platform | Python, Django 2022
+– Designed and implemented a real-time analytics platform using Kafka, PostgreSQL, and Redis.
+– Utilized FastAPI to build a RESTful API for data ingestion, achieving a throughput of 10K requests per second.
+– Collaborated with the DevOps team to deploy the application on Docker containers, ensuring high availability and scalability.
+
+Distributed Data Processing System | Go, gRPC 2018
+– Designed and implemented a distributed system for real-time data processing using gRPC, Kafka, and PostgreSQL.
+– Built a RESTful API using FastAPI for data ingestion, achieving a throughput of 5K requests per second.
+– Collaborated with the DevOps team to deploy the application on Docker containers, ensuring high availability and scalability.
+
+Machine Learning Model Deployment | Python, TensorFlow 2020
+– Designed and implemented a system for deploying machine learning models in real-time using Kafka, PostgreSQL, and Redis.
+– Utilized FastAPI to build a RESTful API for model deployment, achieving a throughput of 10K requests per second.
+– Collaborated with the DevOps team to deploy the application on Docker containers, ensuring high availability and scalability.
+
+
+Education
+
+Bachelor of Science in Computer Science
+New York University
+
+
+Certifications
+
+AWS Certified Developer - Associate
+Google Cloud Certified - Professional Cloud Developer

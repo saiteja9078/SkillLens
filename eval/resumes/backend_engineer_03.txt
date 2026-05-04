@@ -1,0 +1,63 @@
+Ava Morales
+amorales@example.com
+https://www.linkedin.com/in/avamorales/
+New York, NY
+
+
+Summary
+As a seasoned Backend Engineer with 3 years of experience in designing and implementing scalable microservices architecture using Python and Go, I am committed to delivering high-quality software solutions that meet the needs of fast-paced business environments.
+
+
+Technical Skills
+
+Languages: Java, Python
+Frameworks: FastAPI, Spring Boot
+Tools: Docker, Kafka
+Databases: PostgreSQL, MySQL
+Message Queue: Redis
+Communication Protocols: REST APIs, gRPC
+
+
+Experience
+
+Senior Backend Engineer at Quantify | Go, Django 2022-2024
+– Improved application performance by 30% through caching and load balancing techniques.
+– Designed and implemented a scalable API gateway using NGINX and Docker.
+– Collaborated with cross-functional teams to launch multiple new features within the company's flagship product.
+
+Backend Engineer at Apex Solutions | Java, Spring Boot 2019-2022
+– Developed and deployed a high-traffic web application using REST APIs and a PostgreSQL database.
+– Participated in code reviews and contributed to the improvement of the team's overall coding standards.
+– Migrated the existing application from MySQL to PostgreSQL for better performance.
+
+Backend Engineer at NovaTech | Python, Django 2018-2019
+– Built a real-time analytics dashboard using gRPC and Redis for low-latency data updates.
+– Designed and implemented a scalable message queue system using Apache Kafka.
+– Collaborated with the QA team to ensure the smooth release of multiple product features.
+
+
+Projects
+
+Weather API | Python, FastAPI 2023
+– Created a RESTful API that provides current and forecasted weather conditions based on user input.
+– Utilized PostgreSQL as the database and Redis for caching data.
+– Achieved an average response time of less than 50ms.
+
+Student Management System | Go, Docker 2022
+– Designed and implemented a microservices-based system using Docker containers.
+– Utilized a PostgreSQL database for storing student information and MySQL for storing grades.
+– Implemented authentication and authorization using OAuth2.
+
+E-commerce Platform | Java, Spring Boot 2019
+– Developed an e-commerce platform with features such as user registration, login, product catalog, and shopping cart.
+– Utilized a PostgreSQL database for storing products and Redis for caching frequently accessed data.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Developer – Associate

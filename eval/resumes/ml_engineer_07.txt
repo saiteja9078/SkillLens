@@ -1,0 +1,63 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesmleng
+San Francisco, CA
+
+
+Summary
+A highly motivated Machine Learning Engineer with 7 years of experience in developing and deploying AI models for various industries. Proven track record of successfully implementing MLOps pipelines using Docker, Kubernetes, and MLflow.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, TensorFlow
+Tools: Docker, AWS, Kubernetes, NumPy, Pandas
+Libraries: Scikit-learn, Hugging Face, ONNX
+Databases: MySQL, PostgreSQL
+
+
+Experience
+
+Senior Machine Learning Engineer at NovaTech | Python, PyTorch 2019-2022
+– Developed and deployed a real-time facial recognition system that achieved a 95% accuracy rate on a dataset of 100,000 images.
+– Utilized PyTorch to build a computer vision model that processed 10,000 frames per second with minimal latency.
+– Successfully integrated the model into NovaTech's existing infrastructure, reducing development time by 30%.
+
+Machine Learning Engineer at Lumina AI | Python, TensorFlow 2018-2019
+– Designed and implemented an NLP pipeline using Scikit-learn and Hugging Face that improved sentiment analysis accuracy by 25%.
+– Developed a web application using FastAPI that integrated the NLP model with user feedback mechanisms.
+– Collaborated with cross-functional teams to deploy the model in production, reducing deployment time by 50%.
+
+Data Scientist at Insight Analytics | R, Python 2017-2018
+– Built and deployed predictive models for customer churn using Scikit-learn and TensorFlow that achieved a 90% accuracy rate.
+– Utilized NumPy and Pandas to optimize data processing pipelines, increasing model training speed by 200%.
+– Worked with stakeholders to identify areas of improvement in the existing analytics platform.
+
+
+Projects
+
+Facial Emotion Recognition | PyTorch, ONNX 2020
+– Developed a deep learning model that recognized facial emotions from 10,000 images with an accuracy rate of 90%.
+– Utilized ONNX to deploy the model on various hardware platforms.
+– Achieved a significant reduction in false positives by 40% using data augmentation techniques.
+
+Image Classification | TensorFlow, Hugging Face 2019
+– Built and trained a deep learning model that classified images into 10 categories with an accuracy rate of 92%.
+– Utilized Hugging Face's Transformers library to incorporate transfer learning from pre-trained models.
+– Successfully deployed the model in production using Kubernetes and Docker.
+
+Traffic Prediction | PyTorch, Scikit-learn 2018
+– Developed a predictive model that forecasted traffic patterns based on historical data with an accuracy rate of 95%.
+– Utilized Scikit-learn's regression techniques to optimize model performance.
+– Achieved a significant reduction in prediction time by 60% using parallel processing.
+
+
+Education
+
+Bachelor of Science in Computer Science, Stanford University, 2017
+
+
+Certifications
+
+Python Certification, DataCamp
+Machine Learning with Python Certification, Coursera

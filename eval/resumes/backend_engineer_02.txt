@@ -1,0 +1,60 @@
+Ava Morales
+amorales@example.com
+linkedin.com/in/avamarorales
+New York, NY
+
+
+Summary
+
+Highly motivated and detail-oriented Backend Engineer with 2 years of experience in designing and developing scalable and efficient systems using Python, Go, and Java. Proven track record of delivering high-quality solutions that meet or exceed expectations.
+
+
+Technical Skills
+
+Languages: 
+Python, Go
+Frameworks: 
+PyTorch, FastAPI
+Tools: 
+Docker, AWS
+
+
+Experience
+
+Backend Engineer at NovaTech | Java, Spring Boot 2020-2022
+– Improved the performance of a critical REST API by 30% through caching and load balancing.
+– Implemented a data pipeline using Apache Kafka and PostgreSQL to process over 10 million records per day.
+– Contributed to the development of a microservices architecture that reduced downtime by 50%.
+
+Software Engineer at Greenify | Python, Django 2019-2020
+– Designed and developed a real-time analytics dashboard for environmental monitoring systems using Django and PostgreSQL.
+– Implemented API security using gRPC and Redis to reduce data breaches by 25%.
+– Collaborated with the QA team to implement automated testing and CI/CD pipelines.
+
+Junior Backend Engineer at Apex Systems | Go, FastAPI 2018-2019
+– Built a scalable e-commerce platform using Go and FastAPI that handled over 100 concurrent requests per second.
+– Implemented caching using Redis to improve response times by 40%.
+– Contributed to the development of a chatbot using natural language processing (NLP) and machine learning.
+
+
+Projects
+
+Weather API | Python, Flask 2020
+– Built a RESTful API for weather data that provided current and forecasted conditions for over 10 million users.
+– Implemented caching using Redis to improve response times by 20%.
+– Deployed on AWS with automatic scaling.
+
+E-commerce Recommendation System | Go, gRPC 2019
+– Developed a microservices-based recommendation system that used collaborative filtering and content-based filtering algorithms.
+– Implemented data storage using PostgreSQL and querying using SQL.
+– Achieved an accuracy of 85% in recommending products to users.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Developer - Associate

@@ -1,0 +1,57 @@
+Ava Maria Rodriguez
+arodriguez@email.com
+linkedin.com/in/avamariorodriguez
+San Francisco, CA
+
+
+Summary
+Cloud Architect with 7 years of experience designing and implementing secure, scalable, and efficient cloud infrastructure for Fortune 500 companies.
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Azure, GCP
+Databases: DynamoDB, Relational databases
+Operating Systems: Linux, Windows
+Security: Cloud Security, IAM, VPC
+Cloud Platforms: AWS, Azure, GCP, EKS
+Serverless Computing: Lambda, API Gateway
+
+Experience
+Senior Cloud Architect at ABC Corporation | AWS, Python 2018-2022
+– Designed and implemented a multi-account architecture for a Fortune 500 company using AWS Organizations and IAM roles.
+– Implemented a serverless infrastructure using AWS Lambda, API Gateway, and S3 buckets to reduce costs by 30%.
+– Collaborated with DevOps teams to implement CI/CD pipelines using Jenkins and Terraform.
+
+Cloud Architect at DEF Startups | GCP, Go 2015-2018
+– Designed and implemented a cloud-based data warehouse using BigQuery and Google Cloud Storage.
+– Implemented a microservices architecture using Google Kubernetes Engine (GKE) to increase scalability by 50%.
+– Collaborated with security teams to implement Cloud Security best practices and Compliance Framework.
+
+Cloud Engineer at GHI Ventures | AWS, Azure 2013-2015
+– Designed and implemented a hybrid cloud infrastructure using AWS and Azure for a startup.
+– Implemented a load balancer using HAProxy and a firewall using AWS Network Firewall.
+– Collaborated with DevOps teams to implement a CI/CD pipeline using Jenkins and CloudFormation.
+
+Projects
+Cloud Migration Tool | Python, AWS 2020
+– Built a command-line tool to automate cloud migration tasks from on-premises infrastructure to AWS using AWS CLI and Python.
+– Implemented features such as data validation, backup, and disaster recovery using DynamoDB and S3 buckets.
+– Achieved a successful migration of 500 servers in 2 weeks.
+
+Serverless API Gateway | Go, AWS 2019
+– Built a serverless API gateway using AWS Lambda, API Gateway, and S3 buckets to handle millions of requests per month.
+– Implemented security features such as JWT authentication and rate limiting using IAM roles and AWS WAF.
+– Reduced costs by 40% compared to traditional API gateways.
+
+Cloud Security Framework | Python, GCP 2018
+– Developed a cloud security framework using Python and GCP to implement Compliance Framework best practices.
+– Implemented features such as vulnerability scanning, patch management, and incident response using Cloud Security Command Center (CSCC).
+– Achieved compliance with 20+ regulatory frameworks in under 3 months.
+
+Education
+Bachelor of Science in Computer Science, Stanford University 2009-2013
+
+Certifications
+AWS Certified Solutions Architect – Professional 2020
+Google Cloud Certified - Professional Cloud Developer 2018

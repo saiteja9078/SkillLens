@@ -1,0 +1,64 @@
+Amanda J. Patel
+apatel@email.com
+linkedin.com/in/ajpdatascience
+San Francisco, CA
+
+
+Summary
+Data Engineer with 1 year of experience in designing and developing scalable data pipelines using Apache Spark, Kafka, and Airflow. Proven track record of delivering high-quality projects on time while ensuring data consistency and integrity.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, Redshift, BigQuery
+ETL/ELT Tools: dbt, Apache Beam
+Data Storage: Delta Lake, Databricks
+Programming Languages: SQL, Python
+
+
+Experience
+
+Senior Data Engineer at NovaTech | Apache Spark, Kafka, Airflow 2022-2023
+– Successfully designed and implemented a real-time data pipeline for processing user behavior data with a throughput of 10 million events per hour.
+– Utilized dbt to transform and materialize data in Snowflake for reporting and analytics purposes.
+– Implemented automated data quality checks using Apache Spark's built-in validation features, resulting in a 30% reduction in data inconsistencies.
+
+Data Engineer at Apex Solutions | AWS Glue, Redshift 2021-2022
+– Developed an ETL pipeline using AWS Glue to integrate customer transactional data with marketing datasets.
+– Designed and implemented a data warehousing architecture on Amazon Redshift for reporting and analytics purposes.
+– Collaborated with cross-functional teams to implement data governance policies, ensuring compliance with regulatory requirements.
+
+Data Analyst at Insight Analytics | Python, Pandas 2020-2021
+– Worked closely with business stakeholders to design and develop a dashboard using D3.js and React.
+– Utilized Apache Beam to process large-scale datasets for data modeling and analysis purposes.
+– Developed a predictive model using PyTorch that achieved an accuracy of 92% in forecasting sales trends.
+
+
+Projects
+
+Customer Churn Prediction | Python, Pandas, Scikit-learn 2022
+– Built a machine learning model that predicted customer churn with an accuracy of 85%.
+– Utilized Apache Spark's built-in classification algorithm to develop the model and trained it on a dataset of 100,000 customers.
+– Implemented feature engineering techniques using scikit-learn to improve model performance.
+
+Real-Time Data Ingestion | Kafka, Apache Beam, BigQuery 2021
+– Designed and developed a real-time data ingestion pipeline that ingested 10 million events per hour into Google BigQuery.
+– Utilized Apache Beam's built-in functions for data processing and transformation purposes.
+– Implemented automated tests using Docker to ensure the pipeline's reliability and scalability.
+
+E-commerce Recommendation System | PyTorch, Databricks, Delta Lake 2020
+– Developed a recommendation system that used collaborative filtering techniques to suggest products to users.
+– Utilized PyTorch to build a neural network that learned user and product embeddings for recommendation purposes.
+– Implemented data modeling using Delta Lake to optimize database performance.
+
+
+Education
+
+Bachelor of Science in Computer Science, Stanford University, 2020
+
+
+Certifications
+
+AWS Certified Data Engineer - Associate, Amazon Web Services, 2022

@@ -1,0 +1,57 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamariecodes
+San Francisco, CA
+
+
+Summary
+
+Highly skilled Mobile App Developer with 2 years of experience in designing and developing scalable mobile applications for both iOS and Android platforms using Flutter and React Native. Proficient in a range of programming languages including Swift, Kotlin, Dart, and Python.
+
+Technical Skills
+
+Languages: Java, C#, Python
+Frameworks: Spring Boot, Django Rest Framework
+Tools: Jenkins, GitLab CI/CD
+
+
+Experience
+
+Senior Mobile App Developer at Zephyr Technologies | Flutter, React Native 2020-2022
+– Developed a real-time navigation app for emergency responders with an average rating of 4.8/5 on the Google Play Store.
+  - Utilized Firebase Firestore and Realtime Database to implement data persistence and synchronization across devices.
+  - Collaborated with cross-functional teams to launch the app within 12 weeks, exceeding client expectations.
+
+Mobile App Developer at NovaSpire | Swift, Kotlin 2019-2020
+– Built a mobile app for tracking personal finance using Realm and SQLite databases, resulting in a 30% increase in user engagement.
+  - Implemented State Management using Redux to ensure data consistency across the app.
+  - Participated in code reviews and ensured adherence to coding standards.
+
+Junior Mobile App Developer at Apex Innovations | Dart, Flutter 2018-2019
+– Contributed to the development of a social media app for event planning with a user base of over 10,000 registered users.
+  - Implemented Firebase Authentication and Authorization services to ensure secure access control.
+  - Collaborated with designers to create visually appealing UI components using Material Design principles.
+
+
+Projects
+
+EcoCycle | React Native, Java 2022
+– Created an app for tracking household waste management, featuring machine learning-based recommendations for reducing carbon footprint.
+  - Utilized Google Maps API and Geolocation services to enable location-based tracking and analysis.
+
+HealthChat | Swift, Kotlin 2021
+– Developed a mental health support chatbot app with AI-powered conversations and speech-to-text functionality using Firebase ML Kit and Core ML.
+  - Implemented Realm database for storing user data and analytics.
+
+FitnessPal | Dart, Flutter 2020
+– Designed an exercise tracking app with gamification features and social sharing capabilities using Firebase Cloud Functions and Firestore.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Certified Mobile App Developer (CMAD), Google Cloud Certified - Professional Data Engineer

@@ -1,0 +1,63 @@
+Aurora Rodriguez
+arodriguez@email.com
+linkedin.com/in/aurorarodriguezdev
+Austin, Texas
+
+
+Summary
+
+Results-driven mobile app developer with 3 years of experience in designing and developing scalable, user-friendly apps for iOS and Android platforms.
+
+Technical Skills
+
+Languages: Java, Swift
+Frameworks: Flutter, React Native
+Tools: Xcode, Android Studio, Firebase, SQLite
+Databases: Realm, MySQL
+State Management: Redux
+
+
+Experience
+
+Senior Mobile App Developer at NovaTech | Kotlin, Java 2019-2022
+– Developed a real-time messaging app for a large e-commerce company, achieving a 30% increase in user engagement.
+– Utilized Flutter and Firebase to create a seamless and efficient architecture, reducing development time by 40%.
+– Collaborated with the design team to implement Material Design principles, resulting in a 25% improvement in user satisfaction.
+
+Mobile App Developer at Apex Solutions | Swift, iOS 2018-2019
+– Built a custom GPS tracking app for logistics companies, achieving a 99.9% accuracy rate.
+– Implemented Realm database to improve data storage and retrieval efficiency by 50%.
+– Worked closely with QA engineers to identify and fix bugs, reducing the average bug resolution time from 72 hours to 2 hours.
+
+Junior Mobile App Developer at Spark Labs | Dart, Flutter 2017-2018
+– Created a social media app for small businesses, achieving a 25% increase in user acquisition rate.
+– Utilized Firebase Firestore to implement real-time data synchronization, reducing latency by 90%.
+– Assisted the lead developer in maintaining code quality and adhering to Agile development methodologies.
+
+
+Projects
+
+Foodie Finder | Kotlin, Java 2020
+– Developed a location-based app for foodies to discover nearby restaurants and cafes.
+– Utilized Realm database to store user reviews and ratings, improving data retrieval efficiency by 30%.
+– Implemented a rating system using Firebase Firestore, allowing users to rate restaurants based on their experience.
+
+Healthify | Swift, iOS 2019
+– Built a fitness tracking app that integrates with wearable devices, achieving a 95% accuracy rate.
+– Utilized SQLite database to store user workout data and progress, improving data storage efficiency by 40%.
+– Implemented a rewards system using Firebase Cloud Functions, allowing users to earn badges for reaching milestones.
+
+EcoChat | Dart, Flutter 2018
+– Developed a real-time chat app for environmental organizations to connect with volunteers.
+– Utilized Redux state management to improve app performance and reduce development time by 20%.
+– Implemented a moderation system using Firebase Realtime Database, ensuring a safe and respectful conversation environment.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of Texas at Austin
+
+
+Certifications
+
+Certified Mobile App Developer (CMAD), Google Cloud Certified - Professional Cloud Developer

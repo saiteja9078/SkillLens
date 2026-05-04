@@ -1,0 +1,52 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamorales
+San Francisco, CA
+
+
+Summary
+Designing and implementing large-scale data architectures for high-performing teams.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, Redshift, BigQuery
+ETL/ELT Tools: dbt, Apache Spark, Airflow
+Cloud Platforms: AWS Glue, Databricks
+Data Storage: Delta Lake
+
+
+Experience
+Senior Data Engineer at NovaTech | Apache Spark, Kafka, Airflow 2020-2022
+– Designed and implemented a data pipeline for real-time analytics using Apache Spark, Kafka, and Airflow, resulting in a 30% reduction in latency.
+– Utilized dbt to transform and load data into Snowflake, ensuring accuracy and efficiency.
+– Successfully migrated the company's data warehouse from Redshift to BigQuery, improving query performance by 50%.
+Data Engineer at GreenEnergy | Python, SQL, AWS Glue 2019-2020
+– Developed a data modeling framework using Python and SQL, enabling the team to create scalable data structures.
+– Implemented ETL processes using Apache Spark and Snowflake, resulting in a 25% reduction in processing time.
+– Collaborated with cross-functional teams to design and implement a data governance framework using AWS Glue and Redshift.
+
+Data Engineer at BioMetrics | Go, FastAPI, Delta Lake 2018-2019
+– Designed and implemented a real-time analytics platform using Go and FastAPI, achieving a 40% reduction in latency.
+– Utilized dbt to transform and load data into Databricks, ensuring accuracy and efficiency.
+– Successfully integrated the company's ETL processes with Apache Spark, resulting in a 35% reduction in processing time.
+
+
+Projects
+Personal Finance Tracker | Python, SQLite 2019
+– Developed a personal finance tracking application using Python and SQLite, allowing users to track expenses and income.
+– Utilized Airflow to schedule daily data imports from the user's bank account, ensuring up-to-date financial information.
+
+Real Estate Analysis Tool | PyTorch, AWS S3 2020
+– Created a real estate analysis tool using PyTorch, enabling users to analyze property values and trends.
+– Utilized Apache Spark to process large datasets stored in AWS S3, resulting in a significant improvement in query performance.
+
+
+Education
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+AWS Certified Data Engineer – Associate

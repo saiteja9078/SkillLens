@@ -1,0 +1,60 @@
+Kathleen Marie Reyes
+kathleen.reyes@email.com
+linkedin.com/in/kathleenmareyeres
+New York, NY
+
+
+Summary
+
+Highly motivated and detail-oriented Frontend Engineer with 5 years of experience in building scalable and maintainable web applications using modern frontend technologies such as React, TypeScript, and Next.js. Proficient in a wide range of tools and technologies including JavaScript, HTML, CSS, Webpack, Vite, Figma, Jest, Cypress, and Redux.
+
+
+Technical Skills
+
+Languages: JavaScript, TypeScript
+Frameworks: React, Next.js, Vue.js
+Tools: Webpack, Vite, Docker
+Databases: MongoDB, PostgreSQL
+Libraries: Redux, GraphQL
+
+
+Experience
+
+Senior Frontend Engineer at NovaTech | React, Next.js, TypeScript 2020-2022
+– Improved application performance by implementing code splitting and lazy loading techniques, resulting in a 30% reduction in page load time.
+– Designed and implemented a reusable UI component library using Tailwind CSS and Storybook, reducing development time by 50%.
+– Collaborated with the backend team to integrate GraphQL API with Next.js, enabling real-time data updates and caching for improved user experience.
+
+Frontend Engineer at Sparkify | React, Redux, JavaScript 2019-2020
+– Developed a responsive and accessible e-commerce website using React, JavaScript, and CSS Grid, meeting accessibility guidelines and improving sales by 25%.
+– Created a reusable UI component library using Webpack and Babel, reducing development time by 40%.
+
+
+Frontend Engineer at ByteBand | Vue.js, Vuex, HTML/CSS 2018-2019
+– Designed and implemented a real-time collaboration tool for graphic designers using Vue.js, Vuex, and Socket.io, improving productivity by 50%.
+– Implemented responsive design using Tailwind CSS and Figma, resulting in a 30% increase in mobile sales.
+
+
+Projects
+
+Real-Time Weather Dashboard | React, Redux, GraphQL 2020
+– Built a real-time weather dashboard displaying current weather conditions and forecasts for cities worldwide.
+– Integrated with OpenWeatherMap API to fetch data, using GraphQL to query and cache data for improved performance.
+
+Accessible E-commerce Website | React, Next.js, A11y 2019
+– Designed and implemented an accessible e-commerce website meeting Web Content Accessibility Guidelines (WCAG 2.1) standards.
+– Used Jest and Cypress for unit testing and end-to-end testing, ensuring a seamless user experience.
+
+
+Personal Portfolio Website | Vue.js, Vuex, Tailwind CSS 2018
+– Built a responsive personal portfolio website showcasing projects and skills using Vue.js, Vuex, and Tailwind CSS.
+– Implemented search functionality using Elasticsearch API and Vue.js lifecycle hooks.
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+Certified Frontend Developer (CxFD), Certified Associate in Python Programming (CAP)

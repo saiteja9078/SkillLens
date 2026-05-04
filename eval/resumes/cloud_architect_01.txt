@@ -1,0 +1,62 @@
+Aiden J. Moreno
+aiden.moreno@email.com
+linkedin.com/in/ajmcloudarchitect
+New York, NY
+
+Summary
+
+Highly motivated and detail-oriented Cloud Architect with 1 year of experience designing scalable and secure cloud infrastructure solutions for businesses. Proven track record of successfully implementing microservices-based architectures on leading cloud platforms.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS CLI, Azure CLI
+Cloud Platforms: AWS, Azure, GCP
+Database: DynamoDB
+Serverless Computing: Lambda
+Infrastructure as Code: CloudFormation, Terraform
+Security: IAM, VPC, S3
+
+Experience
+
+Senior Cloud Architect at CyberCorp | AWS, Azure 2022-2023
+– Designed and implemented a serverless architecture for a microservices-based e-commerce platform resulting in 30% cost savings and 25% increase in system uptime.
+– Utilized Terraform to provision infrastructure on both AWS and Azure platforms, streamlining the deployment process by 40%.
+– Successfully implemented cloud security best practices, reducing security incidents by 50%.
+
+Cloud Engineer at GreenTech | GCP, Kubernetes 2021-2022
+– Developed a containerization strategy using Docker and Kubernetes for a green energy monitoring platform, resulting in 20% reduction in infrastructure costs.
+– Designed and deployed a data processing pipeline on Google Cloud Dataflow, increasing data processing speed by 50%.
+– Implemented cloud security measures to protect sensitive customer data, achieving 99.9% uptime.
+
+Cloud Architect at DigitalMark | AWS, Azure 2020-2021
+– Designed a cloud-based marketing automation platform using microservices architecture and serverless computing on AWS.
+– Utilized CloudFormation to automate infrastructure provisioning, reducing deployment time by 60%.
+– Implemented IAM roles for secure access control, ensuring only authorized personnel had access to sensitive data.
+
+Projects
+
+Cloud Security Scanner | Terraform, Ansible 2022
+– Built a cloud security scanner tool using Python and Ansible to identify vulnerabilities in cloud infrastructure.
+– Utilized Terraform to provision AWS resources for the scanner, demonstrating seamless integration with cloud platforms.
+– Successfully scanned over 100 cloud environments, identifying and resolving critical security issues.
+
+Serverless Chatbot | AWS Lambda, DynamoDB 2021
+– Developed a serverless chatbot using Node.js and AWS Lambda that integrated with customer service databases.
+– Utilized DynamoDB for data storage and retrieval, achieving sub-second response times.
+– Successfully deployed the chatbot to production, resulting in 25% increase in customer satisfaction.
+
+Cloud Cost Optimizer | Azure, Python 2020
+– Built a cloud cost optimization tool using Python and Azure CLI that identified areas of cost inefficiency in cloud resources.
+– Utilized Azure Advisor to provide recommendations for cost savings, achieving 30% reduction in costs.
+– Successfully deployed the tool to production, resulting in consistent cost savings.
+
+Education
+
+Bachelor's Degree in Computer Science, New York University, New York, NY
+
+Certifications
+
+AWS Certified Cloud Practitioner
+Azure Certified: Azure Developer Associate

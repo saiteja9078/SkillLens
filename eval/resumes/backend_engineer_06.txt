@@ -1,0 +1,52 @@
+Ava Morales
+amorales@gmail.com
+https://www.linkedin.com/in/avamorales
+San Francisco, CA
+
+Summary
+
+Highly motivated and detail-oriented Backend Engineer with 6 years of experience in designing and developing scalable microservices architecture using Python, Go, and Java. Proficient in building REST APIs, gRPC services, and integrating with databases such as PostgreSQL, MySQL, and Redis.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: FastAPI, Django
+Tools: Docker, AWS
+Databases: PostgreSQL, MySQL
+Message Queue: Kafka
+Cloud Services: AWS
+
+Experience
+
+Senior Backend Engineer at CloudSpark | Java, Spring Boot 2019-2022
+– Designed and developed a high-performance API gateway using Spring Boot, resulting in a 30% reduction in latency and a 25% increase in throughput.
+– Implemented a caching layer using Redis to improve query performance by 40%.
+– Collaborated with cross-functional teams to migrate a monolithic application to a microservices architecture, reducing complexity and improving scalability.
+
+Backend Engineer at NovaTech | Python, Django 2017-2019
+– Built a real-time analytics platform using Django and PostgreSQL, processing over 1 million requests per day.
+– Integrated Kafka as a message queue to handle high-volume data streaming, resulting in a 90% reduction in data loss.
+– Designed and developed a REST API for user authentication, achieving an average response time of under 50ms.
+
+Software Engineer at FusionCore | Go, gRPC 2015-2017
+– Developed a high-performance trading platform using Go and gRPC, processing over 10,000 transactions per second.
+– Implemented a PostgreSQL database schema to store market data, resulting in a 30% reduction in query time.
+– Collaborated with the DevOps team to containerize the application using Docker, improving deployment efficiency by 50%.
+
+Projects
+
+Real-Time Traffic Monitoring System | Python, Django 2020
+– Built a real-time traffic monitoring system using Django and PostgreSQL, displaying traffic data on a web interface.
+– Integrated Kafka as a message queue to handle high-volume data streaming from sensors, resulting in a 99% reduction in latency.
+
+Cloud-Based Chatbot Platform | Go, gRPC 2019
+– Developed a cloud-based chatbot platform using Go and gRPC, integrating with a PostgreSQL database to store conversation history.
+– Implemented a caching layer using Redis to improve query performance by 40%.
+
+Personal Finance Management App | Java, Spring Boot 2018
+– Built a personal finance management app using Java and Spring Boot, integrating with a MySQL database to store user data.
+– Designed and developed a REST API for user authentication, achieving an average response time of under 50ms.
+
+Education
+
+Bachelor's Degree in Computer Science, Stanford University 2015

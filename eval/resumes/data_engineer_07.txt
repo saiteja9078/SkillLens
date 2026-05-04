@@ -1,0 +1,70 @@
+Alyssa M. Rodriguez
+arodriguez@email.com
+linkedin.com/in/alyssamrodriguez
+San Francisco, CA
+
+
+Summary
+------------------------
+
+Highly motivated and detail-oriented Data Engineer with 7 years of experience in designing, developing, and deploying large-scale data pipelines using Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL, and Python. Proven track record of successfully implementing ETL/ELT processes and data modeling techniques to drive business growth and improve operational efficiency.
+
+
+Technical Skills
+----------------
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Databases: Snowflake, Redshift, BigQuery
+Data Engineering Tools: Apache Spark, Kafka, Airflow, dbt
+Cloud Platforms: AWS Glue, Databricks
+Data Storage: Delta Lake
+
+
+Experience
+----------------
+
+Senior Data Engineer at Optimizely | Python, PyTorch, AWS Glue 2018-2022
+– Designed and developed a real-time customer segmentation platform using Apache Spark, Kafka, and Airflow, resulting in a 25% increase in sales.
+– Implemented data modeling techniques to improve data quality and reduce data latency by 30%.
+– Led a team of engineers to migrate the company's data warehouse from Redshift to Snowflake, resulting in a 40% reduction in costs.
+
+Data Engineer at Gusto | Go, FastAPI, BigQuery 2016-2018
+– Developed an ETL/ELT process using dbt and Apache Spark to integrate customer data into the company's data warehouse, resulting in a 90% increase in data coverage.
+– Implemented data governance policies to ensure data accuracy and compliance, reducing data errors by 50%.
+– Collaborated with the engineering team to design and develop a data lake on Databricks, resulting in a 20% reduction in data processing time.
+
+Data Analyst at IBM | SQL, Python, Spark 2015-2016
+– Analyzed large datasets using Apache Spark and SQL to identify trends and patterns in customer behavior.
+– Developed data visualizations using PyTorch to present findings to stakeholders.
+– Collaborated with the product team to develop a recommendation engine using machine learning algorithms.
+
+
+Projects
+----------------
+
+Real-time Customer Segmentation Platform | Python, PyTorch, AWS Glue 2020
+– Designed and developed a platform that used Apache Spark and Kafka to process real-time customer data and generate personalized recommendations.
+– Implemented data modeling techniques to improve data quality and reduce latency.
+
+Data Lake on Databricks | Go, FastAPI, Delta Lake 2019
+– Developed an ETL/ELT process using dbt and Apache Spark to integrate customer data into the company's data lake on Databricks.
+– Implemented data governance policies to ensure data accuracy and compliance.
+
+Customer Data Integration Pipeline | Python, PyTorch, BigQuery 2018
+– Designed and developed a pipeline that used dbt and Apache Spark to integrate customer data from multiple sources into the company's data warehouse.
+– Implemented data modeling techniques to improve data quality and reduce latency.
+
+
+Education
+----------------
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+----------------
+
+AWS Certified Developer - Associate
+Google Cloud Certified - Professional Data Engineer

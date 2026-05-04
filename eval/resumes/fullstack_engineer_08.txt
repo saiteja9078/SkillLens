@@ -1,0 +1,68 @@
+Arianna Rose
+
+arianna.rose@email.com
+linkedin.com/in/ariannarose
+
+New York, NY
+
+
+Summary
+-------------------
+
+Highly accomplished Full Stack Engineer with 8 years of experience in designing and developing scalable, high-performance web applications using a wide range of technologies.
+
+Technical Skills
+-----------------
+
+Languages: Python, Go, TypeScript
+Frameworks: React, Next.js, PyTorch
+Tools: Docker, AWS, Redis
+Databases: MongoDB, PostgreSQL
+APIs: GraphQL, REST APIs
+
+Experience
+--------------
+
+Senior Full Stack Engineer at NovaTech | Node.js, Express.js, MongoDB 2020-2022
+– Designed and implemented a real-time analytics platform that improved user engagement by 35% within 6 months
+– Utilized Next.js and Tailwind CSS for fast and responsive front-end development
+– Implemented CI/CD pipeline using GitLab CI/CD to reduce deployment time by 90%
+
+Full Stack Engineer at ApexCorp | React, TypeScript, PostgreSQL 2018-2020
+– Built a cloud-based e-commerce platform that increased sales by 25% within the first year
+– Developed a microservices architecture using Docker and Kubernetes for high availability
+– Implemented REST APIs with GraphQL resolvers to improve data access efficiency
+
+Backend Engineer at ZenithSoftware | Python, PyTorch, MongoDB 2016-2018
+– Created a machine learning-based recommendation engine that improved user satisfaction by 20%
+– Designed and implemented a real-time data pipeline using Apache Kafka and Redis for efficient data processing
+– Utilized Flask and SQLAlchemy to develop scalable backend APIs
+
+Projects
+-------------
+
+Real-Time Analytics Platform | Node.js, Express.js, MongoDB 2021
+– Developed a web application that visualizes user behavior in real-time, utilizing Next.js and Tailwind CSS for fast and responsive front-end development
+– Implemented a data pipeline using Apache Kafka and Redis to efficiently process large amounts of data
+
+E-commerce Search Engine | React, TypeScript, PostgreSQL 2019
+– Built a cloud-based e-commerce search engine that improved product visibility by 15%
+– Utilized GraphQL and REST APIs to improve data access efficiency and scalability
+– Implemented a caching layer using Redis to reduce query latency
+
+Personal Finance Tracker | Python, PyTorch, MongoDB 2017
+– Created a web application that tracks personal expenses and income in real-time
+– Utilized Flask and SQLAlchemy to develop scalable backend APIs
+– Implemented machine learning algorithms using PyTorch to provide personalized financial recommendations
+
+
+Education
+-------------
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+-----------------
+
+AWS Certified Developer - Associate

@@ -1,0 +1,73 @@
+Amanda J. Rodriguez
+arodriguez@email.com
+linkedin.com/in/amandajrodriguez
+San Francisco, CA
+
+
+Summary
+Technical Skills
+Experience
+Projects
+Education
+Certifications
+
+Katherine M. Lee
+klee@email.com
+linkedin.com/in/katherinemlee
+New York, NY
+
+Amanda J. Rodriguez
+arodriguez@email.com
+linkedin.com/in/amandajrodriguez
+San Francisco, CA
+
+
+Summary
+As a seasoned Data Engineer with 6 years of experience in designing and building large-scale data pipelines, I excel at developing scalable and efficient architectures using Apache Spark, Kafka, Airflow, Snowflake, dbt, and SQL. My expertise spans data modeling, ETL/ELT processes, and collaborating with cross-functional teams to drive business outcomes.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Apache Spark, Kafka, Airflow, Snowflake, dbt, SQL
+Databases: Redshift, BigQuery, Delta Lake, Databricks
+Cloud Platforms: AWS Glue
+
+
+Experience
+
+Senior Data Engineer at Brightspot Media | Apache Spark, Kafka, Airflow 2020-2022
+– Successfully designed and deployed a data pipeline that increased data processing speed by 300% and reduced latency by 50%.
+– Implemented real-time analytics using Snowflake and dbt, resulting in a 25% increase in sales forecast accuracy.
+– Collaborated with the engineering team to develop a scalable architecture for a large-scale e-commerce platform.
+
+Data Engineer at FinTech Solutions | Python, AWS Glue 2019-2020
+– Built a data warehouse on Redshift that integrated financial transaction data from multiple sources and reduced query time by 90%.
+– Developed an ETL process using Apache Spark and Kafka to handle high-volume trading data feeds.
+– Worked with the product team to create data visualizations using Tableau, leading to a 15% increase in customer engagement.
+
+Data Analyst at Zephyr Analytics | SQL, BigQuery 2018-2019
+– Analyzed large datasets on BigQuery to identify trends and insights for client reports, resulting in a 20% increase in sales leads.
+– Developed a data model using SQL to integrate disparate data sources for a marketing campaign analysis project.
+– Collaborated with the reporting team to create weekly dashboards using Google Data Studio, reducing reporting time by 70%.
+
+
+Projects
+
+Real-Time Sales Forecasting | Snowflake, dbt, Apache Spark 2021
+– Built a real-time sales forecasting system using Snowflake and dbt that predicted sales volumes within a 95% accuracy rate.
+– Implemented Apache Spark to process large datasets and update forecasts in near-real-time.
+
+Data Quality Dashboard | Delta Lake, Databricks, Python 2020
+– Created a data quality dashboard using Delta Lake and Databricks to monitor data quality metrics and identify anomalies.
+– Developed a Python script to automate data quality checks and send notifications for high-priority issues.
+
+Social Media Sentiment Analysis | PyTorch, FastAPI, Kafka 2019
+– Built a social media sentiment analysis system using PyTorch and FastAPI that processed tweets in real-time and provided sentiment scores within seconds.
+– Implemented Kafka as a message queue to handle large volumes of social media data feeds.
+
+
+Education
+
+Bachelor of Science in Computer Science, Stanford University

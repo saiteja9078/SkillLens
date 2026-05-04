@@ -1,0 +1,55 @@
+Aurora R. Thompson
+aurorathompson@email.com
+https://www.linkedin.com/in/aurorarthompson/
+San Francisco, CA
+
+
+Summary
+As a seasoned DevOps Engineer with 8 years of experience, I excel at designing and implementing scalable infrastructure solutions for cloud-native applications using Kubernetes, Docker, and Terraform. My expertise spans across multiple cloud providers including AWS, GCP, and Azure, with a strong focus on CI/CD pipelines, monitoring, and logging.
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Jenkins, GitHub Actions
+Platforms: Kubernetes, Docker, Terraform
+Databases: MySQL, PostgreSQL
+Monitoring Tools: Prometheus, Grafana
+Operating Systems: Linux, Windows
+
+Experience
+Cloud Architect at Zenith Solutions | Kubernetes, Docker, Terraform 2019-2022
+• Successfully migrated 10 on-premises applications to cloud-native environments using Kubernetes and Docker, resulting in a 30% reduction in costs.
+• Designed and implemented a CI/CD pipeline using Jenkins, GitHub Actions, and Ansible, which improved deployment frequency by 4x.
+• Collaborated with cross-functional teams to develop and deploy microservices-based architecture on GCP, Azure, and AWS.
+
+DevOps Engineer at NovaTech | Terraform, Kubernetes, Ansible 2016-2019
+• Developed and maintained a infrastructure as code (IaC) using Terraform, which reduced human error by 90% and improved consistency across environments.
+• Implemented monitoring and logging using Prometheus, Grafana, and ELK Stack, resulting in a 25% reduction in Mean Time To Detect (MTTD).
+• Automated deployment of containerized applications using Kubernetes and Docker, improving deployment frequency by 10x.
+
+Senior DevOps Engineer at Onix Systems | Jenkins, GitLab CI/CD 2014-2016
+• Designed and implemented a CI/CD pipeline using Jenkins and GitLab CI/CD, which improved deployment frequency by 5x.
+• Collaborated with development teams to develop and deploy containerized applications using Docker and Kubernetes.
+• Migrated legacy monolithic applications to cloud-native environments using AWS, Azure, and GCP.
+
+Projects
+Personal Finance Tracker | Python, Flask, PostgreSQL 2018
+• Developed a personal finance tracking application using Python, Flask, and PostgreSQL, which provided users with real-time expense tracking and budgeting.
+• Implemented authentication and authorization using OAuth and JWT, ensuring secure data access for users.
+• Deployed the application on AWS EC2 instances using Docker and Kubernetes.
+
+Cloud-Native API Gateway | Go, Kubernetes 2020
+• Developed a cloud-native API gateway using Go, which provided secure and scalable API management for microservices-based architecture.
+• Implemented rate limiting, caching, and authentication using Prometheus, Grafana, and ELK Stack.
+• Deployed the API gateway on GCP, Azure, and AWS using Terraform and Kubernetes.
+
+Real-Time Analytics Platform | Apache Flink, PostgreSQL 2021
+• Developed a real-time analytics platform using Apache Flink, which provided users with real-time data processing and analysis.
+• Implemented streaming data ingestion using Kafka and Storm, ensuring high throughput and low latency.
+• Deployed the platform on AWS EC2 instances using Docker and Kubernetes.
+
+Education
+Bachelor of Science in Computer Science, Stanford University 2014
+
+Certifications
+CompTIA Cloud+, AWS Certified Solutions Architect - Associate

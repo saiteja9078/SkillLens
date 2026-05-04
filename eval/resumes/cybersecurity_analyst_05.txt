@@ -1,0 +1,56 @@
+Astrid V. Jensen
+ajensen@email.com
+linkedin.com/in/astridvjensen
+New York, NY
+
+Summary
+
+Experienced Cybersecurity Analyst with a strong background in penetration testing, incident response, and threat hunting. Proven track record of identifying and mitigating high-risk threats to protect business-critical assets.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Splunk, Metasploit, Burp Suite
+Operating Systems: Windows, Linux
+Networking Protocols: TCP/IP, DNS, DHCP
+Security Tools: Wireshark, Nmap, Nessus
+
+Experience
+
+Cybersecurity Analyst at SecureTech Solutions | Penetration Testing, SIEM, Splunk 2020-2022
+– Conducted regular penetration testing to identify vulnerabilities in client networks, resulting in a 30% reduction in incident response time.
+– Implemented and configured Splunk SIEM system to monitor and analyze network traffic, reducing mean time to detect (MTTD) by 45%.
+– Collaborated with the SOC team to develop and implement incident response plans, ensuring compliance with NIST and ISO 27001 standards.
+
+Junior Cybersecurity Specialist at TechGuard | Firewalls, IDS/IPS, Incident Response 2018-2020
+– Assisted in the deployment and configuration of firewalls and intrusion detection systems (IDS) to protect against unauthorized access.
+– Participated in incident response efforts, conducting post-incident activities to identify root causes and implement corrective actions.
+– Developed and maintained security policies and procedures for TechGuard's SOC operations.
+
+Cybersecurity Intern at CyberNet | Penetration Testing, Burp Suite 2017
+– Conducted penetration testing using Burp Suite to identify vulnerabilities in client applications, resulting in a 25% reduction in remediation time.
+– Assisted in the development of security awareness training programs for employees, focusing on phishing and social engineering attacks.
+
+Projects
+
+Secure Network Protocol Analyzer | PyTorch, Docker 2021
+– Developed a Python-based network protocol analyzer using PyTorch to detect anomalies in network traffic.
+– Implemented Docker containers to deploy and manage the application, reducing deployment time by 50%.
+
+Vulnerability Scanner | Metasploit, AWS 2019
+– Created a vulnerability scanner using Metasploit to identify weaknesses in client applications, resulting in a 20% reduction in remediation time.
+– Utilized AWS services to host and deploy the scanner, ensuring scalability and reliability.
+
+Threat Intelligence Platform | Splunk, FastAPI 2018
+– Designed and developed a threat intelligence platform using Splunk and FastAPI to collect and analyze threat intelligence data.
+– Implemented real-time alerts and notifications for security teams, reducing response time by 30%.
+
+Education
+
+Bachelor of Science in Computer Science, New York University 2017-2021
+
+Certifications
+
+CompTIA Security+ CE
+Certified Information Systems Security Professional (CISSP)

@@ -1,0 +1,58 @@
+Emily J. Nguyen
+ejnguyen@email.com
+https://www.linkedin.com/in/emilyjnguyen9/
+New York, NY
+
+
+Summary
+ 
+As a seasoned Full Stack Engineer with 3 years of experience, I have developed a strong expertise in designing and implementing scalable, efficient, and maintainable software systems. With a passion for innovation and a keen eye for detail, I excel at collaborating with cross-functional teams to drive business growth through technology.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+
+Experience
+
+Senior Full Stack Engineer at NovaTech | Node.js, Express.js, MongoDB 2020-2022
+– Improved application performance by implementing caching with Redis and load balancing with NGINX, resulting in a 30% reduction in latency.
+– Implemented REST APIs using Node.js and Express.js, achieving a 99.9% uptime rate.
+– Collaborated with the DevOps team to implement CI/CD pipelines using Jenkins and Docker, reducing deployment time from 2 hours to 15 minutes.
+
+Full Stack Engineer at Apex Solutions | React, TypeScript, PostgreSQL 2019-2020
+– Designed and developed a real-time analytics dashboard using Next.js and Tailwind CSS, achieving a 90% reduction in data processing time.
+– Implemented GraphQL APIs using Apollo Client, increasing data retrieval speed by 50%.
+– Worked with the QA team to implement automated testing using Jest and Enzyme, reducing test coverage from 70% to 95%.
+
+Junior Full Stack Engineer at CodeForge | Python, Django, PostgreSQL 2018-2019
+– Developed a machine learning model using PyTorch, achieving an accuracy of 85% in predicting customer behavior.
+– Implemented a REST API using Flask and SQLAlchemy, handling over 10,000 requests per second.
+– Collaborated with the DevOps team to implement containerization using Docker, reducing infrastructure costs by 20%.
+
+Projects
+
+E-Commerce Platform | Node.js, Express.js, MongoDB 2020
+– Designed and developed an e-commerce platform using Node.js and Express.js, featuring a user-friendly interface and seamless checkout process.
+– Implemented caching with Redis and load balancing with NGINX to improve performance.
+
+Weather Forecasting System | Python, PyTorch, PostgreSQL 2019
+– Developed a weather forecasting system using PyTorch, achieving an accuracy of 90% in predicting weather patterns.
+– Implemented data visualization using Matplotlib and Seaborn, making it easier for users to understand complex data insights.
+
+Personal Finance Manager | TypeScript, Next.js, MongoDB 2018
+– Designed and developed a personal finance manager using TypeScript and Next.js, allowing users to track their expenses and income in real-time.
+– Implemented automated budgeting using machine learning algorithms, achieving a 25% reduction in financial waste.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+Certified Full Stack Developer, Coursera
+Certified Cloud Architect, AWS

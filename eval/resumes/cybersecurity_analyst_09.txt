@@ -1,0 +1,72 @@
+Ava Morales
+amorales@email.com
+www.linkedin.com/in/avamoralescyber
+New York, NY
+
+
+Summary
+------------------------
+
+Highly motivated and experienced Cybersecurity Analyst with a strong background in penetration testing, incident response, and threat intelligence. Proven track record of identifying and mitigating security threats, with a focus on compliance and risk management.
+
+Technical Skills
+----------------
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Operating Systems: Windows, Linux
+Firewalls: Cisco ASA, Juniper SRX
+IDS/IPS: Snort, Suricata
+SIEM: Splunk Enterprise Security
+Compliance Frameworks: NIST Cybersecurity Framework, ISO 27001
+
+
+Experience
+----------------
+
+Cybersecurity Analyst at SecureTech | Penetration Testing, SIEM, Firewalls, Incident Response 2020-2023
+– Successfully performed penetration testing on over 500 systems, identifying and mitigating over 200 security vulnerabilities.
+– Developed and implemented a comprehensive incident response plan, resulting in a 90% reduction in mean time to detect (MTTD) and mean time to respond (MTTR).
+– Collaborated with the SOC team to implement Splunk Enterprise Security, reducing false positives by 75% and improving threat detection by 40%.
+
+Senior Cybersecurity Analyst at CyberGuard | IDS/IPS, SOC Operations, Compliance 2019-2020
+– Designed and implemented a comprehensive IDS/IPS system, detecting over 100,000 security threats per day.
+– Developed and maintained the company's NIST Cybersecurity Framework compliance program, ensuring 100% adherence to all controls.
+– Collaborated with the incident response team to develop and implement a comprehensive incident response plan.
+
+Cybersecurity Analyst at Incident Response Team | Penetration Testing, Metasploit, Burp Suite 2018-2019
+– Conducted penetration testing on over 200 systems, identifying and mitigating over 50 security vulnerabilities.
+– Developed and implemented a comprehensive penetration testing program using Metasploit and Burp Suite, resulting in a 95% reduction in false positives.
+– Collaborated with the SOC team to implement Wireshark for network traffic analysis, improving threat detection by 30%.
+
+
+Projects
+------------
+
+Network Traffic Analysis Tool | PyTorch, FastAPI 2022
+– Developed a network traffic analysis tool using PyTorch and FastAPI, capable of detecting over 90% of security threats in real-time.
+– Implemented machine learning algorithms to improve threat detection accuracy by 20%.
+– Collaborated with the development team to integrate the tool into the company's SIEM system.
+
+Compliance Dashboard | Splunk Enterprise Security, Python 2021
+– Developed a comprehensive compliance dashboard using Splunk Enterprise Security and Python, providing real-time visibility into security posture.
+– Implemented data visualization tools to improve threat detection by 40% and reduce mean time to respond (MTTR) by 25%.
+– Collaborated with the SOC team to integrate the dashboard into the company's incident response plan.
+
+Cloud Security Scanner | AWS, Docker 2020
+– Developed a cloud security scanner using AWS and Docker, capable of detecting over 95% of security threats in real-time.
+– Implemented machine learning algorithms to improve threat detection accuracy by 15%.
+– Collaborated with the development team to integrate the tool into the company's SIEM system.
+
+
+Education
+------------
+
+Bachelor's Degree in Computer Science, New York University (2018)
+
+Certifications
+-----------------
+
+CISSP-ISSAP, CompTIA Security+
+CEH, CompTIA Network+

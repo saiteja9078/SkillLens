@@ -1,0 +1,71 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamorales
+New York, NY
+
+Summary
+
+
+With 3 years of experience in data engineering, I have developed expertise in designing and implementing large-scale data pipelines using Apache Spark, Kafka, and Airflow. My proficiency in SQL, Python, and dbt enables me to extract insights from complex datasets and drive business decisions.
+
+Technical Skills
+
+
+Languages: 
+Python
+Go
+
+Frameworks: 
+PyTorch
+FastAPI
+
+Tools: 
+Docker
+AWS
+
+Experience
+
+
+Senior Data Engineer at NovaTech | Apache Spark, Kafka, Airflow 2019-2022
+– Designed and implemented a data pipeline that reduced ETL processing time by 75% using Spark and Airflow.
+– Utilized Kafka for real-time data ingestion and built scalable data models with Delta Lake on Databricks.
+– Improved team productivity by 30% through automation of repeatable tasks using dbt.
+
+Data Engineer at Apex Solutions | SQL, Python, AWS Glue 2018-2019
+– Developed a data warehouse on Redshift to store customer transactional data for analytics and reporting purposes.
+– Built an ETL process using AWS Glue that reduced data processing time by 50% compared to manual scripting.
+– Collaborated with cross-functional teams to implement data-driven business strategies.
+
+Junior Data Engineer at Zenith Corporation | Apache Spark, Kafka, Snowflake 2017-2018
+– Designed and implemented a data pipeline that integrated real-time customer feedback into analytics using Spark and Kafka.
+– Utilized Snowflake for scalable data warehousing and built interactive dashboards with SQL.
+– Improved query performance by 25% through optimized database indexing.
+
+Projects
+
+
+Customer Feedback Analytics | Apache Spark, Kafka, Delta Lake 2020
+– Built a real-time analytics platform to monitor customer feedback across multiple channels using Spark and Kafka.
+– Utilized Delta Lake for efficient data storage and built scalable data models on Databricks.
+– Achieved an average query latency of 50ms with peak usage of 10K concurrent queries.
+
+Retail Sales Forecasting | PyTorch, FastAPI 2019
+– Developed a deep learning model to predict retail sales using historical sales data and external weather APIs.
+– Utilized FastAPI for efficient API design and deployment on AWS.
+– Achieved an accuracy improvement of 20% in sales forecasting through model optimization.
+
+Social Media Sentiment Analysis | SQL, Python, dbt 2018
+– Built a database to store social media sentiment analysis results using SQL and Python.
+– Utilized dbt to automate repeatable tasks and optimize data processing time by 30%.
+– Achieved an accuracy improvement of 15% in sentiment analysis through model retraining.
+
+Education
+
+
+Bachelor of Science in Computer Science, New York University 2017
+
+Certifications
+
+
+AWS Certified Data Engineer - Associate
+Google Cloud Certified - Professional Data Engineer

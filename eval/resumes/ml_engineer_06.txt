@@ -1,0 +1,57 @@
+Aurora R. Patel
+aurorarpatel@email.com
+https://www.linkedin.com/in/aurorapatelml
+San Francisco, CA
+
+Summary
+
+With 6 years of experience in machine learning engineering, I have developed a strong foundation in building and deploying scalable AI models. My expertise spans natural language processing, computer vision, and MLOps, with a focus on using Python and PyTorch to drive innovation.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, TensorFlow
+Tools: Docker, Kubernetes, AWS
+Libraries: Scikit-learn, Hugging Face, NumPy, Pandas
+Platforms: ONNX, MLflow
+
+Experience
+
+Machine Learning Engineer at NovaSpire | Python, PyTorch 2020-2022
+– Developed a text classification model that achieved an accuracy of 92% on a dataset of 100,000 samples, resulting in a 25% reduction in manual review time for customers.
+– Implemented data preprocessing and feature engineering techniques using Pandas and Scikit-learn to improve model performance by 15%.
+– Collaborated with the DevOps team to deploy the model using Docker and Kubernetes, reducing deployment time from 2 days to 1 hour.
+
+Machine Learning Engineer at ApexTech | TensorFlow, NLP 2018-2020
+– Built a conversational AI system that achieved an F1 score of 85% on a dataset of 50,000 conversations, resulting in a 30% increase in customer satisfaction.
+– Designed and implemented a data pipeline using AWS services to collect and preprocess natural language data from various sources.
+– Worked with the product team to integrate the conversational AI system into the company's chatbot platform.
+
+Senior Machine Learning Engineer at Luminari | Computer Vision, MLOps 2016-2018
+– Developed a deep learning model that achieved an accuracy of 95% on a dataset of 10,000 images, resulting in a 20% increase in sales for customers.
+– Implemented data augmentation and transfer learning techniques using PyTorch to improve model performance by 20%.
+– Collaborated with the engineering team to design and implement a scalable MLOps pipeline using MLflow and Docker.
+
+Projects
+
+Language Translation Model | Python, Hugging Face 2022
+– Built a language translation model that achieved an accuracy of 90% on a dataset of 50,000 translations.
+– Used the Transformers library from Hugging Face to develop and train the model, achieving state-of-the-art results on a benchmark dataset.
+
+Object Detection System | PyTorch, ONNX 2020
+– Developed an object detection system that achieved an accuracy of 98% on a dataset of 10,000 images.
+– Used PyTorch to build and train the model, and ONNX to convert it for deployment.
+
+Speech Recognition System | TensorFlow, NumPy 2019
+– Built a speech recognition system that achieved an accuracy of 92% on a dataset of 50,000 audio samples.
+– Used TensorFlow to develop and train the model, and NumPy to perform numerical computations.
+
+Education
+
+Master of Science in Computer Science, Stanford University
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+Certifications
+
+Certified Data Scientist, Data Science Council of America
+Certified Machine Learning Engineer, International Association for Machine Learning and Artificial Intelligence

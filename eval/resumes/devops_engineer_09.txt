@@ -1,0 +1,65 @@
+Ava Marie Jenkins
+ajenkins@email.com
+linkedin.com/in/avamariejenkins
+Seattle, Washington
+
+
+Summary
+
+Results-driven DevOps Engineer with 3 years of experience driving automation and efficiency in cloud-based environments. Proven track record of successfully implementing CI/CD pipelines, containerization, and monitoring tools to improve application reliability and scalability.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, Terraform, Ansible, AWS, GCP, Azure
+CI/CD: Jenkins, GitHub Actions
+Monitoring: Prometheus, Grafana
+Operating System: Linux
+Scripting: Bash
+Container Orchestration: Kubernetes
+Packaging: Helm
+
+
+Experience
+
+DevOps Engineer at CloudNine | Python, Terraform, Docker 2020-2022
+– Improved deployment speed by 30% through automation of Jenkins pipelines and implementation of CI/CD processes.
+– Migrated company's on-premises infrastructure to AWS cloud, resulting in cost savings of $100,000 annually.
+– Implemented monitoring with Prometheus and Grafana for real-time visibility into application performance.
+
+DevOps Engineer at NovaTech | Go, Kubernetes, Ansible 2019-2020
+– Designed and implemented a containerization strategy using Docker and Kubernetes, reducing app deployment time from hours to minutes.
+– Created automated backup and restore processes using Ansible, ensuring data integrity and business continuity.
+– Collaborated with cross-functional teams to implement DevOps best practices and improve overall development velocity.
+
+Cloud Automation Engineer at Apex Systems | Python, AWS 2018-2019
+– Developed and deployed cloud automation scripts using Terraform and AWS CloudFormation, streamlining infrastructure provisioning processes.
+– Implemented security controls and access management for company's AWS environment, ensuring compliance with industry standards.
+
+
+Projects
+
+MLOps Platform | PyTorch, Docker, Kubernetes 2021
+– Built a scalable machine learning platform using Docker containerization and Kubernetes orchestration, enabling data scientists to deploy models in minutes.
+– Integrated Prometheus monitoring and Grafana visualization for real-time performance insights and alerting.
+
+Infrastructure as Code (IaC) Tool using Terraform | Terraform, AWS 2019
+– Created a reusable infrastructure configuration management system using Terraform, simplifying cloud resource provisioning and deployment processes.
+– Automated IaC pipelines using Jenkins to ensure consistency and reliability across multiple environments.
+
+Cloud-based CI/CD Pipeline for Mobile Apps | Go, Docker, Kubernetes 2020
+– Designed and implemented a cloud-native CI/CD pipeline using Go, Docker, and Kubernetes, enabling mobile app developers to automate testing and deployment.
+– Utilized Prometheus monitoring and Grafana visualization to track pipeline performance and application metrics.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of Washington
+
+
+Certifications
+
+AWS Certified DevOps Engineer – Professional
+GCP Certified Professional Cloud Developer

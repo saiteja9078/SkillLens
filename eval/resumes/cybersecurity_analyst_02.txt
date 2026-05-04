@@ -1,0 +1,60 @@
+Ethan J. Welles
+ewelles@email.com
+linkedin.com/in/ethanjwelles
+Austin, TX
+
+Summary
+
+With 2 years of experience in cybersecurity, I have developed a strong foundation in penetration testing, threat detection, and incident response. Proven track record of identifying vulnerabilities and implementing effective security measures to protect high-value assets.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Platforms: Windows, Linux
+Operating Systems: macOS, Ubuntu
+Firewall/IDS/IPS: Cisco ASA, Snort, Suricata
+SIEM: Splunk Enterprise Security
+Vulnerability Management: Qualys
+
+Experience
+
+Security Analyst at SecureLink | Penetration Testing, SIEM, Firewalls 2021-2023
+– Reduced mean time to detect (MTTD) by 30% through implementation of real-time threat intelligence and anomaly detection in Splunk.
+– Conducted bi-weekly penetration testing sessions to identify vulnerabilities in high-risk systems, resulting in a 25% reduction in security incidents.
+– Collaborated with the SOC operations team to implement NIST-based security controls, achieving compliance with ISO 27001 standards.
+
+Cybersecurity Specialist at CyberGuard | Incident Response, IDS/IPS, Metasploit 2020-2021
+– Responded to over 50 security incidents, including a major ransomware attack, resulting in a 95% success rate of containment and eradication.
+– Conducted network traffic analysis using Wireshark and Burp Suite, identifying malicious activity and developing mitigation strategies.
+– Participated in quarterly penetration testing exercises, utilizing Metasploit and other tools to simulate real-world attacks.
+
+Information Security Analyst at TechCorp | Penetration Testing, Firewalls 2019-2020
+– Developed a comprehensive security awareness program for employees, resulting in a 40% reduction in phishing incidents.
+– Implemented a next-generation firewall (NGFW) solution, improving network security and reducing false positives by 20%.
+– Collaborated with the development team to integrate secure coding practices into the software development life cycle.
+
+Projects
+
+Network Intrusion Detection System | Snort, Suricata, Python 2021
+– Developed a real-time network intrusion detection system using Snort and Suricata, capable of detecting anomalies in network traffic.
+– Implemented a machine learning model in Python to improve detection accuracy by 25%.
+
+Cloud Security Scanner | AWS, Docker, Go 2022
+– Built a cloud security scanner using AWS and Docker, designed to identify vulnerabilities in cloud-based systems.
+– Utilized machine learning algorithms to analyze scan results and prioritize remediation efforts.
+
+Web Application Firewall | Burp Suite, Apache HTTP Server 2023
+– Designed and implemented a web application firewall (WAF) using Burp Suite and Apache HTTP Server, protecting against SQL injection and cross-site scripting attacks.
+– Conducted regular security testing and tuning to ensure optimal performance and effectiveness.
+
+Education
+
+Bachelor of Science in Computer Science, University of Texas at Austin
+
+Certifications
+
+CompTIA Security+ | CompTIA
+CISSP Associate | (ISC)2
+Certified Information Systems Security Professional | ISACA

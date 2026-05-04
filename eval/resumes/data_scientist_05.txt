@@ -1,0 +1,60 @@
+Ava Morales
+amorales@email.com
+linkedin.com/in/avamoralesds
+New York, NY
+
+
+Summary
+As a seasoned data scientist with 5 years of experience, I excel in extracting insights from complex datasets and driving business growth through data-driven decisions.
+
+
+Technical Skills
+Languages: Python, R
+Frameworks: PyTorch, scikit-learn
+Tools: Docker, AWS, Tableau
+Databases: MySQL, PostgreSQL
+Statistics & Machine Learning: Regression, Classification, A/B Testing
+Data Manipulation: Pandas, NumPy, Matplotlib
+Visualization: Jupyter Notebook, Plotly
+
+
+Experience
+Senior Data Scientist at NovaTech | Python, R, SQL 2018-2022
+– Developed and deployed predictive models for customer churn prediction, resulting in a 25% reduction in churn rate.
+– Utilized SQL to optimize database queries, reducing query execution time by 50%.
+– Collaborated with cross-functional teams to integrate data-driven insights into business strategies.
+
+
+Data Scientist at Apex Solutions | Python, PyTorch 2016-2018
+– Built and trained machine learning models for image classification tasks, achieving an accuracy of 92%.
+– Worked on A/B testing framework development using R and SQL.
+– Contributed to the development of a data pipeline using Docker and AWS.
+
+
+Data Analyst at Fusion Inc | Python, Pandas 2015-2016
+– Extracted insights from customer purchase data, identifying trends and opportunities for growth.
+– Created dashboards using Tableau to visualize sales performance metrics.
+
+
+Projects
+Credit Risk Model | Python, scikit-learn 2020
+– Built a credit risk model using logistic regression that predicted loan defaults with an accuracy of 95%.
+– Implemented feature engineering techniques using Pandas and NumPy.
+
+
+Healthcare Outcomes Analysis | R, SQL 2019
+– Analyzed healthcare outcomes data to identify trends and correlations between patient demographics and treatment outcomes.
+– Utilized Tableau to visualize the results and create actionable insights for medical professionals.
+
+
+Customer Segmentation Model | Python, PyTorch 2018
+– Developed a customer segmentation model using clustering techniques that grouped customers based on their purchasing behavior.
+– Implemented A/B testing framework to measure the effectiveness of personalized marketing campaigns.
+
+
+Education
+Bachelor's Degree in Data Science from New York University 2015
+
+
+Certifications
+Certified Data Scientist (CDS) - Data Science Council of America 2020

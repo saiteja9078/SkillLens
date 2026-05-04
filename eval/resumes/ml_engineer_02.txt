@@ -1,0 +1,56 @@
+Kaitlyn A. Tran
+ktran@email.com
+linkedin.com/in/ktranml
+San Francisco, CA
+
+
+Summary
+Machine learning engineer with 2 years of experience in building and deploying scalable AI models for various industries.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+Database Management Systems: NumPy, Pandas
+Model Serving Platforms: Hugging Face Transformers, ONNX
+MLOps Tools: MLflow, Kubernetes
+
+
+Experience
+Senior Machine Learning Engineer at NovaTech | TensorFlow, Scikit-learn 2020-2022
+– Developed and deployed a real-time sentiment analysis model for customer feedback with an accuracy of 92% and an F1 score of 88%
+– Implemented data preprocessing pipelines using Pandas and NumPy to handle large datasets of over 10 million records
+– Collaborated with cross-functional teams to integrate the model into the production environment, resulting in a 25% reduction in support requests
+
+Machine Learning Engineer at Apex Solutions | PyTorch, Hugging Face Transformers 2019-2020
+– Built and deployed a conversational AI system for customer support using Hugging Face Transformers, achieving an accuracy of 95%
+– Designed and implemented a computer vision pipeline using PyTorch to detect anomalies in manufacturing processes with a precision of 98%
+– Worked closely with the DevOps team to containerize and deploy the model using Docker and Kubernetes
+
+Junior Machine Learning Engineer at Insight Analytics | Scikit-learn, NumPy 2018-2019
+– Contributed to the development of a recommender system for e-commerce using collaborative filtering techniques with Scikit-learn, resulting in a 30% increase in sales
+– Implemented data preprocessing and feature engineering pipelines using Pandas and NumPy for large datasets
+– Collaborated with data scientists to integrate machine learning models into business workflows
+
+
+Projects
+Image Classification Model | PyTorch, TensorFlow 2020
+– Built a convolutional neural network (CNN) model for image classification on the CIFAR-10 dataset with an accuracy of 95%
+– Utilized transfer learning techniques and fine-tuned pre-trained weights to achieve state-of-the-art results
+
+NLP Sentiment Analysis Model | Hugging Face Transformers, ONNX 2021
+– Developed a transformer-based model for sentiment analysis using Hugging Face Transformers, achieving an F1 score of 92%
+– Converted the model to ONNX format and deployed it on a cloud platform using MLflow
+
+Object Detection Model | PyTorch, Scikit-learn 2022
+– Built a YOLOv3 object detection model using PyTorch for detecting objects in images with a precision of 95%
+– Implemented data augmentation techniques using Scikit-learn to improve model robustness and accuracy
+
+
+Education
+Bachelor of Science in Computer Science, Stanford University, 2018
+
+
+Certifications
+Certified Data Scientist, Data Science Council of America (DASCA), 2020

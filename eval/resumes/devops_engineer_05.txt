@@ -1,0 +1,63 @@
+Ariana J. Thompson
+arijanathompson@email.com
+linkedin.com/in/arianajthompson
+New York, NY
+
+
+Summary
+As a seasoned DevOps Engineer with 5 years of experience, I excel in designing and implementing scalable, secure, and efficient infrastructure solutions using industry-leading technologies such as Kubernetes, Docker, and Terraform.
+
+Technical Skills
+
+Languages: Python, Go, Bash
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, GCP, Azure, Jenkins, GitHub Actions, Helm
+Monitoring and Logging: Prometheus, Grafana
+OS and Scripting: Linux, Ansible
+
+
+Experience
+
+Senior DevOps Engineer at CodeForge | Kubernetes, Terraform, Python 2019-2022
+– Successfully implemented a multi-cluster Kubernetes deployment for a large-scale e-commerce platform, resulting in 30% reduction in latency and 25% increase in throughput.
+– Designed and automated infrastructure provisioning using Terraform, reducing mean time to recovery (MTTR) by 50%.
+– Collaborated with development teams to implement CI/CD pipelines using Jenkins and GitHub Actions, improving deployment frequency by 4x.
+
+DevOps Engineer at NovaTech | Docker, Ansible, Python 2018-2019
+– Led the effort to containerize a monolithic application using Docker, resulting in 40% reduction in memory usage and 20% improvement in startup time.
+– Developed an automated testing framework using PyTorch and Ansible, reducing test execution time by 90%.
+– Improved infrastructure security by implementing a least-privilege access model using IAM roles and policies.
+
+DevOps Engineer at Apex Solutions | AWS, Terraform, Go 2017-2018
+– Designed and implemented a fully automated CI/CD pipeline using Jenkins and GitHub Actions for a large-scale SaaS application.
+– Collaborated with the operations team to implement a monitoring and logging solution using Prometheus and Grafana, resulting in 25% reduction in Mean Time To Detection (MTTD).
+– Improved deployment efficiency by 3x through automation of infrastructure provisioning using Terraform.
+
+
+Projects
+
+Kubernetes Clustering | Kubernetes, Docker, Python 2020
+– Designed and implemented a scalable Kubernetes clustering solution for a large-scale e-commerce platform.
+– Implemented automated node provisioning and scaling using Ansible and Terraform.
+– Achieved 99.99% uptime and improved application responsiveness by 25%.
+
+Serverless Compute Platform | AWS, Go, Python 2019
+– Designed and developed a serverless compute platform using AWS Lambda and API Gateway for a large-scale SaaS application.
+– Implemented automated deployment and testing using Jenkins and GitHub Actions.
+– Achieved 100% reduction in compute resource waste through automatic scaling.
+
+Cloud-Native CI/CD Pipeline | GCP, Kubernetes, Python 2018
+– Designed and implemented a cloud-native CI/CD pipeline using Google Cloud Build and Kubernetes for a large-scale e-commerce platform.
+– Implemented automated testing and deployment using Jenkins and GitHub Actions.
+– Achieved 4x improvement in deployment frequency and 25% reduction in latency.
+
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+
+AWS Certified Solutions Architect - Associate
+Google Cloud Certified - Professional Cloud Developer

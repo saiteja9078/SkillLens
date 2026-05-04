@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillLens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        background: #121212;
+        color: #e0e0e0;
+        height: 100vh;
+        display: flex;
+      }
+
+      /* ===== Sidebar ===== */
+      .sidebar {
+        width: 280px;
+        background: #0a0a0a;
+        border-right: 1px solid #2a2a2a;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+      }
+      .sidebar-header {
+        padding: 20px;
+        border-bottom: 1px solid #2a2a2a;
+      }
+      .sidebar-header h1 {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #f5f5f5;
+        letter-spacing: -0.01em;
+      }
+      .sidebar-header p {
+        font-size: 0.75rem;
+        color: #777;
+        margin-top: 4px;
+      }
+
+      .sidebar-section {
+        padding: 16px 20px;
+        border-bottom: 1px solid #2a2a2a;
+      }
+      .sidebar-section:last-child {
+        border-bottom: none;
+      }
+      .sidebar-label {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      /* Upload area */
+      .upload-drop {
+        border: 1.5px dashed #333;
+        border-radius: 8px;
+        padding: 20px 16px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .upload-drop:hover,
+      .upload-drop.dragover {
+        border-color: #666;
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .upload-drop-icon {
+        font-size: 0.85rem;
+        color: #888;
+        margin-bottom: 6px;
+      }
+      .upload-drop-text {
+        font-size: 0.78rem;
+        color: #777;
+      }
+      .upload-drop-text span {
+        color: #ccc;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      #fileInput {
+        display: none;
+      }
+
+      .file-chips {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .file-chip {
+        background: #1e1e1e;
+        border: 1px solid #333;
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-size: 0.75rem;
+        color: #aaa;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .file-chip-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 180px;
+      }
+      .file-chip-remove {
+        cursor: pointer;
+        color: #666;
+        font-size: 1rem;
+        line-height: 1;
+        margin-left: 8px;
+        flex-shrink: 0;
+      }
+      .file-chip-remove:hover {
+        color: #e55;
+      }
+
+      .collection-input {
+        width: 100%;
+        background: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 6px;
+        padding: 8px 10px;
+        color: #ddd;
+        font-size: 0.8rem;
+        outline: none;
+        font-family: inherit;
+        transition: border-color 0.15s;
+        margin-top: 8px;
+      }
+      .collection-input:focus {
+        border-color: #555;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 9px;
+        border: none;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.15s;
+        font-family: inherit;
+        margin-top: 10px;
+      }
+      .btn-upload {
+        background: #fff;
+        color: #111;
+      }
+      .btn-upload:hover {
+        background: #e0e0e0;
+      }
+      .btn-upload:disabled {
+        background: #333;
+        color: #666;
+        cursor: not-allowed;
+      }
+
+      .upload-status {
+        margin-top: 8px;
+        font-size: 0.75rem;
+        min-height: 1em;
+        line-height: 1.4;
+      }
+      .upload-status.success {
+        color: #6cbf6c;
+      }
+      .upload-status.error {
+        color: #e55;
+      }
+      .upload-status.loading {
+        color: #aaa;
+      }
+
+      /* Collection list */
+      .collection-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .collection-item {
+        padding: 8px 10px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        color: #aaa;
+        cursor: pointer;
+        transition: background 0.12s;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .collection-item:hover {
+        background: #1e1e1e;
+      }
+      .collection-item.active {
+        background: #1e1e1e;
+        color: #f0f0f0;
+      }
+      .collection-item .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #444;
+        flex-shrink: 0;
+      }
+      .collection-item.active .dot {
+        background: #f0f0f0;
+      }
+      .collection-delete {
+        margin-left: auto;
+        opacity: 0;
+        color: #666;
+        font-size: 1rem;
+        line-height: 1;
+        cursor: pointer;
+        padding: 2px 4px;
+        border-radius: 4px;
+        transition: opacity 0.15s, color 0.15s, background 0.15s;
+        flex-shrink: 0;
+      }
+      .collection-item:hover .collection-delete {
+        opacity: 1;
+      }
+      .collection-delete:hover {
+        color: #e55;
+        background: rgba(238, 85, 85, 0.1);
+      }
+      .no-collections {
+        font-size: 0.75rem;
+        color: #555;
+        padding: 8px 0;
+      }
+
+      .sidebar-footer {
+        margin-top: auto;
+        padding: 16px 20px;
+        border-top: 1px solid #2a2a2a;
+        font-size: 0.7rem;
+        color: #555;
+      }
+      .sidebar-footer a {
+        color: #888;
+        text-decoration: none;
+      }
+      .sidebar-footer a:hover {
+        color: #ccc;
+      }
+
+      /* ===== Main chat area ===== */
+      .main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+
+      .chat-header {
+        padding: 14px 24px;
+        border-bottom: 1px solid #2a2a2a;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #121212;
+        flex-shrink: 0;
+      }
+      .chat-header-title {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: #ddd;
+      }
+      .chat-header-collection {
+        font-size: 0.75rem;
+        color: #666;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .chat-header-collection select {
+        background: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 4px;
+        padding: 4px 8px;
+        color: #ccc;
+        font-size: 0.75rem;
+        font-family: inherit;
+        outline: none;
+        cursor: pointer;
+      }
+      .chat-header-collection select:focus {
+        border-color: #555;
+      }
+
+      /* Messages */
+      .chat-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 0;
+      }
+
+      .message {
+        padding: 24px 0;
+        border-bottom: 1px solid #1e1e1e;
+      }
+      .message:last-child {
+        border-bottom: none;
+      }
+      .message-inner {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 24px;
+        display: flex;
+        gap: 16px;
+      }
+      .message-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        font-weight: 600;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .message-avatar.user {
+        background: #fff;
+        color: #111;
+      }
+      .message-avatar.assistant {
+        background: #333;
+        color: #e0e0e0;
+      }
+      .message-content {
+        flex: 1;
+        min-width: 0;
+      }
+      .message-role {
+        font-size: 0.78rem;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: #e0e0e0;
+      }
+      .message-text {
+        font-size: 0.88rem;
+        line-height: 1.7;
+        color: #ccc;
+        word-break: break-word;
+      }
+      .message-text p {
+        margin-bottom: 10px;
+      }
+      .message-text p:last-child {
+        margin-bottom: 0;
+      }
+      .message-text strong {
+        color: #e8e8e8;
+      }
+      .message-text code {
+        background: #1e1e1e;
+        padding: 1px 5px;
+        border-radius: 3px;
+        font-size: 0.84em;
+      }
+      .message-text ul,
+      .message-text ol {
+        padding-left: 20px;
+        margin-bottom: 10px;
+      }
+      .message-text li {
+        margin-bottom: 4px;
+      }
+
+      .typing-indicator {
+        display: inline-block;
+        width: 6px;
+        height: 16px;
+        background: #888;
+        animation: typing-blink 0.7s infinite;
+        vertical-align: text-bottom;
+        margin-left: 1px;
+      }
+      @keyframes typing-blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.2;
+        }
+      }
+
+      /* Welcome state */
+      .welcome {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+      }
+      .welcome h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #e0e0e0;
+        margin-bottom: 8px;
+      }
+      .welcome p {
+        font-size: 0.88rem;
+        color: #666;
+        max-width: 400px;
+        text-align: center;
+        line-height: 1.5;
+      }
+      .welcome-hints {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        max-width: 400px;
+      }
+      .welcome-hint {
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 8px;
+        padding: 12px 16px;
+        font-size: 0.82rem;
+        color: #999;
+        cursor: pointer;
+        transition: all 0.15s;
+        text-align: left;
+      }
+      .welcome-hint:hover {
+        background: #1e1e1e;
+        border-color: #444;
+        color: #ccc;
+      }
+
+      /* Chat input */
+      .chat-input-area {
+        padding: 16px 24px 20px;
+        background: #121212;
+        flex-shrink: 0;
+      }
+      .chat-input-box {
+        max-width: 768px;
+        margin: 0 auto;
+        position: relative;
+      }
+      .chat-input {
+        width: 100%;
+        background: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 14px 52px 14px 16px;
+        color: #e0e0e0;
+        font-size: 0.9rem;
+        font-family: inherit;
+        outline: none;
+        resize: none;
+        transition: border-color 0.15s;
+        line-height: 1.5;
+      }
+      .chat-input:focus {
+        border-color: #555;
+      }
+      .chat-input::placeholder {
+        color: #555;
+      }
+      .chat-send {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+        width: 34px;
+        height: 34px;
+        border: none;
+        border-radius: 6px;
+        background: #fff;
+        color: #111;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.12s;
+      }
+      .chat-send:hover {
+        background: #ddd;
+      }
+      .chat-send:disabled {
+        background: #333;
+        color: #666;
+        cursor: not-allowed;
+      }
+      .chat-send svg {
+        width: 16px;
+        height: 16px;
+      }
+      .chat-input-hint {
+        text-align: center;
+        font-size: 0.7rem;
+        color: #555;
+        margin-top: 8px;
+      }
+
+      /* Sources panel */
+      .sources-panel {
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 8px;
+        margin-bottom: 14px;
+        overflow: hidden;
+      }
+      .sources-panel.collapsed .sources-body {
+        display: none;
+      }
+      .sources-panel.collapsed .sources-toggle {
+        transform: rotate(-90deg);
+      }
+      .sources-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 14px;
+        cursor: pointer;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #999;
+        user-select: none;
+      }
+      .sources-header:hover {
+        color: #ccc;
+      }
+      .sources-toggle {
+        font-size: 0.7rem;
+        transition: transform 0.2s;
+      }
+      .sources-body {
+        display: flex;
+        gap: 8px;
+        padding: 0 12px 12px;
+        overflow-x: auto;
+        scrollbar-width: thin;
+      }
+      .source-card {
+        background: #222;
+        border: 1px solid #333;
+        border-radius: 6px;
+        padding: 10px 12px;
+        min-width: 220px;
+        max-width: 260px;
+        flex-shrink: 0;
+      }
+      .source-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+      }
+      .source-card-name {
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #e0e0e0;
+      }
+      .source-card-score {
+        font-size: 0.68rem;
+        color: #888;
+        background: #1a1a1a;
+        padding: 1px 6px;
+        border-radius: 3px;
+      }
+      .source-card-section {
+        font-size: 0.72rem;
+        color: #777;
+        margin-bottom: 6px;
+      }
+      .source-card-content {
+        font-size: 0.73rem;
+        color: #999;
+        line-height: 1.4;
+        max-height: 60px;
+        overflow: hidden;
+      }
+
+      /* Resume file links */
+      .resume-files {
+        margin-top: 14px;
+        padding: 12px 14px;
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 8px;
+      }
+      .resume-files-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 8px;
+      }
+      .resume-file-link {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 10px;
+        background: #222;
+        border: 1px solid #333;
+        border-radius: 6px;
+        margin-bottom: 4px;
+        text-decoration: none;
+        color: #ccc;
+        font-size: 0.82rem;
+        transition: all 0.12s;
+      }
+      .resume-file-link:last-child {
+        margin-bottom: 0;
+      }
+      .resume-file-link:hover {
+        background: #2a2a2a;
+        border-color: #555;
+        color: #fff;
+      }
+      .resume-file-icon {
+        font-size: 0.9rem;
+        flex-shrink: 0;
+        width: 20px;
+        text-align: center;
+        color: #888;
+      }
+      .resume-file-name {
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .resume-file-arrow {
+        color: #555;
+        font-size: 0.75rem;
+      }
+
+      /* Resume ranking */
+      .ranking-panel {
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        overflow: hidden;
+      }
+      .ranking-header {
+        padding: 10px 14px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: #999;
+        border-bottom: 1px solid #2a2a2a;
+      }
+      .ranking-row {
+        display: flex;
+        align-items: center;
+        padding: 8px 14px;
+        border-bottom: 1px solid #1e1e1e;
+        font-size: 0.8rem;
+      }
+      .ranking-row:last-child {
+        border-bottom: none;
+      }
+      .ranking-rank {
+        width: 24px;
+        color: #666;
+        font-weight: 600;
+        flex-shrink: 0;
+      }
+      .ranking-name {
+        flex: 1;
+        color: #ddd;
+      }
+      .ranking-score {
+        font-family: monospace;
+        color: #aaa;
+        font-size: 0.78rem;
+        margin-left: 8px;
+      }
+      .ranking-chunks {
+        color: #666;
+        font-size: 0.72rem;
+        margin-left: 8px;
+        min-width: 60px;
+        text-align: right;
+      }
+
+      /* Spinner */
+      .spinner-sm {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 1.5px solid #444;
+        border-top-color: #aaa;
+        border-radius: 50%;
+        animation: spin 0.5s linear infinite;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Mobile */
+      @media (max-width: 768px) {
+        .sidebar {
+          display: none;
+        }
+        .message-inner {
+          padding: 0 16px;
+        }
+        .chat-input-area {
+          padding: 12px 16px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>SkillLens</h1>
+        <p>AI Resume Screening</p>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">Upload Resumes</div>
+        <div class="upload-drop" id="uploadZone">
+          <div class="upload-drop-icon">Upload</div>
+          <div class="upload-drop-text">
+            Drop PDF/DOCX or <span id="browseBtn">browse</span>
+          </div>
+          <input type="file" id="fileInput" multiple accept=".pdf,.docx,.doc" />
+        </div>
+        <div class="file-chips" id="fileList"></div>
+        <input
+          type="text"
+          class="collection-input"
+          id="collectionInput"
+          placeholder="Collection name"
+        />
+        <button class="btn btn-upload" id="uploadBtn" disabled>Upload</button>
+        <div class="upload-status" id="uploadStatus"></div>
+      </div>
+
+      <div class="sidebar-section" style="flex: 1; overflow-y: auto">
+        <div class="sidebar-label">Collections</div>
+        <div class="collection-list" id="collectionList">
+          <div class="no-collections" id="noCollections">
+            No collections yet
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        Powered by
+        <a href="https://github.com/endee-io/endee" target="_blank">Endee</a> +
+        Gemini
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <div class="chat-header">
+        <div class="chat-header-title">SkillLens</div>
+        <div class="chat-header-collection">
+          Collection:
+          <select id="collectionSelect">
+            <option value="skilllens_resumes">skilllens_resumes</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="welcome" id="welcomeScreen">
+          <h2>SkillLens</h2>
+          <p>
+            Upload resumes and search across them using natural language
+            queries.
+          </p>
+          <div class="welcome-hints">
+            <div
+              class="welcome-hint"
+              onclick="
+                setQuery(
+                  'Find candidates with Python and machine learning experience',
+                )
+              "
+            >
+              Find candidates with Python and machine learning experience
+            </div>
+            <div
+              class="welcome-hint"
+              onclick="
+                setQuery(
+                  'Who has worked on full-stack web development projects?',
+                )
+              "
+            >
+              Who has worked on full-stack web development projects?
+            </div>
+            <div
+              class="welcome-hint"
+              onclick="
+                setQuery('Show me candidates with internship experience')
+              "
+            >
+              Show me candidates with internship experience
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="chat-input-box">
+          <textarea
+            class="chat-input"
+            id="chatInput"
+            placeholder="Ask about your resumes..."
+            rows="1"
+          ></textarea>
+          <button class="chat-send" id="sendBtn">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+          </button>
+        </div>
+        <div class="chat-input-hint">
+          SkillLens searches resumes using Endee vector database
+        </div>
+      </div>
+    </main>
+
+    <script>
+      // ======= State =======
+      let selectedFiles = [];
+      let collections = new Set(["skilllens_resumes"]);
+      let isStreaming = false;
+
+      // ======= DOM =======
+      const uploadZone = document.getElementById("uploadZone");
+      const fileInput = document.getElementById("fileInput");
+      const browseBtn = document.getElementById("browseBtn");
+      const fileList = document.getElementById("fileList");
+      const uploadBtn = document.getElementById("uploadBtn");
+      const uploadStatus = document.getElementById("uploadStatus");
+      const collectionInput = document.getElementById("collectionInput");
+      const collectionList = document.getElementById("collectionList");
+      const noCollections = document.getElementById("noCollections");
+      const collectionSelect = document.getElementById("collectionSelect");
+      const chatMessages = document.getElementById("chatMessages");
+      const welcomeScreen = document.getElementById("welcomeScreen");
+      const chatInput = document.getElementById("chatInput");
+      const sendBtn = document.getElementById("sendBtn");
+
+      // ======= Upload Zone =======
+      browseBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        fileInput.click();
+      });
+      uploadZone.addEventListener("click", () => fileInput.click());
+      uploadZone.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        uploadZone.classList.add("dragover");
+      });
+      uploadZone.addEventListener("dragleave", () =>
+        uploadZone.classList.remove("dragover"),
+      );
+      uploadZone.addEventListener("drop", (e) => {
+        e.preventDefault();
+        uploadZone.classList.remove("dragover");
+        addFiles(e.dataTransfer.files);
+      });
+      fileInput.addEventListener("change", () => {
+        addFiles(fileInput.files);
+        fileInput.value = "";
+      });
+
+      function addFiles(incoming) {
+        for (const f of incoming) {
+          const ext = f.name.split(".").pop().toLowerCase();
+          if (["pdf", "docx", "doc"].includes(ext)) {
+            if (
+              !selectedFiles.find((x) => x.name === f.name && x.size === f.size)
+            ) {
+              selectedFiles.push(f);
+            }
+          }
+        }
+        renderFileList();
+      }
+
+      function renderFileList() {
+        fileList.innerHTML = "";
+        selectedFiles.forEach((f, i) => {
+          const chip = document.createElement("div");
+          chip.className = "file-chip";
+          chip.innerHTML = `<span class="file-chip-name">${f.name}</span><span class="file-chip-remove" data-idx="${i}">&times;</span>`;
+          fileList.appendChild(chip);
+        });
+        fileList.querySelectorAll(".file-chip-remove").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            selectedFiles.splice(parseInt(e.target.dataset.idx), 1);
+            renderFileList();
+          });
+        });
+        uploadBtn.disabled = selectedFiles.length === 0;
+      }
+
+      // ======= Upload =======
+      uploadBtn.addEventListener("click", async () => {
+        if (selectedFiles.length === 0) return;
+
+        uploadBtn.disabled = true;
+        uploadBtn.textContent = "Uploading...";
+        uploadStatus.className = "upload-status loading";
+        uploadStatus.innerHTML =
+          '<span class="spinner-sm"></span>Processing...';
+
+        const formData = new FormData();
+        selectedFiles.forEach((f) => formData.append("files", f));
+        const coll = collectionInput.value.trim();
+        if (coll) formData.append("collection", coll);
+
+        try {
+          const res = await fetch("/upload", {
+            method: "POST",
+            body: formData,
+          });
+          const data = await res.json();
+          if (res.ok) {
+            uploadStatus.className = "upload-status success";
+            uploadStatus.textContent = data.message;
+            selectedFiles = [];
+            renderFileList();
+            // Add collection to list
+            const collName = data.collection || coll || "skilllens_resumes";
+            addCollection(collName);
+            loadCollections();
+          } else {
+            uploadStatus.className = "upload-status error";
+            uploadStatus.textContent = data.error;
+          }
+        } catch (err) {
+          uploadStatus.className = "upload-status error";
+          uploadStatus.textContent = "Network error: " + err.message;
+        }
+
+        uploadBtn.disabled = false;
+        uploadBtn.textContent = "Upload";
+      });
+
+      // ======= Collections =======
+      async function loadCollections() {
+        try {
+          const res = await fetch("/collections");
+          const data = await res.json();
+          if (data.collections && data.collections.length > 0) {
+            collections = new Set(data.collections);
+            // Rebuild dropdown
+            collectionSelect.innerHTML = "";
+            data.collections.forEach((name) => {
+              const opt = document.createElement("option");
+              opt.value = name;
+              opt.textContent = name;
+              collectionSelect.appendChild(opt);
+            });
+            // Select first one
+            collectionSelect.value = data.collections[0];
+          }
+        } catch (e) {
+          console.warn("Could not load collections:", e);
+        }
+        renderCollections();
+      }
+
+      function addCollection(name) {
+        if (collections.has(name)) return;
+        collections.add(name);
+        const opt = document.createElement("option");
+        opt.value = name;
+        opt.textContent = name;
+        collectionSelect.appendChild(opt);
+        collectionSelect.value = name;
+        renderCollections();
+      }
+
+      function renderCollections() {
+        const items = Array.from(collections);
+        if (items.length === 0) {
+          noCollections.style.display = "block";
+          return;
+        }
+        noCollections.style.display = "none";
+        collectionList.innerHTML = "";
+        items.forEach((name) => {
+          const el = document.createElement("div");
+          el.className =
+            "collection-item" +
+            (collectionSelect.value === name ? " active" : "");
+          el.innerHTML = `<span class="dot"></span><span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${name}</span><span class="collection-delete" title="Delete collection">&times;</span>`;
+          el.addEventListener("click", (e) => {
+            if (e.target.classList.contains('collection-delete')) return;
+            collectionSelect.value = name;
+            renderCollections();
+          });
+          el.querySelector('.collection-delete').addEventListener('click', (e) => {
+            e.stopPropagation();
+            deleteCollection(name);
+          });
+          collectionList.appendChild(el);
+        });
+      }
+      collectionSelect.addEventListener("change", () => renderCollections());
+
+      async function deleteCollection(name) {
+        if (!confirm(`Delete collection "${name}"? This cannot be undone.`)) return;
+        try {
+          const res = await fetch(`/collections/${encodeURIComponent(name)}`, { method: 'DELETE' });
+          const data = await res.json();
+          if (res.ok) {
+            collections.delete(name);
+            // Remove from dropdown
+            const opt = collectionSelect.querySelector(`option[value="${name}"]`);
+            if (opt) opt.remove();
+            // Select another collection if the deleted one was active
+            if (collectionSelect.value === name || !collectionSelect.value) {
+              const remaining = Array.from(collections);
+              if (remaining.length > 0) collectionSelect.value = remaining[0];
+            }
+            renderCollections();
+          } else {
+            alert(data.detail || data.error || 'Failed to delete collection');
+          }
+        } catch (err) {
+          alert('Network error: ' + err.message);
+        }
+      }
+
+      // Load collections on page start
+      loadCollections();
+
+      // ======= Chat =======
+      chatInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !e.shiftKey) {
+          e.preventDefault();
+          sendMessage();
+        }
+      });
+      sendBtn.addEventListener("click", sendMessage);
+
+      // Auto-resize textarea
+      chatInput.addEventListener("input", () => {
+        chatInput.style.height = "auto";
+        chatInput.style.height = Math.min(chatInput.scrollHeight, 150) + "px";
+      });
+
+      function setQuery(text) {
+        chatInput.value = text;
+        chatInput.focus();
+        chatInput.style.height = "auto";
+        chatInput.style.height = Math.min(chatInput.scrollHeight, 150) + "px";
+      }
+
+      function addMessage(role, text) {
+        // Hide welcome screen
+        if (welcomeScreen) welcomeScreen.style.display = "none";
+
+        const msg = document.createElement("div");
+        msg.className = "message";
+
+        const avatarLabel = role === "user" ? "You" : "SL";
+        const avatarClass = role === "user" ? "user" : "assistant";
+        const roleName = role === "user" ? "You" : "SkillLens";
+
+        msg.innerHTML = `
+                <div class="message-inner">
+                    <div class="message-avatar ${avatarClass}">${avatarLabel}</div>
+                    <div class="message-content">
+                        <div class="message-role">${roleName}</div>
+                        <div class="message-text">${role === "user" ? escapeHtml(text) : text}</div>
+                    </div>
+                </div>
+            `;
+        chatMessages.appendChild(msg);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        return msg.querySelector(".message-text");
+      }
+
+      async function sendMessage() {
+        const text = chatInput.value.trim();
+        if (!text || isStreaming) return;
+
+        isStreaming = true;
+        sendBtn.disabled = true;
+        chatInput.value = "";
+        chatInput.style.height = "auto";
+
+        addMessage("user", text);
+
+        const assistantText = addMessage(
+          "assistant",
+          '<span class="spinner-sm"></span>Searching resumes...',
+        );
+
+        const collection = collectionSelect.value || "skilllens_resumes";
+        const url = `/query?q=${encodeURIComponent(text)}&collection=${encodeURIComponent(collection)}`;
+
+        try {
+          const res = await fetch(url);
+          const data = await res.json();
+
+          if (!res.ok) {
+            assistantText.innerHTML = `<span style="color:#e55">Error: ${escapeHtml(data.detail || "Unknown error")}</span>`;
+            isStreaming = false;
+            sendBtn.disabled = false;
+            chatInput.focus();
+            return;
+          }
+
+          // Handle empty results or error/message from agent
+          if (data.message) {
+            assistantText.innerHTML = `<span style="color:#f0a050">${escapeHtml(data.message)}</span>`;
+            isStreaming = false;
+            sendBtn.disabled = false;
+            chatInput.focus();
+            return;
+          }
+          if (data.error) {
+            assistantText.innerHTML = `<span style="color:#e55">${escapeHtml(data.error)}</span>`;
+            isStreaming = false;
+            sendBtn.disabled = false;
+            chatInput.focus();
+            return;
+          }
+
+          // Render resume results
+          assistantText.innerHTML = "";
+          if (data.resumes && data.resumes.length > 0) {
+            renderResumeResults(assistantText, data.resumes, data.query);
+          } else {
+            assistantText.innerHTML =
+              '<span style="color:#999">No matching resumes found.</span>';
+          }
+        } catch (err) {
+          assistantText.innerHTML =
+            '<span style="color:#e55">Connection error. Make sure Endee and the server are running.</span>';
+        }
+
+        isStreaming = false;
+        sendBtn.disabled = false;
+        chatInput.focus();
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      function renderResumeResults(container, resumes, query) {
+        // Query info
+        if (query) {
+          const queryInfo = document.createElement("div");
+          queryInfo.style.cssText =
+            "font-size:0.75rem;color:#666;margin-bottom:12px;";
+          queryInfo.innerHTML = `<span style="color:#888">Enhanced query:</span> ${escapeHtml(query)}`;
+          container.appendChild(queryInfo);
+        }
+
+        // Ranking table
+        const wrapper = document.createElement("div");
+        wrapper.className = "ranking-panel";
+
+        let rowsHtml = resumes
+          .map((r, i) => {
+            const name = escapeHtml(r.person_name || r.resume_id || "Unknown");
+            const displayName = name
+              .replace(/_/g, " ")
+              .replace(/\b\w/g, (c) => c.toUpperCase());
+            const scoreDisplay = r.score.toFixed(4);
+            const barWidth = Math.max(r.score * 100, 5);
+            const filename = r.filename || r.resume_id + ".pdf";
+
+            return `<div class="ranking-row" style="flex-wrap:wrap;gap:8px;">
+                    <span class="ranking-rank">${i + 1}.</span>
+                    <a href="/files/${encodeURIComponent(filename)}" target="_blank" rel="noopener"
+                       style="flex:1;color:#ddd;text-decoration:none;display:flex;align-items:center;gap:6px;">
+                        <span>&#128196;</span>
+                        <span class="ranking-name">${displayName}</span>
+                    </a>
+                    <span class="ranking-score" style="min-width:55px;text-align:right;">${scoreDisplay}</span>
+                    <span class="ranking-chunks">${r.chunks_matched} chunks</span>
+                    <div style="width:100%;margin-left:24px;margin-top:2px;">
+                        <div style="background:#1e1e1e;border-radius:3px;height:4px;width:100%;overflow:hidden;">
+                            <div style="background:linear-gradient(90deg,#4a9eff,#7c3aed);height:100%;width:${barWidth}%;border-radius:3px;transition:width 0.5s ease;"></div>
+                        </div>
+                    </div>
+                </div>`;
+          })
+          .join("");
+
+        wrapper.innerHTML = `
+                <div class="ranking-header">Matched Resumes (${resumes.length})</div>
+                ${rowsHtml}
+            `;
+        container.appendChild(wrapper);
+      }
+
+      function renderSources(container, sources) {
+        if (!sources || sources.length === 0) return;
+        container.innerHTML = "";
+        const wrapper = document.createElement("div");
+        wrapper.className = "sources-panel";
+        wrapper.innerHTML = `
+                <div class="sources-header" onclick="this.parentElement.classList.toggle('collapsed')">
+                    <span>Retrieved Chunks (${sources.length})</span>
+                    <span class="sources-toggle">&#9660;</span>
+                </div>
+                <div class="sources-body">
+                    ${sources
+                      .map((s) => {
+                        const name = escapeHtml(s.person_name || "Unknown");
+                        const section = escapeHtml(s.section || "");
+                        const sub = s.sub_section
+                          ? " / " + escapeHtml(s.sub_section)
+                          : "";
+                        const score =
+                          typeof s.similarity === "number"
+                            ? s.similarity.toFixed(3)
+                            : s.similarity;
+                        const preview = escapeHtml(
+                          (s.content || "")
+                            .substring(0, 180)
+                            .replace(/\n/g, " "),
+                        );
+                        return `<div class="source-card">
+                            <div class="source-card-header">
+                                <span class="source-card-name">${name}</span>
+                                <span class="source-card-score">${score}</span>
+                            </div>
+                            <div class="source-card-section">${section}${sub}</div>
+                            <div class="source-card-content">${preview}${preview.length >= 180 ? "..." : ""}</div>
+                        </div>`;
+                      })
+                      .join("")}
+                </div>
+            `;
+        container.appendChild(wrapper);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      function renderResumeFiles(container, files) {
+        if (!files || files.length === 0) return;
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "resume-files";
+
+        let linksHtml = files
+          .map((f) => {
+            const filename = f.filename || f.resume_id + ".pdf";
+            const name = (f.person_name || f.resume_id || "Unknown").replace(
+              /\b\w/g,
+              (c) => c.toUpperCase(),
+            );
+            const scoreText = f.score ? ` (score: ${f.score})` : "";
+            return `<a class="resume-file-link" href="/files/${encodeURIComponent(filename)}" target="_blank" rel="noopener">
+                    <span class="resume-file-icon">&#128196;</span>
+                    <span class="resume-file-name">${escapeHtml(name)}${scoreText}</span>
+                    <span class="resume-file-arrow">&#8599;</span>
+                </a>`;
+          })
+          .join("");
+
+        wrapper.innerHTML = `
+                <div class="resume-files-label">Top Ranked Resumes</div>
+                ${linksHtml}
+            `;
+        container.appendChild(wrapper);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      function renderRanking(container, ranking) {
+        if (!ranking || ranking.length === 0) return;
+        container.innerHTML = "";
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "ranking-panel";
+
+        let rowsHtml = ranking
+          .map((r, i) => {
+            const name = (r.resume_id || "Unknown")
+              .replace(/_/g, " ")
+              .replace(/\b\w/g, (c) => c.toUpperCase());
+            return `<div class="ranking-row">
+                    <span class="ranking-rank">${i + 1}.</span>
+                    <span class="ranking-name">${escapeHtml(name)}</span>
+                    <span class="ranking-score">${r.score}</span>
+                    <span class="ranking-chunks">${r.chunks_matched} chunks</span>
+                </div>`;
+          })
+          .join("");
+
+        wrapper.innerHTML = `
+                <div class="ranking-header">Resume Ranking (top-3 chunk mean)</div>
+                ${rowsHtml}
+            `;
+        container.appendChild(wrapper);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      // ======= Rendering =======
+      function escapeHtml(text) {
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      function renderMarkdown(text) {
+        const lines = text.split("\n");
+        let html = "";
+        let inUl = false;
+        let inOl = false;
+
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i];
+
+          // Close open lists if this line isn't a list item
+          const isUnordered = /^\s*[\*\-\+]\s+/.test(line);
+          const isOrdered = /^\s*\d+[\.\)]\s+/.test(line);
+
+          if (!isUnordered && inUl) {
+            html += "</ul>";
+            inUl = false;
+          }
+          if (!isOrdered && inOl) {
+            html += "</ol>";
+            inOl = false;
+          }
+
+          // Blank line
+          if (line.trim() === "") {
+            if (!inUl && !inOl) html += "<br>";
+            continue;
+          }
+
+          // Horizontal rule
+          if (/^[-*_]{3,}\s*$/.test(line.trim())) {
+            html +=
+              '<hr style="border:none;border-top:1px solid #333;margin:12px 0;">';
+            continue;
+          }
+
+          // Headers
+          if (/^####\s+/.test(line)) {
+            html +=
+              '<div style="font-size:0.85rem;font-weight:600;color:#e0e0e0;margin:14px 0 6px;">' +
+              inlineFormat(line.replace(/^####\s+/, "")) +
+              "</div>";
+            continue;
+          }
+          if (/^###\s+/.test(line)) {
+            html +=
+              '<div style="font-size:0.92rem;font-weight:600;color:#e8e8e8;margin:16px 0 8px;">' +
+              inlineFormat(line.replace(/^###\s+/, "")) +
+              "</div>";
+            continue;
+          }
+          if (/^##\s+/.test(line)) {
+            html +=
+              '<div style="font-size:1rem;font-weight:600;color:#f0f0f0;margin:18px 0 8px;">' +
+              inlineFormat(line.replace(/^##\s+/, "")) +
+              "</div>";
+            continue;
+          }
+          if (/^#\s+/.test(line)) {
+            html +=
+              '<div style="font-size:1.1rem;font-weight:600;color:#f5f5f5;margin:20px 0 8px;">' +
+              inlineFormat(line.replace(/^#\s+/, "")) +
+              "</div>";
+            continue;
+          }
+
+          // Unordered list
+          if (isUnordered) {
+            if (!inUl) {
+              html += '<ul style="padding-left:20px;margin:6px 0;">';
+              inUl = true;
+            }
+            html +=
+              "<li>" +
+              inlineFormat(line.replace(/^\s*[\*\-\+]\s+/, "")) +
+              "</li>";
+            continue;
+          }
+
+          // Ordered list
+          if (isOrdered) {
+            if (!inOl) {
+              html += '<ol style="padding-left:20px;margin:6px 0;">';
+              inOl = true;
+            }
+            html +=
+              "<li>" +
+              inlineFormat(line.replace(/^\s*\d+[\.\)]\s+/, "")) +
+              "</li>";
+            continue;
+          }
+
+          // Regular paragraph line
+          html += '<div style="margin:2px 0;">' + inlineFormat(line) + "</div>";
+        }
+
+        // Close any open lists
+        if (inUl) html += "</ul>";
+        if (inOl) html += "</ol>";
+
+        return html;
+      }
+
+      function inlineFormat(text) {
+        let s = escapeHtml(text);
+        // Bold
+        s = s.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+        // Italic (single * not preceded/followed by *)
+        s = s.replace(/(?<!\*)\*(?!\*)(.*?)(?<!\*)\*(?!\*)/g, "<em>$1</em>");
+        // Inline code
+        s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+        return s;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+Astrid Rachel Jensen
+astrid.rachel.jensen@email.com
+linkedin.com/in/astridracheljensen
+San Francisco, CA
+
+
+Summary
+As a seasoned Machine Learning Engineer with 4 years of experience in building and deploying AI models, I am passionate about leveraging the power of machine learning to drive business growth and innovation. With expertise in NLP, Computer Vision, and MLOps, I thrive in collaborative environments where no two projects are alike.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Kubernetes
+Libraries: TensorFlow, Scikit-learn, NumPy, Pandas
+Specializations: NLP (Hugging Face), Computer Vision (ONNX), MLOps (MLflow)
+Experience
+
+Senior Machine Learning Engineer at NovaTech | Python, PyTorch, Docker 2020-Present
+– Developed and deployed a real-time object detection system that achieved 95% accuracy on a dataset of 10,000 images in under 6 weeks.
+– Collaborated with the data engineering team to integrate our model with a production-ready data pipeline using AWS and Kafka.
+– Reduced latency by 30% through optimization of model inference using NVIDIA GPUs.
+
+Machine Learning Engineer at Apex Innovations | Python, TensorFlow, Kubernetes 2019-2020
+– Built a chatbot that processed customer queries with an accuracy of 92% on a dataset of 50,000 conversations in under 3 months.
+– Implemented a feature extraction pipeline using Hugging Face's Transformers library and achieved a 25% improvement in model performance.
+– Deployed the chatbot on Google Cloud Platform using Kubernetes for scalable production.
+
+Machine Learning Engineer at Luminari | Python, Scikit-learn, Docker 2018-2019
+– Developed an image classification system that achieved 98% accuracy on a dataset of 20,000 images in under 2 months.
+– Collaborated with the UX team to integrate our model with a mobile app for seamless user experience.
+– Improved model interpretability by 50% through feature importance analysis and visualization.
+
+
+Projects
+
+Object Detection System | PyTorch, ONNX 2022
+– Built a real-time object detection system that detected objects in images with high precision and recall.
+– Integrated the model with a data pipeline using AWS S3 and Apache Kafka for seamless data transfer.
+
+Chatbot | Hugging Face, Transformers 2019
+– Developed a chatbot that processed customer queries with an accuracy of 92% on a dataset of 50,000 conversations.
+– Implemented a feature extraction pipeline using Hugging Face's Transformers library and achieved a 25% improvement in model performance.
+
+Image Classification System | Scikit-learn, NumPy 2018
+– Developed an image classification system that achieved 98% accuracy on a dataset of 20,000 images.
+– Improved model interpretability by 50% through feature importance analysis and visualization.
+
+
+Education
+
+Master of Science in Computer Science, Stanford University 2016-2018
+
+
+Certifications
+
+Certified Machine Learning Engineer (CMLE), Data Science Council of America 2020

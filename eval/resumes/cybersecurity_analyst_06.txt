@@ -1,0 +1,60 @@
+Avery J. Blackwood
+ajblackwood@email.com
+linkedin.com/in/averyjblackwood
+New York, NY
+
+
+Summary
+A highly skilled Cybersecurity Analyst with 6 years of experience in penetration testing, SIEM monitoring, and incident response. Proven track record of identifying and mitigating security threats to protect business assets.
+
+
+Technical Skills
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Splunk, Wireshark
+Firewalls: Cisco ASA, Juniper SRX
+IDS/IPS: Snort, Suricata
+SOC Operations: NIST Cybersecurity Framework, ISO 27001
+Incident Response: NIST Incident Response Plan, ISO 27035
+
+Experience
+Cybersecurity Analyst at CyberGuard Inc. | Penetration Testing, SIEM, Splunk | 2018-2022
+– Successfully identified and patched 15 critical vulnerabilities in a single quarter, reducing risk by 90%.
+– Implemented a comprehensive SIEM monitoring program using Splunk, resulting in a 95% reduction in mean time to detect (MTTD) threats.
+– Collaborated with the incident response team to develop and execute an effective response plan for a major data breach, minimizing business impact.
+
+Security Consultant at ProvenSecure | Penetration Testing, IDS/IPS, Firewalls | 2016-2018
+– Conducted comprehensive penetration testing engagements for Fortune 500 clients, identifying critical vulnerabilities and providing recommendations for remediation.
+– Designed and implemented an IDS/IPS system using Snort and Suricata, resulting in a 98% detection rate of malicious activity.
+– Developed and delivered training programs on firewall configuration and management to IT staff at several major corporations.
+
+Security Engineer at SecureNet | SOC Operations, NIST, ISO 27001 | 2014-2016
+– Led the development and implementation of a comprehensive SOC operations program based on the NIST Cybersecurity Framework and ISO 27001.
+– Collaborated with senior leadership to develop and implement a risk management program, resulting in a 75% reduction in security-related risks.
+– Provided technical guidance and support for incident response efforts, including containment, eradication, recovery, and post-incident activities.
+
+Projects
+Red Team Tactics | Python, Metasploit | 2020
+– Developed a comprehensive red team tactics manual using Python and Metasploit, providing a framework for conducting realistic penetration testing engagements.
+– Conducted a series of simulated attacks against a mock network, identifying critical vulnerabilities and providing recommendations for remediation.
+– Collaborated with a team of security analysts to develop and execute an effective response plan for a major data breach.
+
+Network Forensics | Wireshark, Burp Suite | 2019
+– Developed a comprehensive network forensics program using Wireshark and Burp Suite, resulting in the identification of critical vulnerabilities and malicious activity.
+– Conducted a series of simulated attacks against a mock network, identifying key indicators of compromise (IOCs) and providing recommendations for remediation.
+– Collaborated with senior leadership to develop and implement an effective response plan for a major data breach.
+
+Vulnerability Scanning | Python, Nmap | 2018
+– Developed a comprehensive vulnerability scanning program using Python and Nmap, resulting in the identification of critical vulnerabilities and malicious activity.
+– Conducted a series of simulated attacks against a mock network, identifying key indicators of compromise (IOCs) and providing recommendations for remediation.
+– Collaborated with senior leadership to develop and implement an effective response plan for a major data breach.
+
+
+Education
+Bachelor of Science in Computer Science, New York University
+
+
+Certifications
+CompTIA Security+
+GIAC Certified Incident Handler (GCIH)
+Certified Information Systems Security Professional (CISSP)

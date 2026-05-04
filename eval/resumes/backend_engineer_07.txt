@@ -1,0 +1,56 @@
+Ava Moreno
+amoreno@email.com
+linkedin.com/in/ava-moreno
+New York, NY
+
+Summary
+ 
+Ava Moreno is a seasoned Backend Engineer with 7 years of experience in designing and developing scalable, high-performance systems using Python, Go, Java, and other technologies. Proficient in REST APIs, gRPC, PostgreSQL, MySQL, Redis, Kafka, Docker, Microservices, FastAPI, Django, and Spring Boot.
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS
+
+Experience
+
+Senior Backend Engineer at NovaTech | Java, Spring Boot 2019-2022
+– Designed and implemented a microservices-based architecture for a real-time analytics platform, resulting in 30% reduction in latency and 25% increase in throughput.
+– Utilized Apache Kafka for event-driven data processing and PostgreSQL as the primary database.
+– Implemented REST APIs using Spring Boot to expose business logic to the frontend application.
+
+Backend Engineer at Apex Systems | Python, Django 2017-2019
+– Built a cloud-based platform for automating machine learning model deployment using Docker containers and AWS services.
+– Developed a real-time data ingestion pipeline using Redis and Kafka.
+– Improved system reliability by implementing automated failover and disaster recovery mechanisms.
+
+Software Engineer at ZenCorp | Go, FastAPI 2015-2017
+– Contributed to the development of a high-performance search engine using gRPC-based APIs and PostgreSQL database.
+– Implemented a real-time indexing mechanism for efficient data retrieval.
+– Collaborated with the DevOps team to deploy containerized applications on Kubernetes clusters.
+
+Projects
+
+Personal Project: Chatbot for Customer Support | Python, NLTK 2019
+– Developed an AI-powered chatbot that utilizes natural language processing techniques to respond to customer queries.
+– Integrated with a MySQL database to store user interactions and sentiment analysis results.
+– Achieved an accuracy rate of 85% in responding to customer inquiries.
+
+Open-Source Project: Real-Time Data Processing | Go, Apache Kafka 2018
+– Designed and implemented a real-time data processing system using Apache Kafka for event-driven data ingestion.
+– Utilized Redis as the in-memory cache layer for efficient data retrieval.
+– Achieved a throughput of 100,000 events per second with an average latency of 50ms.
+
+Personal Project: Image Classification | Python, PyTorch 2017
+– Developed a deep learning model using PyTorch that achieves an accuracy rate of 95% in image classification tasks.
+– Integrated with a PostgreSQL database to store training data and model weights.
+– Utilized techniques such as transfer learning and data augmentation for improved performance.
+
+Education
+
+Bachelor of Science in Computer Science, New York University
+Certifications
+
+Google Cloud Certified - Professional Cloud Developer
+AWS Certified Solutions Architect - Associate

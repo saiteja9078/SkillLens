@@ -1,0 +1,56 @@
+Aurora L. Nguyen
+aurora.nguyen@email.com
+linkedin.com/in/auroraynguyen
+San Francisco, CA
+
+
+Summary
+As a highly motivated and detail-driven Data Scientist with 2 years of experience, I have developed a strong foundation in statistical modeling, machine learning, and data visualization. I am passionate about extracting insights from complex data sets to drive business growth.
+
+Technical Skills
+
+Languages: Python, R
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, Tableau
+
+
+Experience
+
+Senior Data Analyst at NovaTech | Python, SQL 2021-2023
+– Developed and deployed an A/B testing framework that resulted in a 15% increase in conversion rates across multiple product lines.
+– Utilized pandas, NumPy, and scikit-learn to build predictive models for customer churn prediction with an accuracy of 85%.
+– Collaborated with cross-functional teams to implement data-driven recommendations, leading to a 20% reduction in customer acquisition costs.
+
+Data Scientist at Zenith Insights | R, Statistics 2019-2021
+– Designed and implemented a regression model that predicted sales outcomes with an R-squared value of 0.85.
+– Developed a classification model using scikit-learn to identify high-value customers, resulting in a 25% increase in targeted marketing efforts.
+– Built interactive dashboards using Tableau to communicate insights to stakeholders.
+
+Junior Data Analyst at Catalyst AI | SQL, Python 2018
+– Created data visualizations using Matplotlib and Jupyter Notebook to present findings on user engagement metrics.
+– Utilized pandas and NumPy to analyze customer purchase behavior and identify trends in product adoption.
+
+
+Projects
+
+Customer Segmentation Analysis | R, Tableau 2022
+– Developed a clustering model using k-means to segment customers based on demographic and behavioral characteristics.
+– Created interactive dashboards using Tableau to visualize segmentation results and identify opportunities for targeted marketing efforts.
+
+Predictive Maintenance Model | Python, PyTorch 2021
+– Built a regression model using PyTorch to predict equipment failure rates with an accuracy of 90%.
+– Utilized pandas and NumPy to preprocess sensor data and feature engineer relevant variables.
+
+Social Media Sentiment Analysis | R, SQL 2020
+– Developed a classification model using scikit-learn to analyze social media sentiment towards a major brand.
+– Created visualizations using Matplotlib to present findings on sentiment trends over time.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Certified Data Scientist (CDS) Certification, Data Science Council of America

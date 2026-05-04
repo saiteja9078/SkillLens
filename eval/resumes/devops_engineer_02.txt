@@ -1,0 +1,61 @@
+Ava Moreno
+amoreno@email.com
+linkedin.com/in/avamoreno
+San Francisco, CA
+
+
+Summary
+As a seasoned DevOps Engineer with 2 years of experience, I excel in designing and implementing scalable infrastructure solutions using cloud-native technologies like Kubernetes and Terraform. With a strong background in CI/CD pipelines and monitoring tools, I ensure high-quality delivery of software applications to meet business needs.
+
+
+Technical Skills
+
+Languages: Python, Go
+Frameworks: PyTorch, FastAPI
+Tools: Docker, AWS, GCP, Azure, Jenkins, GitHub Actions
+Platforms: Kubernetes, Linux, Bash
+Monitoring Tools: Prometheus, Grafana
+Configuration Management: Ansible
+Infrastructure as Code: Terraform
+
+
+Experience
+
+DevOps Engineer at NovaTech | Kubernetes, Docker, Terraform 2020-2022
+- Improved deployment efficiency by 30% through automated Terraform scripts for AWS infrastructure.
+- Developed a CI/CD pipeline using Jenkins and GitHub Actions to reduce build time from 2 hours to under 15 minutes.
+- Collaborated with the development team to migrate a legacy application to Kubernetes, resulting in improved scalability and reliability.
+
+Senior DevOps Engineer at Cygnus Systems | Ansible, AWS, GCP 2019-2020
+- Designed and implemented an automated infrastructure provisioning system using Ansible for both AWS and GCP environments.
+- Worked with the development team to implement a continuous integration pipeline using Jenkins, resulting in a 25% reduction in testing time.
+
+DevOps Engineer at FusionForge | Docker, Kubernetes, Helm 2018-2019
+- Developed and implemented a containerization strategy using Docker and Kubernetes for a high-traffic web application.
+- Designed and deployed a monitoring system using Prometheus and Grafana to improve application performance and reduce downtime.
+
+
+Projects
+
+Cloud-Native E-commerce Platform | Kubernetes, Docker, Python 2021
+- Built a cloud-native e-commerce platform using Kubernetes and Docker to ensure scalability and reliability in a multi-cloud environment.
+- Implemented a CI/CD pipeline using Jenkins and GitHub Actions to automate deployment and testing of the application.
+
+Serverless API Gateway | AWS, Go 2020
+- Designed and implemented a serverless API gateway using AWS Lambda and API Gateway to handle high traffic and reduce infrastructure costs.
+- Optimized API performance by leveraging AWS WAF and caching strategies.
+
+Cloud Security Scanner | GCP, Terraform 2019
+- Developed a cloud security scanner using Terraform to identify potential security vulnerabilities in GCP environments.
+- Implemented a remediation plan to fix identified issues, resulting in improved security posture for the organization.
+
+
+Education
+
+Bachelor of Science in Computer Science, University of California, Berkeley
+
+
+Certifications
+
+Google Cloud Certified - Professional Cloud Developer
+AWS Certified DevOps Engineer - Professional
