@@ -2,7 +2,7 @@
 SkillLens Evaluation Pipeline
 ===============================
 Loads plain-text synthetic resumes, runs them through the full SkillLens
-pipeline (detect_sections → build_chunks → embed → Endee), then evaluates
+pipeline (detect_sections → build_chunks → embed → Qdrant), then evaluates
 retrieval quality using LLM-as-a-judge.
 
 Usage:
@@ -169,7 +169,7 @@ def load_manifest(resumes_dir: Path) -> dict:
 
 def ingest_resumes(resumes_dir: Path, manifest: dict, engine: SearchEngine) -> dict:
     """
-    Load .txt resumes → detect_sections() → build_chunks() → push to Endee.
+    Load .txt resumes → detect_sections() → build_chunks() → push to Qdrant.
     Returns resume_id → role_slug mapping.
     """
     resume_role_map = {}
@@ -198,7 +198,7 @@ def ingest_resumes(resumes_dir: Path, manifest: dict, engine: SearchEngine) -> d
         print(f"  📄 {resume_id}: {len(sections)} sections → {len(chunks)} chunks "
               f"({sec_count} section, {sub_count} sub-item)")
 
-    print(f"\n  Pushing {len(all_chunks)} chunks to Endee...")
+    print(f"\n  Pushing {len(all_chunks)} chunks to Qdrant...")
     engine._push_points(all_chunks)
     print(f"  ✅ Ingestion complete!")
     return resume_role_map
@@ -328,30 +328,19 @@ def run_evaluation(
     print(f"   Found {manifest['total_resumes']} resumes\n")
 
     # Step 2: Ingest via production pipeline
-    print("📦 Step 2: Ingesting resumes (detect_sections → build_chunks → Endee)...")
+    print("📦 Step 2: Ingesting resumes (detect_sections → build_chunks → Qdrant)...")
     engine = SearchEngine()
 
     # Delete existing eval collection if present
     try:
-        engine.client.delete_index(EVAL_COLLECTION)
+        engine.client.delete_collection(EVAL_COLLECTION)
         print(f"   Deleted existing '{EVAL_COLLECTION}'")
     except Exception:
         pass
 
-    # Create index directly with correct SDK params
-    try:
-        engine.client.create_index(
-            name=EVAL_COLLECTION,
-            dimension=768,            # bge-base-en-v1.5 output dim
-            space_type="cosine",
-            sparse_model="default",   # enable hybrid (dense+sparse) search
-        )
-        print(f"   Created collection: {EVAL_COLLECTION}")
-    except Exception as e:
-        print(f"   Collection may already exist: {e}")
-
-    engine.collection_name = EVAL_COLLECTION
-    engine._index = engine.client.get_index(name=EVAL_COLLECTION)
+    # Create collection with correct vector config
+    engine._create_collection(EVAL_COLLECTION)
+    print(f"   Created collection: {EVAL_COLLECTION}")
 
     resume_role_map = ingest_resumes(resumes_dir, manifest, engine)
     print(f"   Ingested: {len(resume_role_map)} resumes\n")
@@ -433,7 +422,7 @@ def run_evaluation(
 
     # Cleanup
     try:
-        engine.client.delete_index(EVAL_COLLECTION)
+        engine.client.delete_collection(EVAL_COLLECTION)
         print(f"  🧹 Cleaned up '{EVAL_COLLECTION}'")
     except Exception:
         pass

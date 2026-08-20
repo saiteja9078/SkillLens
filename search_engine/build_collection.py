@@ -1,6 +1,6 @@
 """
-End-to-end: PDFs → extract → chunk → embed → Endee
-Make sure Endee is running: ./run.sh (from the project root)
+End-to-end: PDFs → extract → chunk → embed → Qdrant
+Make sure Qdrant is running: docker compose up -d
 """
 
 from search_engine.search_engine import SearchEngine
@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 def ingest_resumes(engine, resume_paths):
-    """Extract → chunk → push to Endee for each resume."""
+    """Extract → chunk → push to Qdrant for each resume."""
     all_chunks = []
 
     for pdf_path in resume_paths:
@@ -37,15 +37,15 @@ def ingest_resumes(engine, resume_paths):
 
         all_chunks.extend(chunks)
 
-    # Step 4: Push all chunks to Endee
-    print(f"\n  Pushing {len(all_chunks)} total chunks to Endee...")
+    # Step 4: Push all chunks to Qdrant
+    print(f"\n  Pushing {len(all_chunks)} total chunks to Qdrant...")
     engine._push_points(all_chunks)
     print("  ✅ Ingestion complete!")
     return all_chunks
 
 
 def collection_init(resume_paths, collection_name):
-    """Create an Endee index and ingest resumes into it."""
+    """Create a Qdrant collection and ingest resumes into it."""
     engine = SearchEngine()
     print("-" * 60)
     result = engine._create_collection(collection_name)
@@ -55,6 +55,6 @@ def collection_init(resume_paths, collection_name):
     else:
         print(f"Created collection: {collection_name}")
 
-    # Ingest all resumes (PDF → chunks → Endee)
+    # Ingest all resumes (PDF → chunks → Qdrant)
     print("\nIngesting resumes...")
     ingest_resumes(engine, resume_paths)

@@ -1,8 +1,8 @@
 pymupdf
 python-docx
-endee
+qdrant-client
 fastembed
-langchain-google-genai
+langchain-groq
 langchain-core
 langchain
 python-dotenv

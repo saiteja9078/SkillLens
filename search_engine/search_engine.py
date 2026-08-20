@@ -1,21 +1,44 @@
 """
-Search Engine — Endee Vector Database backend
-===============================================
-Uses Endee (local instance on port 8080) for vector storage and retrieval.
+Search Engine — Qdrant Vector Database backend
+=================================================
+Uses Qdrant (via Docker) for vector storage and retrieval.
 Embeddings are generated using fastembed (dense + sparse).
 """
 
-from endee import Endee
-from fastembed import TextEmbedding, SparseTextEmbedding
+import os
 import uuid
+
+from dotenv import load_dotenv
+from fastembed import TextEmbedding, SparseTextEmbedding
+from qdrant_client import QdrantClient
+from qdrant_client.models import (
+    Distance,
+    Fusion,
+    PointStruct,
+    Prefetch,
+    SparseIndexParams,
+    SparseVector,
+    SparseVectorParams,
+    VectorParams,
+)
+
+load_dotenv()
+
+QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY") or None
+
+
+def _md5_to_uuid(md5_hex: str) -> str:
+    """Convert a 32-char MD5 hex string into a valid UUID string."""
+    return str(uuid.UUID(md5_hex))
+
 
 class SearchEngine:
     def __init__(self, dense_embed=None, sparse_embed=None, collection_name=None):
         self.collection_name = collection_name
 
-        # Connect to local Endee instance
-        self.client = Endee()
-        self.client.set_base_url("http://127.0.0.1:8080/api/v1")
+        # Connect to Qdrant
+        self.client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
         # Embedding models
         self.dense_embed = (
@@ -29,46 +52,43 @@ class SearchEngine:
             else sparse_embed
         )
 
-        self._index = None
-
-    def _get_index(self):
-        """Get or cache the Endee index handle."""
-        if self._index is None and self.collection_name:
-            self._index = self.client.get_index(name=self.collection_name)
-        return self._index
-
     def get_total_elements(self):
         """Get total number of vectors in the current collection."""
         try:
-            result = self.client.list_indexes()
-            for idx in result.get("indexes", []):
-                if idx.get("name") == self.collection_name:
-                    return idx.get("total_elements", 0)
+            info = self.client.get_collection(self.collection_name)
+            return info.points_count or 0
         except Exception:
-            pass
-        return 0
+            return 0
 
     def _create_collection(self, collection_name):
-        """Create a new hybrid index in Endee."""
+        """Create a new hybrid collection in Qdrant."""
         self.collection_name = collection_name
         try:
-            self.client.create_index(
-                name=collection_name,
-                dimension=768,          # bge-base-en-v1.5 output dim
-                sparse_dim=30522,       # SPLADE vocabulary size (BERT wordpiece)
-                space_type="cosine",
+            self.client.create_collection(
+                collection_name=collection_name,
+                vectors_config={
+                    "dense": VectorParams(
+                        size=768,  # bge-base-en-v1.5 output dim
+                        distance=Distance.COSINE,
+                    ),
+                },
+                sparse_vectors_config={
+                    "sparse": SparseVectorParams(
+                        index=SparseIndexParams(on_disk=False),
+                    ),
+                },
             )
-            self._index = self.client.get_index(name=collection_name)
         except Exception:
-            # Index already exists — just get a handle
-            self._index = self.client.get_index(name=collection_name)
+            # Collection already exists — reuse it
             return "fail"
         return "success"
 
     def _push_points(self, docs):
-        """Embed documents and upsert into Endee."""
-        print("Pushing docs to Endee...")
-        index = self._get_index()
+        """Embed documents and upsert into Qdrant."""
+        print("Pushing docs to Qdrant...")
+
+        batch_size = 64
+        points = []
 
         for i, doc in enumerate(docs):
             text = doc["content_with_context"]
@@ -79,51 +99,104 @@ class SearchEngine:
             sparse_indices = sparse_result.indices.tolist()
             sparse_values = sparse_result.values.tolist()
 
-            # Use chunk_id as the vector id
-            point_id = doc["chunk_id"]
+            # Convert MD5 hex chunk_id to UUID
+            point_id = _md5_to_uuid(doc["chunk_id"])
 
-            # Build metadata (everything except the embedding-related fields)
-            meta = {
+            # Build payload (everything except embedding-related fields)
+            payload = {
                 k: v
                 for k, v in doc.items()
                 if k not in ("vector", "sparse_indices", "sparse_values")
             }
 
-            index.upsert(
-                [
-                    {
-                        "id": point_id,
-                        "vector": dense_vector,
-                        "sparse_indices": sparse_indices,
-                        "sparse_values": sparse_values,
-                        "meta": meta,
-                    }
-                ]
+            points.append(
+                PointStruct(
+                    id=point_id,
+                    vector={
+                        "dense": dense_vector,
+                        "sparse": SparseVector(
+                            indices=sparse_indices,
+                            values=sparse_values,
+                        ),
+                    },
+                    payload=payload,
+                )
             )
 
-            if (i + 1) % 10 == 0:
+            # Batch upsert
+            if len(points) >= batch_size:
+                self.client.upsert(
+                    collection_name=self.collection_name,
+                    points=points,
+                )
                 print(f"  Upserted {i + 1}/{len(docs)} chunks")
+                points = []
+
+        # Flush remaining
+        if points:
+            self.client.upsert(
+                collection_name=self.collection_name,
+                points=points,
+            )
 
         print(f"  Done — {len(docs)} chunks upserted.")
 
     def dense_search(self, query, limit=6):
         """Dense-only similarity search."""
         dense_query = list(self.dense_embed.embed([query]))[0].tolist()
-        index = self._get_index()
-        return index.query(vector=dense_query, top_k=limit)
+
+        results = self.client.query_points(
+            collection_name=self.collection_name,
+            query=dense_query,
+            using="dense",
+            limit=limit,
+            with_payload=True,
+        ).points
+
+        return self._format_results(results)
 
     def hybrid_search(self, query, limit=8):
-        """Hybrid (dense + sparse) search via Endee."""
+        """Hybrid (dense + sparse) search via Qdrant using RRF fusion."""
         dense_query = list(self.dense_embed.embed([query]))[0].tolist()
         sparse_result = list(self.sparse_embed.embed(query))[0]
         sparse_indices = sparse_result.indices.tolist()
         sparse_values = sparse_result.values.tolist()
 
-        index = self._get_index()
-        results = index.query(
-            vector=dense_query,
-            sparse_indices=sparse_indices,
-            sparse_values=sparse_values,
-            top_k=limit,
-        )
-        return results
+        results = self.client.query_points(
+            collection_name=self.collection_name,
+            prefetch=[
+                Prefetch(
+                    query=dense_query,
+                    using="dense",
+                    limit=limit,
+                ),
+                Prefetch(
+                    query=SparseVector(
+                        indices=sparse_indices,
+                        values=sparse_values,
+                    ),
+                    using="sparse",
+                    limit=limit,
+                ),
+            ],
+            query=Fusion.RRF,
+            limit=limit,
+            with_payload=True,
+        ).points
+
+        return self._format_results(results)
+
+    @staticmethod
+    def _format_results(points):
+        """
+        Convert Qdrant query results into the same format
+        the rest of the codebase expects:
+          [{"meta": {...}, "similarity": float}, ...]
+        """
+        formatted = []
+        for pt in points:
+            formatted.append({
+                "meta": pt.payload or {},
+                "similarity": pt.score if pt.score is not None else 0.0,
+            })
+        return formatted

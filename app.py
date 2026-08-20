@@ -1,7 +1,7 @@
 """
 SkillLens — FastAPI Web Application
 ====================================
-Resume upload + RAG-powered resume matching using Endee vector DB
+Resume upload + RAG-powered resume matching using Qdrant vector DB
 and Google Generative AI.
 
 Run:  uvicorn app:app --host 0.0.0.0 --port 5001 --reload
@@ -109,24 +109,16 @@ async def upload(
 
 @app.get("/collections")
 async def list_collections():
-    """List all existing Endee indexes."""
+    """List all existing Qdrant collections."""
     try:
-        from endee import Endee
+        from qdrant_client import QdrantClient
 
-        client = Endee()
-        client.set_base_url("http://127.0.0.1:8080/api/v1")
-        result = client.list_indexes()
-        index_list = (
-            result.get("indexes", []) if isinstance(result, dict) else result
-        )
-        names = []
-        for idx in index_list:
-            if isinstance(idx, dict):
-                name = idx.get("name", "")
-            else:
-                name = str(idx)
-            if name:
-                names.append(name)
+        qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
+        qdrant_api_key = os.getenv("QDRANT_API_KEY") or None
+        client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key)
+
+        result = client.get_collections()
+        names = [c.name for c in result.collections]
         return {"collections": names}
     except Exception as e:
         return {"collections": [], "error": str(e)}
@@ -134,13 +126,15 @@ async def list_collections():
 
 @app.delete("/collections/{name}")
 async def delete_collection(name: str):
-    """Delete an Endee index by name."""
+    """Delete a Qdrant collection by name."""
     try:
-        from endee import Endee
+        from qdrant_client import QdrantClient
 
-        client = Endee()
-        client.set_base_url("http://127.0.0.1:8080/api/v1")
-        client.delete_index(name)
+        qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
+        qdrant_api_key = os.getenv("QDRANT_API_KEY") or None
+        client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key)
+
+        client.delete_collection(name)
         return {"status": "success", "message": f"Collection '{name}' deleted."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

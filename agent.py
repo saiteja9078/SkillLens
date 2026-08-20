@@ -1,20 +1,20 @@
 """
-RAG Agent — Google Generative AI + Endee
-=========================================
-Prompt enhancement → Endee hybrid search → resume ranking with normalized scores.
+RAG Agent — Groq LLM + Qdrant
+==========================================
+Prompt enhancement → Qdrant hybrid search → resume ranking with normalized scores.
 """
 
 import os
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from search_engine.search_engine import SearchEngine
 
 load_dotenv()
 
-model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
-    google_api_key=os.getenv("GOOGLE_API_KEY"),
+model = ChatGroq(
+    model="llama-3.1-8b-instant",
+    api_key=os.getenv("GROQ_API_KEY"),
 )
 
 guidelines = """You are a prompt enhancement agent operating inside a Retrieval-Augmented Generation (RAG) pipeline for resume retrieval.
@@ -120,7 +120,7 @@ def execute(prompt: str, collection_name: str, top_n_resumes: int = 3):
 
     Pipeline:
       1. Enhance user prompt + extract desired count
-      2. Retrieve ALL chunks from Endee (single query)
+      2. Retrieve ALL chunks from Qdrant (single query)
       3. Group by resume_id, compute top-3 mean score per resume
       4. Return ranked resumes with scores
 

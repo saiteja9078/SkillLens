@@ -32,8 +32,8 @@ User Query
 [Prompt Enhancement] --- Gemini rewrites the query for retrieval
     |                     AND extracts desired resume count (k)
     v
-[Full Collection Search]  Endee hybrid search across ALL chunks
-    |                     (top_k = total elements in index)
+[Full Collection Search]  Qdrant hybrid search across ALL chunks
+    |                     (dense + sparse via RRF fusion)
     v
 [Resume-Level Ranking] -- Group chunks by resume_id, compute
     |                     top-3 chunk mean score per resume
@@ -49,13 +49,14 @@ User Query
 
 | Component         | Technology                                     |
 | ----------------- | ---------------------------------------------- |
-| Vector Database   | **Endee** (local instance, port 8080)          |
+| Vector Database   | **Qdrant** (Docker, port 6333)                 |
 | LLM               | Google Gemini 2.5 Flash (via LangChain)        |
 | Dense Embeddings  | BAAI/bge-base-en-v1.5 (768-dim, via fastembed) |
 | Sparse Embeddings | SPLADE++ (prithvida/Splade_PP_en_v1)           |
 | Backend           | Python, FastAPI, Uvicorn                       |
 | Frontend          | HTML, CSS, JavaScript (no frameworks)          |
 | PDF Parsing       | PyMuPDF (fitz)                                 |
+| Containerization  | Docker                                         |
 
 ### Project Structure
 
@@ -64,77 +65,98 @@ SkillLens/
 |-- agent.py                    # RAG pipeline: prompt enhancement, ranking, scoring
 |-- app.py                      # FastAPI web server with REST endpoints
 |-- requirements.txt            # Python dependencies
-|-- .env                        # Environment variables (GOOGLE_API_KEY)
+|-- .env                        # Environment variables (GOOGLE_API_KEY, QDRANT_URL, QDRANT_API_KEY)
 |-- templates/
 |   |-- index.html              # Frontend: chat interface, upload, collection management
 |-- search_engine/
-|   |-- search_engine.py        # Endee client: index creation, upsert, hybrid search
-|   |-- build_collection.py     # Ingestion pipeline: PDF -> chunks -> Endee
+|   |-- search_engine.py        # Qdrant client: collection creation, upsert, hybrid search
+|   |-- build_collection.py     # Ingestion pipeline: PDF -> chunks -> Qdrant
 |-- chunking/
 |   |-- extract.py              # PDF/DOCX text extraction and section detection
 |   |-- chunker.py              # Hierarchical chunking with metadata
 |-- uploads/                    # Uploaded resume files (gitignored)
+|-- qdrant_storage/             # Qdrant persistent data (gitignored, Docker volume)
 ```
 
 ---
 
-## How Endee Is Used
+## How Qdrant Is Used
 
-[Endee](https://github.com/endee-io/endee) serves as the **vector database** at the core of the retrieval pipeline. Here is how it is integrated:
+[Qdrant](https://qdrant.tech) serves as the **vector database** at the core of the retrieval pipeline. It runs in Docker and is accessed via the `qdrant-client` Python SDK. Here is how it is integrated:
 
-### 1. Index Creation
+### 1. Collection Creation
 
-When resumes are uploaded, SkillLens creates an Endee index configured for **hybrid search** (dense + sparse vectors):
+When resumes are uploaded, SkillLens creates a Qdrant collection configured for **hybrid search** using named vectors (dense + sparse):
 
 ```python
-client = Endee()
-client.set_base_url("http://127.0.0.1:8080/api/v1")
+from qdrant_client import QdrantClient
+from qdrant_client.models import VectorParams, SparseVectorParams, SparseIndexParams, Distance
 
-client.create_index(
-    name="skilllens_resumes",
-    dimension=768,          # bge-base-en-v1.5 embedding dimension
-    sparse_dim=30000,       # SPLADE vocabulary size
-    space_type="cosine",
+client = QdrantClient(url="http://localhost:6333")
+
+client.create_collection(
+    collection_name="skilllens_resumes",
+    vectors_config={
+        "dense": VectorParams(size=768, distance=Distance.COSINE),
+    },
+    sparse_vectors_config={
+        "sparse": SparseVectorParams(index=SparseIndexParams(on_disk=False)),
+    },
 )
 ```
 
 ### 2. Document Ingestion
 
-Each resume is processed through a pipeline: **PDF parsing -> section detection -> hierarchical chunking -> embedding -> Endee upsert**.
+Each resume is processed through a pipeline: **PDF parsing -> section detection -> hierarchical chunking -> embedding -> Qdrant upsert**.
 
-Chunks are embedded using both dense (BGE) and sparse (SPLADE) models, then stored in Endee with metadata:
+Chunks are embedded using both dense (BGE) and sparse (SPLADE) models, then stored in Qdrant with metadata as payload:
 
 ```python
-index = client.get_index(name=collection_name)
+from qdrant_client.models import PointStruct, SparseVector
 
-index.upsert(
-    documents=[{
-        "id": chunk_id,
-        "vector": dense_embedding,           # 768-dim float vector
-        "sparse_indices": sparse_indices,     # SPLADE token positions
-        "sparse_values": sparse_values,       # SPLADE token weights
-        "meta": {
-            "person_name": "john doe",
-            "section": "technical skills",
-            "content": "Python, PyTorch, LangChain...",
-            "resume_id": "john_doe_resume",
-            ...
-        }
-    }]
+client.upsert(
+    collection_name="skilllens_resumes",
+    points=[
+        PointStruct(
+            id="uuid-from-chunk-id",
+            vector={
+                "dense": dense_embedding,           # 768-dim float vector
+                "sparse": SparseVector(
+                    indices=sparse_indices,          # SPLADE token positions
+                    values=sparse_values,            # SPLADE token weights
+                ),
+            },
+            payload={
+                "person_name": "john doe",
+                "section": "technical skills",
+                "content": "Python, PyTorch, LangChain...",
+                "resume_id": "john_doe_resume",
+            },
+        )
+    ],
 )
 ```
 
 ### 3. Hybrid Search
 
-At query time, the user's query is embedded with the same models and searched against Endee using both dense and sparse vectors simultaneously:
+At query time, the user's query is embedded with the same models and searched against Qdrant using **Reciprocal Rank Fusion (RRF)** to combine dense and sparse results:
 
 ```python
-# Retrieve ALL chunks to score every resume
-results = index.query(
-    vector=query_dense_embedding,
-    sparse_indices=query_sparse_indices,
-    sparse_values=query_sparse_values,
-    top_k=total_elements,  # fetch everything
+from qdrant_client.models import Prefetch, Query, SparseVector
+
+results = client.query_points(
+    collection_name="skilllens_resumes",
+    prefetch=[
+        Prefetch(query=dense_query, using="dense", limit=50),
+        Prefetch(
+            query=SparseVector(indices=sparse_indices, values=sparse_values),
+            using="sparse",
+            limit=50,
+        ),
+    ],
+    query=Query(fusion="rrf"),
+    limit=50,
+    with_payload=True,
 )
 ```
 
@@ -142,15 +164,16 @@ This hybrid approach combines:
 
 - **Dense search** (BGE embeddings): captures semantic meaning ("machine learning" matches "neural networks")
 - **Sparse search** (SPLADE): captures exact keyword matches and rare terms
+- **RRF fusion**: merges both result sets into a single ranking
 
 ### 4. Collection Management
 
-The application uses the Endee SDK to list, create, delete, and query multiple indexes (collections), allowing users to organize resumes by job posting, department, or batch:
+The application uses the Qdrant SDK to list, create, delete, and query multiple collections, allowing users to organize resumes by job posting, department, or batch:
 
 ```python
-result = client.list_indexes()                    # List all collections
-index = client.get_index(name="collection_name")  # Access specific collection
-client.delete_index("collection_name")            # Delete a collection
+result = client.get_collections()              # List all collections
+client.get_collection("collection_name")       # Get collection info
+client.delete_collection("collection_name")    # Delete a collection
 ```
 
 ---
@@ -168,9 +191,9 @@ The user's natural language query is sent to Gemini, which returns a JSON object
 
 The LLM infers `count` from the user's phrasing: "a candidate" = 1, "top 5" = 5, plural with no number = 3.
 
-### Stage 2: Full Collection Search via Endee
+### Stage 2: Full Collection Search via Qdrant
 
-The enhanced prompt is embedded and searched against the entire Endee index using hybrid (dense + sparse) search with `top_k` set to the total number of elements in the collection. This ensures every chunk in every resume receives a similarity score.
+The enhanced prompt is embedded and searched against the entire Qdrant collection using hybrid (dense + sparse) search with RRF fusion. The limit is set to the total number of elements in the collection to ensure every chunk in every resume receives a similarity score.
 
 ### Stage 3: Resume-Level Ranking (Top-K Mean)
 
@@ -218,31 +241,28 @@ Example response:
 ### Prerequisites
 
 - Python 3.11+
-- Git
+- Docker & Docker Compose
 - A Google API key for Gemini (get one at https://aistudio.google.com/apikey)
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/saiteja9078/endee.git
-cd endee
-```
-
-### Step 2: Start the Endee Server
-
-Endee runs as a local server. From the project root:
-
-```bash
-./run.sh
-```
-
-Verify it is running by visiting http://localhost:8080 in your browser. You should see the Endee dashboard.
-
-### Step 3: Set Up the SkillLens Application
-
-```bash
+git clone https://github.com/saiteja9078/SkillLens.git
 cd SkillLens
 ```
+
+### Step 2: Start Qdrant via Docker
+
+```bash
+docker run -d --name skilllens_qdrant \
+  -p 6333:6333 -p 6334:6334 \
+  -v $(pwd)/qdrant_storage:/qdrant/storage \
+  qdrant/qdrant:latest
+```
+
+Qdrant will start on port 6333. You can verify it's running by visiting the Qdrant dashboard at http://localhost:6333/dashboard.
+
+### Step 3: Set Up the SkillLens Application
 
 Create and activate a virtual environment:
 
@@ -259,13 +279,17 @@ pip install -r requirements.txt
 
 ### Step 4: Configure Environment Variables
 
-Create a `.env` file in the `SkillLens/` directory:
+Create a `.env` file in the project root:
 
 ```
 GOOGLE_API_KEY=your_google_api_key_here
+QDRANT_URL=http://localhost:6333
+QDRANT_API_KEY=
 ```
 
-Replace `your_google_api_key_here` with your actual Gemini API key.
+- Replace `your_google_api_key_here` with your actual Gemini API key.
+- `QDRANT_URL` defaults to `http://localhost:6333` if not set.
+- `QDRANT_API_KEY` is optional for local Docker; set it if you configured an API key.
 
 ### Step 5: Run the Application
 
@@ -299,8 +323,8 @@ The server starts at http://localhost:5001. API docs are available at http://loc
 | GET    | `/`                   | Serves the frontend            |
 | POST   | `/upload`             | Upload and ingest resume files |
 | GET    | `/query`              | RAG query, returns JSON        |
-| GET    | `/collections`        | List all Endee indexes         |
-| DELETE | `/collections/{name}` | Delete an Endee index          |
+| GET    | `/collections`        | List all Qdrant collections    |
+| DELETE | `/collections/{name}` | Delete a Qdrant collection     |
 | GET    | `/files/<filename>`   | Serve an uploaded resume file  |
 
 ---
@@ -309,13 +333,16 @@ The server starts at http://localhost:5001. API docs are available at http://loc
 
 1. **Hybrid search over pure dense search**: Combining dense (semantic) and sparse (keyword) embeddings provides better recall than either approach alone. Dense search captures meaning while sparse search catches exact terms and rare keywords.
 
-2. **Hierarchical chunking**: Resumes are chunked at two levels -- full sections (e.g., all of "Projects") and individual entries (e.g., one specific project). This gives the retrieval system both broad context and fine-grained detail.
+2. **RRF (Reciprocal Rank Fusion)**: Qdrant's native RRF fusion combines the dense and sparse result sets into a single ranking without requiring manual weight tuning, producing robust hybrid results out of the box.
 
-3. **Resume-level ranking with top-k mean**: Instead of returning individual chunks, SkillLens scores entire resumes by averaging their top 3 chunk similarity scores. This prevents resumes with more sections from being penalized (mean dilution) and ensures ranking reflects the strongest matching areas.
+3. **Hierarchical chunking**: Resumes are chunked at two levels -- full sections (e.g., all of "Projects") and individual entries (e.g., one specific project). This gives the retrieval system both broad context and fine-grained detail.
 
-4. **LLM-controlled result count**: The number of resumes returned is extracted from the user's natural language query by the LLM ("a candidate" = 1, "top 5" = 5), eliminating the need for manual configuration.
+4. **Resume-level ranking with top-k mean**: Instead of returning individual chunks, SkillLens scores entire resumes by averaging their top 3 chunk similarity scores. This prevents resumes with more sections from being penalized (mean dilution) and ensures ranking reflects the strongest matching areas.
 
-5. **FastAPI with JSON responses**: Using FastAPI provides automatic OpenAPI documentation, type validation, and clean JSON responses. Returning structured JSON (instead of SSE streaming) makes the API easier to consume by any client -- web, mobile, or programmatic.
+5. **LLM-controlled result count**: The number of resumes returned is extracted from the user's natural language query by the LLM ("a candidate" = 1, "top 5" = 5), eliminating the need for manual configuration.
+
+6. **Docker-based infrastructure**: Qdrant runs in a Docker container with persistent volume storage, making setup a single `docker run` command.
+
+7. **FastAPI with JSON responses**: Using FastAPI provides automatic OpenAPI documentation, type validation, and clean JSON responses. Returning structured JSON (instead of SSE streaming) makes the API easier to consume by any client -- web, mobile, or programmatic.
 
 ---
-
